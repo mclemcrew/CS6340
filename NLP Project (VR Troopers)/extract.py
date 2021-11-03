@@ -12,17 +12,21 @@ import sys # Used for I/O
 import ntpath # Used for pathing
 from pathlib import Path # Also used for pathing
 
-# Assign variables to input file names (train and test)
-docFile = sys.argv[1]
+def main():
+    # Assign variables to input file names (train and test)
+    docFile = sys.argv[1]
 
-# Create empty list for file paths [PATH, FILENAME]
-pathList = list()
+    # Create empty list for file paths [PATH, FILENAME]
+    pathList = list()
 
-# Read in files and separate by line
-with open(docFile) as docList:
-    docFilePath = docList.read().splitlines()
+    # Read in files and separate by line
+    with open(docFile) as docList:
+        docFilePath = docList.read().splitlines()
 
-for entry in docFilePath:
-    pathList.append([ntpath.dirname(entry) + "/", ntpath.basename(entry)])
+    for entry in docFilePath:
+        pathList.append([ntpath.dirname(entry) + "/", ntpath.basename(entry)])
 
-print(pathList)
+    print(pathList)
+
+if __name__ == "__main__":
+    main()

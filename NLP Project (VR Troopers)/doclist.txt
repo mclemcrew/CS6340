@@ -1,0 +1,3 @@
+/home/kermit/docsA/10
+/home/kermit/docsA/XYZ
+/home/kermit/docsB/story.txt

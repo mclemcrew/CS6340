@@ -1,3 +1,1 @@
-/home/kermit/docsA/10
-/home/kermit/docsA/XYZ
-/home/kermit/docsB/story.txt
+data/development-docs/21129

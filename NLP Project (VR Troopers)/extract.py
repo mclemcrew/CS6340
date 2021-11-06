@@ -44,6 +44,8 @@ def main():
     all_stopwords.add("reuter")
     all_stopwords.add("REUTER")
     all_stopwords.remove("in") # This is included in some status forms
+    all_stopwords.remove("for") # This is included in some status forms
+    all_stopwords.remove("the") # This is included in some status forms
 
     # Assign variables to input file names (train and test)
     docFile = sys.argv[1]
@@ -73,7 +75,7 @@ def main():
     for path in pathList:
         with open(path[0]+path[1]) as file:
             # Remove new lines, empty spaces
-            documentText = file.read().replace("\n","SPLIT").replace("  ","").replace("SPLIT","").strip()
+            documentText = file.read().replace("\n"," ").replace("  +"," ").strip()
 
         # Remove stop words (TODO: may need to look at removing some stop words from the list that may be in our corpus)
         big_regex = re.compile(r'\b%s\b' % r'\b|\b'.join(map(re.escape, all_stopwords)))

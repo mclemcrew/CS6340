@@ -37,7 +37,7 @@ import spacy # NLP Models
 from spacy import displacy # Visualization Tools
 
 def main():
-    sp = spacy.load('en_core_web_trf') # roBERTa model load
+    sp = spacy.load("./models/02/model-best")
 
     all_stopwords = sp.Defaults.stop_words # Get all stop words
     all_stopwords.add("Reuter") # Add forms for Reuter
@@ -90,8 +90,8 @@ def main():
         doc = sp(documentText)
 
         # TESTING -> Prints out each sentence
-        for sentence in doc.sents:
-            print(sentence)
+        # for sentence in doc.sents:
+        #     print(sentence)
 
             # TESTING -> Used for displaying the dependency graph for each sentence
             # displacy.serve(doc, style="dep", options = {'distance': 150})
@@ -105,8 +105,8 @@ def main():
             print(f'{ent.text:{15}} {ent.label_}')
 
         # TESTING -> displays the text, POS, dependency, and head for each token (each word)
-        for token in doc:
-            print(f'{token.text:{15}} {token.pos_:{15}} {token.dep_:{15}} {token.head}')
+        # for token in doc:
+        #     print(f'{token.text:{15}} {token.pos_:{15}} {token.dep_:{15}} {token.head}')
 
 if __name__ == "__main__":
     main()

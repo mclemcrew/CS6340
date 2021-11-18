@@ -2,16 +2,43 @@
 
 This repo contains code for the information extraction system for the domain of corporate acquisition events.
 
+## Time Estimate
+This program contains a pre-trained model, thus the time for processing one document is relatively low ~100ms.
+
+## I-E Script
+Currently this script isn't used to install anything, but you can run it so that you know how to run the program (or just keep reading).
+
 ## Running
 
-```python
-# To run this code, execute this code in your terminal with the doclist being replaced by the text file that lists the files to be processed.
+Tested on CADE lab machine (#25)
 
-python3 extract.py <doclist>
+All of the necessary dependencies have already been installed on CADE machines so there's no need to run a virtual environment at this time.  You will receive a warning regarding some "TensorBoard" install but since the model is pre-trained and included in this repo, this is not an issue.
+
+The doclist provided must be similar in stature to:
+```
+/folder1/doc/1
+/folder1/doc/2
+/folder2/1
+/folder2/2
+```
+
+```python
+# To run this code, execute this code in your terminal with the doclist being replaced by the text file that lists the files to be processed and the output file name where you would like the results stored.
+
+python3 extract.py <doclist> > <output-file-name>
+```
+
+***<output-file-name\>*** will be where the output of the answer key will be.  You will also need to compare this against the gold standard for the scorer to work properly.
+
+Run the scorer like this:
+```perl
+perl score-ie.pl <output-file-name> <gold_templates>
 ```
 
 ## Method
-The method employed is a machine learning model using custom word vectors and spacy for training the model.
+The method employed is a machine learning model using custom word vectors and SpaCy for training the model.
+
+SpaCy's Custom NER and Training Pipe can be found [here](https://spacy.io/usage/training/).
 
 Custom word vectors were created using [Gensim's Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html)
 
@@ -63,5 +90,21 @@ If you have no issues running the script or modifying the test data, you should 
 ![Confusion Matrix](pics/confusion-matrix.png)
 
 ## F-Score Analysis
+The training/validating/testing split for the 400 documents is 300/50/50 respectively.  The random split of the training/validating/testing data was seeded with a random number of 50 and will remain that way so the model isn't validating itself on seen data.  The randomization of the data was done to ensure that the model was not able to predict based on ordering effects.
+
+With this in mind, model-04 was the best performing model for the testing data with an f-score of 0.39.
+
+![F-Score](pics/f-score.png)
+
+## Team Contribution
+### Taylor Allred
+- Significant contribution to ideation for rules-based approach (These ideas and rules are commented in the main python file as placeholders for future implementation/improvements on the model)
+- Reviewed code and PRs for merges within the repo
+### Michael Clemens
+- Created Repo and populated ReadMe
+- Coded up the solution (ML approach was taken first for this baseline)
+- Tested multiple ML models, created confusion matrix, validated metrics
+- Created custom word vectors, researched and implemented various custom NER pipelines 
 
 ## Discussion
+We plan on fusing some other models together to get our best performing model that will have a significantly better overall f-score.  Currently this model has custom word vectors and scores moderately well over the features except for ACQBUS.  We plan on incorporating a Matcher and EntityRuler in combination with this model to supplement it's behavior.

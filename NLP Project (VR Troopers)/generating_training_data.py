@@ -7,10 +7,11 @@ from spacy.tokens import DocBin
 from tqdm import tqdm
 import utils
 
-TRAIN_DATA = []
-trainFileName = "aq_train.spacy"
-validFileName = "aq_valid.spacy"
-testFileName = "data/test_set.json'"
+trainFileName = "aq_train_02.spacy"
+validFileName = "aq_valid_02.spacy"
+testFileName = "data/test_set.json"
+
+random.seed(50)
 
 def create_training(TRAIN_DATA):
     db = DocBin()
@@ -28,9 +29,9 @@ def create_training(TRAIN_DATA):
         filtered = util.filter_spans(ents)
         pat_filt =len(filtered)
 
-        print("\nCONVERSION REPORT:")
-        print("Original number of patterns:", pat_orig)
-        print("Number of patterns after overlapping removal:", pat_filt)
+        # print("\nCONVERSION REPORT:")
+        # print("Original number of patterns:", pat_orig)
+        # print("Number of patterns after overlapping removal:", pat_filt)
         doc.ents = filtered
         db.add(doc)
     return (db)
@@ -47,11 +48,18 @@ def main():
     developmentDocs = '/data/development-docs'
     developmentKeys = '/data/development-anskeys'
 
+    TRAIN_DATA = []
+    docFileList = list()
+    answerFileList = list()
+
     # Used for opening and reading all the files in the development docs
     for filename in os.listdir(os.getcwd() + developmentDocs):
         with open(os.path.join(os.getcwd() + developmentDocs, filename), 'r') as fileText: # open in readonly mode
             developmentDocText = fileText.read().replace("\n"," ").replace("  +"," ").strip()
             developmentDocText = re.sub(' +', ' ', developmentDocText)
+
+            docFileList.append(developmentDocs[1:] + '/' + filename)
+            answerFileList.append(developmentKeys[1:] + '/' + filename + ".key")
 
             with open(os.path.join(os.getcwd() + developmentKeys, filename + '.key'), 'r') as answerKeyText: # open in readonly mode
                 developmentKeyText = answerKeyText.read().splitlines()
@@ -88,7 +96,11 @@ def main():
                                 entities.append([developmentDocText.lower().find(valueThreeText.lower()), developmentDocText.lower().find(valueThreeText.lower()) + len(valueThreeText), valueType])
                 TRAIN_DATA.append([developmentDocText, {"entities":entities}])
 
-    random.shuffle(TRAIN_DATA)
+    mixed = list(zip(docFileList, answerFileList, TRAIN_DATA))
+
+    random.shuffle(mixed)
+
+    docFileList, answerFileList, TRAIN_DATA =  zip(*mixed)
 
     utils.save_data("data/aq_training_data.json", TRAIN_DATA)
     
@@ -99,6 +111,8 @@ def main():
     aq_valid.to_disk(validFileName)
 
     utils.save_data(testFileName,TRAIN_DATA[350:])
+    utils.save_data("document_testing_data.txt",docFileList[350:])
+    utils.save_data("answer_testing_data.txt",answerFileList[350:])
 
 if __name__ == "__main__":
     main()

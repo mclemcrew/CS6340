@@ -35,9 +35,10 @@ import os
 import re # Used for regex
 import spacy # NLP Models
 from spacy import displacy # Visualization Tools
+from  itertools import chain
 
 def main():
-    sp = spacy.load("./models/02/model-best")
+    sp = spacy.load("./models/04/model-best")
 
     all_stopwords = sp.Defaults.stop_words # Get all stop words
     all_stopwords.add("Reuter") # Add forms for Reuter
@@ -46,8 +47,13 @@ def main():
     all_stopwords.remove("in") # This is included in some status forms
     all_stopwords.remove("for") # This is included in some status forms
     all_stopwords.remove("the") # This is included in some status forms
+    all_stopwords.remove("to") # This is included in some status forms
+    all_stopwords.remove("its") # This is included in some status forms
+    all_stopwords.remove("a") # This is included in some status forms
+    all_stopwords.remove("of") # This is included in some status forms
+    all_stopwords.remove("and") # This is included in some status forms
 
-    # Assign variables to input file names (train and test)
+    # Doclist of files to read in
     docFile = sys.argv[1]
 
     # Create empty list for file paths [PATH, FILENAME]
@@ -73,7 +79,7 @@ def main():
 
     # Loop through all the files in the doclist
     for path in pathList:
-        with open(path[0]+path[1]) as file:
+        with open(path[0][1:]+path[1]) as file:
             # Remove new lines, empty spaces
             documentText = file.read().replace("\n"," ").replace("  +"," ").strip()
 
@@ -101,8 +107,71 @@ def main():
             # ents = [(e.text, e.start_char, e.end_char, e.label_) for e in doc.ents]
 
         # TESTING -> Loop through each entity spacy determined
+
+        print (f"TEXT: {path[1]}")
+        entityList = []
         for ent in doc.ents:
-            print(f'{ent.text:{15}} {ent.label_}')
+            entityList.append([ent.text, ent.label_])
+            # print(f'{ent.text:{15}} {ent.label_}')
+        
+        if("ACQUIRED" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'ACQUIRED':
+                    print (f"ACQUIRED: \"{entity[0]}\"")
+        
+        elif("ACQUIRED" not in chain(*entityList)):
+           print (f"ACQUIRED: ---") 
+        
+        if("ACQBUS" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'ACQBUS':
+                    print (f"ACQBUS: \"{entity[0]}\"")
+        
+        elif("ACQBUS" not in chain(*entityList)):
+           print (f"ACQBUS: ---") 
+
+        if("ACQLOC" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'ACQLOC':
+                    print (f"ACQLOC: \"{entity[0]}\"")
+        
+        elif("ACQLOC" not in chain(*entityList)):
+           print (f"ACQLOC: ---")
+
+        if("DLRAMT" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'DLRAMT':
+                    print (f"DLRAMT: \"{entity[0]}\"")
+        
+        elif("DLRAMT" not in chain(*entityList)):
+           print (f"DLRAMT: ---") 
+
+        if("PURCHASER" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'PURCHASER':
+                    print (f"PURCHASER: \"{entity[0]}\"")
+        
+        elif("PURCHASER" not in chain(*entityList)):
+           print (f"PURCHASER: ---") 
+
+        if("SELLER" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'SELLER':
+                    print (f"SELLER: \"{entity[0]}\"")
+        
+        elif("SELLER" not in chain(*entityList)):
+           print (f"SELLER: ---") 
+
+        if("STATUS" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'STATUS':
+                    print (f"STATUS: \"{entity[0]}\"")
+        
+        elif("STATUS" not in chain(*entityList)):
+           print (f"STATUS: ---") 
+
+        print()
+        
 
         # TESTING -> displays the text, POS, dependency, and head for each token (each word)
         # for token in doc:

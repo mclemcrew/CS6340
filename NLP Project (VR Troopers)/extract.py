@@ -53,6 +53,18 @@ def main():
     all_stopwords.remove("of") # This is included in some status forms
     all_stopwords.remove("and") # This is included in some status forms
 
+    ruler = sp.add_pipe("entity_ruler")
+    patterns = [
+        {
+            "label": "DLRAMT",
+            "pattern": [
+                {"LIKE_NUM": True},
+                {"LOWER": {"IN": ["mln", "million", "billion"]}},
+                {"LOWER": {"IN": ["dlrs", "dlr", "yen", "lire", "stg"]}}],
+            "id": "dlramt"
+        }
+    ]
+    ruler.add_patterns(patterns)
     # Doclist of files to read in
     docFile = sys.argv[1]
 
@@ -94,7 +106,6 @@ def main():
 
         # Create a spacy object for the entire text given
         doc = sp(documentText)
-
         # TESTING -> Prints out each sentence
         # for sentence in doc.sents:
         #     print(sentence)

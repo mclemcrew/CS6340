@@ -38,7 +38,7 @@ from spacy import displacy # Visualization Tools
 from  itertools import chain
 
 def main():
-    sp = spacy.load("./models/04/model-best")
+    sp = spacy.load("./models/06/model-best")
 
     all_stopwords = sp.Defaults.stop_words # Get all stop words
     all_stopwords.add("Reuter") # Add forms for Reuter

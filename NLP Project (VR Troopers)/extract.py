@@ -54,6 +54,8 @@ def main():
     all_stopwords.remove("and") # This is included in some status forms
 
     ruler = sp.add_pipe("entity_ruler")
+    # TODO: Check for dependency on verbs: acquire, sell, buy, get, take
+    # TODO: Remove duplicates
     patterns = [
         {
             "label": "DLRAMT",
@@ -62,7 +64,20 @@ def main():
                 {"LOWER": {"IN": ["mln", "million", "billion"]}},
                 {"LOWER": {"IN": ["dlrs", "dlr", "yen", "lire", "stg"]}}],
             "id": "dlramt"
-        }
+        },
+        {
+            "label": "DLRAMT",
+            "pattern": "undisclosed",
+            "id": "dlramt"
+        },
+        # Not working (??)
+        # {
+        #     "label": "DLRAMT",
+        #     "pattern": [
+        #         {"LOWER": "not"},
+        #         {"LOWER": "disclosed"}],
+        #     "id": "dlramt"
+        # },
     ]
     ruler.add_patterns(patterns)
     # Doclist of files to read in

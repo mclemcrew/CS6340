@@ -44,7 +44,7 @@ Custom word vectors were created using [Gensim's Word2Vec](https://radimrehurek.
 
 ## Creating the Model
 1. Generate the custom word vectors using the file: ``` generating_word_vectors.py```.
-    - This file loads all of the data from ***/data/development-docs*** and creates word vectors from the accumulation of these files.  Word vectors should be in a format akin to: ```[['This', 'is', 'a', 'word', 'vector']['hello', 'world]]```
+    - This file loads all of the data from ***/data/development-docs*** and creates word vectors from the accumulation of these files.  Word vectors should be in a format akin to: ```[['This', 'is', 'a', 'word', 'vector']['hello', 'world']]```
     - Stop words are removed from this dataset as well as some specifically for our corpora such as "Reuter"
     -  ```build_training_data()``` allows you to construct a json file in the aforementioned format while ```training()``` will train a custom model based on this custom word vector
     -  Within the ```training()``` method there are a number of parameters that have been constructed to assist with the training method ensuring that we are not over-fitting to our data.  If interested, please look at the (docs)[https://radimrehurek.com/gensim/models/word2vec.html], specifically the parameters section for a full explanation of what each one does.

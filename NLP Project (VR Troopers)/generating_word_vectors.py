@@ -8,7 +8,7 @@ import re
 import spacy
 
 developmentDocs = '/data/development-docs'
-wordVecLocation = 'data/word_vectors_training_data.json'
+wordVecLocation = 'data/word_vectors_training_data_v3.json'
 
 def build_training_data():
     WORD_VEC_DATA = []
@@ -21,6 +21,11 @@ def build_training_data():
     all_stopwords.remove("in") # This is included in some status forms
     all_stopwords.remove("for") # This is included in some status forms
     all_stopwords.remove("the") # This is included in some status forms
+    all_stopwords.remove("to") # This is included in some status forms
+    all_stopwords.remove("its") # This is included in some status forms
+    all_stopwords.remove("a") # This is included in some status forms
+    all_stopwords.remove("of") # This is included in some status forms
+    all_stopwords.remove("and") # This is included in some status forms
 
     for filename in os.listdir(os.getcwd() + developmentDocs):
         with open(os.path.join(os.getcwd() + developmentDocs, filename), 'r') as fileText: # open in readonly mode
@@ -42,7 +47,7 @@ def build_training_data():
             WORD_VEC_DATA.append(DOC_TOKEN_DATA)
     utils.save_data(wordVecLocation,WORD_VEC_DATA)
 
-# build_training_data()
+build_training_data()
 
 def training(model_name):
     texts = utils.load_data(wordVecLocation)
@@ -60,8 +65,8 @@ def training(model_name):
     )
     w2v_model.build_vocab(texts)
     w2v_model.train(texts,total_examples = w2v_model.corpus_count, epochs=30)
-    w2v_model.save(f"word2vec/{model_name}.model")
-    w2v_model.wv.save_word2vec_format(f"word2vec/word2vec_{model_name}.txt")
+    w2v_model.save(f"word2vec/{model_name}_v3.model")
+    w2v_model.wv.save_word2vec_format(f"word2vec/word2vec_{model_name}_v3.txt")
 
 def gen_similarity(word):
     model = KeyedVectors.load_word2vec_format("",binary = False)
@@ -69,4 +74,4 @@ def gen_similarity(word):
     print(results)
 
 # Might want to try and remove more stop words....unsure
-training('aq_ner_model_00')
+training('aq_ner_model_03')

@@ -38,7 +38,11 @@ from spacy import displacy # Visualization Tools
 from  itertools import chain
 
 def main():
-    sp = spacy.load("./models/04/model-best")
+    sp = spacy.load("./models/06/model-best")
+
+    # python -m spacy download en_core_web_trf
+    # pip install spacy[transformers,cuda111]
+    roBERTa = spacy.load("./models/transformer")
 
     all_stopwords = sp.Defaults.stop_words # Get all stop words
     all_stopwords.add("Reuter") # Add forms for Reuter
@@ -80,6 +84,7 @@ def main():
         # },
     ]
     ruler.add_patterns(patterns)
+
     # Doclist of files to read in
     docFile = sys.argv[1]
 
@@ -121,6 +126,9 @@ def main():
 
         # Create a spacy object for the entire text given
         doc = sp(documentText)
+
+        newDoc = roBERTa(documentText)
+        # secondDoc = nlp(documentText)
         # TESTING -> Prints out each sentence
         # for sentence in doc.sents:
         #     print(sentence)
@@ -136,67 +144,72 @@ def main():
 
         print (f"TEXT: {path[1]}")
         entityList = []
+        print("************************* MACHINE LEARNING MODEL *************************")
         for ent in doc.ents:
-            entityList.append([ent.text, ent.label_])
-            # print(f'{ent.text:{15}} {ent.label_}')
-        
-        if("ACQUIRED" in chain(*entityList)):
-            for entity in entityList:
-                if entity[1] == 'ACQUIRED':
-                    print (f"ACQUIRED: \"{entity[0]}\"")
-        
-        elif("ACQUIRED" not in chain(*entityList)):
-           print (f"ACQUIRED: ---") 
-        
-        if("ACQBUS" in chain(*entityList)):
-            for entity in entityList:
-                if entity[1] == 'ACQBUS':
-                    print (f"ACQBUS: \"{entity[0]}\"")
-        
-        elif("ACQBUS" not in chain(*entityList)):
-           print (f"ACQBUS: ---") 
+            # entityList.append([ent.text, ent.label_])
+            print(f'{ent.text:{45}} {ent.label_}')
 
-        if("ACQLOC" in chain(*entityList)):
-            for entity in entityList:
-                if entity[1] == 'ACQLOC':
-                    print (f"ACQLOC: \"{entity[0]}\"")
+        print("************************* SPACY TRANSFORMER MODEL *************************")
+        for ent in newDoc.ents:
+            print(f'{ent.text:{45}} {ent.label_}')
+        # TODO Uncomment when running in prod
+        # if("ACQUIRED" in chain(*entityList)):
+        #     for entity in entityList:
+        #         if entity[1] == 'ACQUIRED':
+        #             print (f"ACQUIRED: \"{entity[0]}\"")
         
-        elif("ACQLOC" not in chain(*entityList)):
-           print (f"ACQLOC: ---")
-
-        if("DLRAMT" in chain(*entityList)):
-            for entity in entityList:
-                if entity[1] == 'DLRAMT':
-                    print (f"DLRAMT: \"{entity[0]}\"")
+        # elif("ACQUIRED" not in chain(*entityList)):
+        #    print (f"ACQUIRED: ---") 
         
-        elif("DLRAMT" not in chain(*entityList)):
-           print (f"DLRAMT: ---") 
-
-        if("PURCHASER" in chain(*entityList)):
-            for entity in entityList:
-                if entity[1] == 'PURCHASER':
-                    print (f"PURCHASER: \"{entity[0]}\"")
+        # if("ACQBUS" in chain(*entityList)):
+        #     for entity in entityList:
+        #         if entity[1] == 'ACQBUS':
+        #             print (f"ACQBUS: \"{entity[0]}\"")
         
-        elif("PURCHASER" not in chain(*entityList)):
-           print (f"PURCHASER: ---") 
+        # elif("ACQBUS" not in chain(*entityList)):
+        #    print (f"ACQBUS: ---") 
 
-        if("SELLER" in chain(*entityList)):
-            for entity in entityList:
-                if entity[1] == 'SELLER':
-                    print (f"SELLER: \"{entity[0]}\"")
+        # if("ACQLOC" in chain(*entityList)):
+        #     for entity in entityList:
+        #         if entity[1] == 'ACQLOC':
+        #             print (f"ACQLOC: \"{entity[0]}\"")
         
-        elif("SELLER" not in chain(*entityList)):
-           print (f"SELLER: ---") 
+        # elif("ACQLOC" not in chain(*entityList)):
+        #    print (f"ACQLOC: ---")
 
-        if("STATUS" in chain(*entityList)):
-            for entity in entityList:
-                if entity[1] == 'STATUS':
-                    print (f"STATUS: \"{entity[0]}\"")
+        # if("DLRAMT" in chain(*entityList)):
+        #     for entity in entityList:
+        #         if entity[1] == 'DLRAMT':
+        #             print (f"DLRAMT: \"{entity[0]}\"")
         
-        elif("STATUS" not in chain(*entityList)):
-           print (f"STATUS: ---") 
+        # elif("DLRAMT" not in chain(*entityList)):
+        #    print (f"DLRAMT: ---") 
 
-        print()
+        # if("PURCHASER" in chain(*entityList)):
+        #     for entity in entityList:
+        #         if entity[1] == 'PURCHASER':
+        #             print (f"PURCHASER: \"{entity[0]}\"")
+        
+        # elif("PURCHASER" not in chain(*entityList)):
+        #    print (f"PURCHASER: ---") 
+
+        # if("SELLER" in chain(*entityList)):
+        #     for entity in entityList:
+        #         if entity[1] == 'SELLER':
+        #             print (f"SELLER: \"{entity[0]}\"")
+        
+        # elif("SELLER" not in chain(*entityList)):
+        #    print (f"SELLER: ---") 
+
+        # if("STATUS" in chain(*entityList)):
+        #     for entity in entityList:
+        #         if entity[1] == 'STATUS':
+        #             print (f"STATUS: \"{entity[0]}\"")
+        
+        # elif("STATUS" not in chain(*entityList)):
+        #    print (f"STATUS: ---") 
+
+        # print()
         
 
         # TESTING -> displays the text, POS, dependency, and head for each token (each word)

@@ -7,11 +7,11 @@ from spacy.tokens import DocBin
 from tqdm import tqdm
 import utils
 
-trainFileName = "aq_train_02.spacy"
-validFileName = "aq_valid_02.spacy"
-testFileName = "data/test_set.json"
+trainFileName = "aq_train_03.spacy"
+validFileName = "aq_valid_03.spacy"
+testFileName = "data/test_set_v3.json"
 
-random.seed(50)
+random.seed(75)
 
 def create_training(TRAIN_DATA):
     db = DocBin()
@@ -28,6 +28,8 @@ def create_training(TRAIN_DATA):
         pat_orig = len(ents)
         filtered = util.filter_spans(ents)
         pat_filt =len(filtered)
+
+        # spans <coffee company> [ACQBUS] <coffee> [LOCATION] != entity (span)
 
         # print("\nCONVERSION REPORT:")
         # print("Original number of patterns:", pat_orig)
@@ -102,17 +104,17 @@ def main():
 
     docFileList, answerFileList, TRAIN_DATA =  zip(*mixed)
 
-    utils.save_data("data/aq_training_data.json", TRAIN_DATA)
+    utils.save_data("data/aq_training_data_v3.json", TRAIN_DATA)
     
-    aq_train = create_training(TRAIN_DATA[0:299])
+    aq_train = create_training(TRAIN_DATA[0:375])
     aq_train.to_disk(trainFileName)
 
-    aq_valid = create_training(TRAIN_DATA[300:349])
+    aq_valid = create_training(TRAIN_DATA[375:435])
     aq_valid.to_disk(validFileName)
 
-    utils.save_data(testFileName,TRAIN_DATA[350:])
-    utils.save_data("document_testing_data.txt",docFileList[350:])
-    utils.save_data("answer_testing_data.txt",answerFileList[350:])
+    utils.save_data(testFileName,TRAIN_DATA[435:])
+    utils.save_data("document_testing_data_v3.txt",docFileList[435:])
+    utils.save_data("answer_testing_data_v3.txt",answerFileList[435:])
 
 if __name__ == "__main__":
     main()

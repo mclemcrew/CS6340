@@ -1,36 +1,242 @@
 [
     [
-        "First Union Corp said it has agreed to acquire First State Bancshares Inc of Pensacola, Fla., and its First State Bank of Pensacola subsidiary for about 457,000 common shares. First State has assets of about 110 mln dlrs. The acquisition, expected to be treated as a pooling of interests, is expected to be completed in the third quarter of 1987 subject to approval by regulatory agencies and First State shareholders. Reuter",
+        "Financier Carl Lindner, who holds a 16.2 pct stake in Taft Broadcasting Co, told the Securities and Exchange Commission he has discussed with the company the possibility of seeking control of it. Lindner, the Cincinnati, Ohio, investor who controls American Financial Corp, said his talks with some of Taft's managers and directors have been aimed at \"achieving an increased ownership position\" in the company. Lindner said his increase in ownership would be made either by making an offer to acquire control of Taft or taking part in a group to acquire the company. Lindner, who holds his Taft stake through American Financial and its subsidiaries, said he is also considering buying more Taft stock on the open market or in private deals. He did not say whether the talks with Taft officials led to any agreements or understandings. But Lindner said he intends to review his investment in Taft and may be involved in further talks or take other steps regarding the future control and direction of Taft. Lindner's investor group recently raised its Taft stake to 1,489,298 shares, or 16.2 pct from 1,439,498 shares, or 15.6 pct, after buying 49,800 shares for a total of 5.8 mln dlrs. Although he recently received clearance from the Federal Trade Commission to raise his stake in the company to 24.9 pct, Lindner in previous SEC filings has always stressed that his interest in Taft was for investment only and not was not seeking to control the company. An investor group headed by members of the wealthy Bass family of Fort Worth, Texas, also holds about 24.9 pct of Taft's common stock. Reuter",
         {
             "entities": [
                 [
-                    47,
-                    92,
+                    54,
+                    74,
                     "ACQUIRED"
                 ],
                 [
-                    102,
-                    131,
-                    "ACQUIRED"
-                ],
-                [
-                    114,
-                    118,
-                    "ACQBUS"
-                ],
-                [
-                    -1,
-                    6,
-                    "ACQLOC"
-                ],
-                [
-                    0,
-                    16,
+                    10,
+                    22,
                     "PURCHASER"
                 ],
                 [
+                    127,
+                    136,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Leon Greenblatt, a Chicago investor, told the Securities and Exchange Commission he has acquired 89,450 shares of Technology Development Corp, or 5.3 pct of the total outstanding common stock. Greenblatt said he bought the stock for 350,000 dlrs soley as an investment and has no intention of seeking control of the company. Reuter",
+        {
+            "entities": [
+                [
+                    114,
+                    141,
+                    "ACQUIRED"
+                ],
+                [
+                    233,
+                    245,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    15,
+                    "PURCHASER"
+                ],
+                [
+                    88,
+                    96,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Conrac Corp sait has started negotiations with several interested parties on its possible acquisition. It said there can be no assurance that any transaction will result from the talks. It gave no further details. Mark IV Industries Inc started tendering for all Conrac shares at 25 dlrs each on March 24 and owned 9.9 pct of Conrac before starting the bid. Conrac is a producer and marketer of computer-related information display and communications equipment which also produces special purpose architectural and industrial products. It owns Code-A-Phone Corp, a producer of telephone answering machines. For 1986, the company reported profits of 7.8 mln dlrs, or 1.16 dlrs a share, on sales of 153.9 mln dlrs. It has nearly 6.8 mln shares outstanding. Reuter",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "ACQUIRED"
+                ],
+                [
+                    395,
+                    460,
+                    "ACQBUS"
+                ],
+                [
+                    21,
+                    41,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Chubb Corp said it completed the previously announced acquisition of Sovereign Corp. Under terms of the acquisition, Sovereign shareholders will receive, in a tax-free exchange, 0.1365 share of Chubb common for each Sovereign share held. Chubb said the transaction was valued at 9.11 dlrs a share based on the closing price of its stock on March 30.",
+        {
+            "entities": [
+                [
+                    69,
+                    83,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    10,
+                    "PURCHASER"
+                ],
+                [
+                    19,
+                    28,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "South Atlantic Financial Corp said it has agreed in principle to merge with Independence Holding Co into a new company to be called SAFCO International Ltd. It said each South Atlantic share would be exchanged for one SAFCO share and each Independence share for 2.822 SAFCO shares. Independence now owns about 40 pct of South Atlantic's 9.8 mln primary common shares. South Atlantic said said its chairman and chief executive officer Sheldon S. Gordon would have the same posts with SAFCO and Independence president Ronald G. Strackbein would be president of SAFCO. The company said the transaction is subject to execution of definitive agreements, the receipt of fairness opinions from investment banks and approval by boards and shareholders of both companies. It said proxy materials are expected to be maioled this quarter. Both South Atlantic and Independence are insurance companies.",
+        {
+            "entities": [
+                [
+                    0,
                     29,
-                    46,
+                    "ACQUIRED"
+                ],
+                [
+                    869,
+                    878,
+                    "ACQBUS"
+                ],
+                [
+                    76,
+                    99,
+                    "PURCHASER"
+                ],
+                [
+                    42,
+                    61,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Leonard Chavin, a Chicago real estate developer who has said he is considering seeking control of L.E. Myers Co Group, said he raised his stake in the company to 273,100 shares, or 12.1 pct, from 219,600, or 9.7 pct. In a filing with the Securities and Exchange Commission, Chavin said he bought 53,500 Myers common shares between March 10 and 31 at prices ranging from 5-1/2 to six dlrs a share. Last January, Chavin said he retained investment banker R.G. Dickinson and Co to advise him on his Myers stock dealings. He has also said he would be unable to seek control of Myers unless he gets financing. Reuter",
+        {
+            "entities": [
+                [
+                    98,
+                    117,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    14,
+                    "PURCHASER"
+                ],
+                [
+                    127,
+                    143,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Virginia Federal Savings and Loan Association said it has signed a definitive agreement to be acquired by Montrose Holding Co, an affiliate of Montrose Capital Corp for 20 mln dlrs. Virginia Federal and Montrose Capital said the agreement provides for the conversion of Virginia Federal from a mutual to a stock association and the purchase of 100 pct of its stock for 20 mln dlrs by Montrose. According to the companies, Virginia Federal has over 700 mln dlrs in assets and operates 16 branches in Virginia. Virginia Federal said the proceeds would enable it to provide increased mortgage and lending services and enable the company to compete more effectively in the Virginia market. The companies said the agreement is subject to Federal Home Loan Bank Board approval, expected later this year. Additionally, the companies said the converted association would be managed by a board of directors consisting of the six current Virginia Federal directors and two representatives of Montrose Holding. The senior management of Virginia Federal was expected to continue in office after the conversion, the companies said. Reuter",
+        {
+            "entities": [
+                [
+                    0,
+                    45,
+                    "ACQUIRED"
+                ],
+                [
+                    581,
+                    610,
+                    "ACQBUS"
+                ],
+                [
+                    0,
+                    8,
+                    "ACQLOC"
+                ],
+                [
+                    169,
+                    180,
+                    "DLRAMT"
+                ],
+                [
+                    106,
+                    125,
+                    "PURCHASER"
+                ],
+                [
+                    67,
+                    87,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Allied Supermarkets Inc said it entered into a definitive agreement to sell its Michigan operations for about 46 mln dlrs in cash and debt plus assumption of substantially all of Allied's liabilities other than senior subordinated debentures. It said the operations will be sold to Meadowdale Foods Inc, a corporation formed by members of its existing management, including Chairman David Page and President Lon Makanoff. The transaction is conditioned on Allied's pending merger with the Vons Cos Inc.",
+        {
+            "entities": [
+                [
+                    80,
+                    99,
+                    "ACQUIRED"
+                ],
+                [
+                    80,
+                    88,
+                    "ACQLOC"
+                ],
+                [
+                    110,
+                    121,
+                    "DLRAMT"
+                ],
+                [
+                    282,
+                    302,
+                    "PURCHASER"
+                ],
+                [
+                    0,
+                    23,
+                    "SELLER"
+                ],
+                [
+                    47,
+                    67,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Metex Corp said its chairman and chief executive officer Alan Cohen sold 78,375 shares of Metex common stock to Metropolitan Consolidated Industries Inc . The company said the selling price was 11.25 dlrs per share with an option for Metropolitan Consolidated Industries to purchase up to 42,750 shares more at the same price. Metex also said Mason Carter was elected president and chief operating officer of the company. Carter joined Metex in 1982, where he was formerly its executive vice president. In addition, Attilio Petrocelli, president of Metropolitan, was named to fill a vacancy on the Metex board of directors, the company said. Metropolitan owns 21 pct of Metex common stock, the company said.",
+        {
+            "entities": [
+                [
+                    0,
+                    10,
+                    "ACQUIRED"
+                ],
+                [
+                    112,
+                    152,
+                    "PURCHASER"
+                ],
+                [
+                    57,
+                    67,
+                    "SELLER"
+                ],
+                [
+                    68,
+                    72,
                     "STATUS"
                 ]
             ]
@@ -64,117 +270,282 @@
         }
     ],
     [
-        "The Australian Gas Light Co (AGL) said it will offer one share plus one dlr cash for every two shares in oil and gas producer TMOC Resources Ltd in a counter-bid to the previously reported takeover offer by Santos Ltd . The offer values TMOC shares at 4.75 dlrs each, based on AGL's closing price of 8.50 dlrs on Friday. TMOC shares jumped to 4.60 dlrs on the announcement from its Friday closing price of 4.15. The AGL offer, the third to be made for TMOC this year, compares with the Santos cash offer of 4.00 dlrs a share. Based on TMOC's issued capital of 62.08 mln shares, the AGL offer values the entire company at 249.9 mln shares. AGL said in a statement that it already holds 10.5 pct of TMOC's issued capital. This compares with the Santos stake of 3.1 pct when it announced its bid in March 23. Elders Resources Ltd began the auction for TMOC about three months ago with an unsuccessful 2.55 dlrs a share on-market offer that has since lapsed. AGL said its offer is above the upper end of the range of values placed on TMOC by its advisers in the company's response urging rejection of the Elders Resources bid. AGL said it will make the same offer for TMOC's convertible notes. Accepting share and note holders will participate in AGL's planned one-for-one bonus issue. It said TMOC is already a partner with AGL in the Alice Springs to Darwin gas pipeline and has a number of businesses complementary with those of AGL. AGL is the New South Wales natural gas utility while TMOC has extensive onshore holdings, mainly in Queensland where it owns the Moonie oil field and in the Northern Territory where it operates and holds 43.75 of the Mereenie oil-gas field. It also has interests in a number of gas or oil pipelines. REUTER",
+        "Borg-Warner Corp said it agreed to sell its industrial products group to Clayton and Dubilier Inc and senior management of the group, for about 240 mln dlrs. Clayton and Dubilier is a New York-based private investment firm, which has completed two other management-led buyout transactions since December 1986. Borg-Warner's industrial products group, based in Long Beach, California, has sales of about 300 mln dlrs and employs about 3,000 staff. Its businesses include standard and custom engineered centrifugal pumps and mechanical seals for the petroleum industry and advanced controls for the aerospace and defense industries. The sale is part of Borg-Warner's planned restructuring. the proposed sale is subject to approval by Borg-Warner's directors, it said.",
         {
             "entities": [
                 [
-                    126,
-                    144,
-                    "ACQUIRED"
-                ],
-                [
-                    1659,
-                    1666,
-                    "ACQBUS"
-                ],
-                [
-                    1711,
-                    1721,
-                    "ACQBUS"
-                ],
-                [
-                    4,
-                    27,
-                    "PURCHASER"
-                ],
-                [
-                    0,
-                    27,
-                    "PURCHASER"
-                ],
-                [
-                    42,
-                    52,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Cadillac Fairview Corp Ltd said it received proposals to acquire the company, following its announcement last August that it had retained investment dealers to solicit offers for all outstanding common shares. Cadillac Fairview said the offers are subject to clarification and negotiation and offered no further details. Reuter",
-        {
-            "entities": [
-                [
-                    0,
-                    26,
-                    "ACQUIRED"
-                ],
-                [
-                    35,
-                    53,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Healthvest said it acquired the Eastwood Hospital medical complex in Memphis from Healthcare International Inc for 50 mln dlrs cash. Healthcare International will continue to operate the hospital under a lease agreement, the company said.",
-        {
-            "entities": [
-                [
-                    32,
-                    49,
-                    "ACQUIRED"
-                ],
-                [
-                    50,
-                    65,
-                    "ACQBUS"
-                ],
-                [
+                    44,
                     69,
-                    76,
+                    "ACQUIRED"
+                ],
+                [
+                    470,
+                    539,
+                    "ACQBUS"
+                ],
+                [
+                    571,
+                    588,
+                    "ACQBUS"
+                ],
+                [
+                    360,
+                    382,
                     "ACQLOC"
                 ],
                 [
-                    115,
-                    131,
+                    144,
+                    156,
                     "DLRAMT"
+                ],
+                [
+                    73,
+                    97,
+                    "PURCHASER"
+                ],
+                [
+                    0,
+                    16,
+                    "SELLER"
+                ],
+                [
+                    25,
+                    39,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Mobex Corp said 2,088,461 Grant Industries Inc common shares, about 87 pct of the 2.4 mln outstanding, have been tendered in response to Mobex's offer. The company said its offer of 7.75 dlrs a share for the stock has been extended to 2000 EST March 23 from 2400 March 17.",
+        {
+            "entities": [
+                [
+                    26,
+                    46,
+                    "ACQUIRED"
                 ],
                 [
                     0,
                     10,
                     "PURCHASER"
-                ],
-                [
-                    82,
-                    110,
-                    "SELLER"
                 ]
             ]
         }
     ],
     [
-        "Malaysia's central bank said it acquired a 59.2 pct stake in ailing United Asian Bank Bhd (UAB), the sixth largest commercial bank in the country, to rebuild public confidence in it. UAB called for a rights issue last November to raise 152.49 mln ringgit to rectify its capital deficiency following an accumulated loss of 107.61 mln ringgit at end-1985, the central bank, Bank Negara, said in a statement. But only 16.99 mln ringgit in shares was taken up by shareholders, mainly local Indian and Malay businessmen and the Indian Government. Bank Negara said it subsequently took up the unsubscribed shares, totalling 135.5 mln of UAB's new paid-up capital of 228.74 mln ringgit. It said the shares, held in trust, will be eventually sold. The central bank early this week also announced that it had bought 49.4 pct stake in another troubled commercial bank, Perwira Habib Bank Malaysia Bhd, after the latter raised its capital to 405 mln ringgit from 105 in mid-January this year. Bank Negara said it does not intend to hold on to the shares of the two banks. \"The injection of capital in PHB and in UAB including the recamp of management in these banks are some of the measures taken by the bank to strengthen public confidence in the stability of the these banks,\" it added. The central bank said it is invoking Section 39A of the Banking (Amendemnt) Act 1986 empowering it to grant loans to an ailing bank or to buy a stake in it. REUTER",
+        "Arthur Appleton, a Chicago investor, told the Securities and Exchange Commission he has acquired 39,000 shares of Sage Drilling Co Inc, or 5.1 pct of the total outstanding common stock. Appleton said he bought the stock for 116,554 dlrs for investment purposes. Depending on several circumstances, Appleton said he may buy more Sage common shares, or sell some or all of his current stake. Reuter",
         {
             "entities": [
                 [
-                    68,
-                    89,
+                    114,
+                    134,
+                    "ACQUIRED"
+                ],
+                [
+                    224,
+                    236,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    15,
+                    "PURCHASER"
+                ],
+                [
+                    88,
+                    96,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Coca-Cola Bottling Co Consolidated said it has agreed in principle to sell its Vancouver-based Canadian bottling subsidiary to Coca-Cola Co for undisclosed terms, with closing expected within 60 days subject to regulatroy approvals. The company said the sale, a previously-announced agreement for Coca-Cola to buy 1,600,000 Coke Consolidated common shares and operating cash flow should allow it to reduce its long-term debvt to about 200 nmln dlrs from 325 mln dlrs at the end of the first quarter. Reuter",
+        {
+            "entities": [
+                [
+                    95,
+                    123,
+                    "ACQUIRED"
+                ],
+                [
+                    144,
+                    155,
+                    "DLRAMT"
+                ],
+                [
+                    127,
+                    139,
+                    "PURCHASER"
+                ],
+                [
+                    0,
+                    34,
+                    "SELLER"
+                ],
+                [
+                    47,
+                    66,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Qintex America Ltd said it is again extending its offer of 13 dlrs a share for 3.3 mln Princeville Development Corp shares until today from yesterday. As reported yesterday, Qintex said, about seven mln Princeville shares had been tendered in response to the offer. Qintex said it is extending the offer to allow Princeville to comply with federal law restricting the ownership of U.S. airlines by non-U.S. citizens and to finalize the terms and conditions of the letter of credit or bank guarantee required under the previously announced acquisition agreement.",
+        {
+            "entities": [
+                [
+                    87,
+                    115,
                     "ACQUIRED"
                 ],
                 [
                     0,
-                    23,
+                    18,
                     "PURCHASER"
                 ],
                 [
-                    372,
-                    383,
+                    36,
+                    55,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Applied chemicals group Henkel KGaA said it is selling its Hamburg vegetable oil and fats subsidiary Noblee und Thoerl GmbH to Oelmuehle Hamburg AG. A company spokesman declined to give the purchase price. Noblee, a supplier of specialised refined oils and fats to the food processing industry, had turnover of 161 mln marks last year. A Henkel statement said the divestment was part of the company's strategy of concentrating on its core businesses. For Oelmuehle, the acquisition of Noblee means access to new markets, the statement added.",
+        {
+            "entities": [
+                [
+                    101,
+                    123,
+                    "ACQUIRED"
+                ],
+                [
+                    77,
+                    89,
+                    "ACQBUS"
+                ],
+                [
+                    67,
+                    89,
+                    "ACQBUS"
+                ],
+                [
+                    59,
+                    66,
+                    "ACQLOC"
+                ],
+                [
+                    127,
+                    147,
                     "PURCHASER"
                 ],
                 [
-                    32,
+                    24,
+                    35,
+                    "SELLER"
+                ],
+                [
+                    47,
+                    54,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Philippines' Social Security System (SSS) is planning to buy eight mln shares in diversified brewer San Miguel Corp (SMC), SMC chief financial officer Ramon del Rosario said. He told reporters the government organisation had expressed interest in one seat on SMC's 15-man board and was preparing to invest 800 mln pesos, assuming a purchase price of 100 pesos a share. The shares involved in the proposal were part of the block of 38 mln shares owned by the United Coconut Planters Bank (UCPB) and sequestered by the government. The block is split between class A and class B stock. SMC also proposed to sell a further five mln shares to A.N. Soriano Corp, the family company of San Miguel president Andres Soriano, del Rosario said. The shares are worth some 500 mln pesos at recent prices. Del Rosario said the 14 mln B shares in the block which are open to foreign ownership would probably be sold to unidentified foreign purchasers. He said SMC and UCPB would meet later this week to try to resolve disputes over the pricing of the shares. President Corazon Aquino earlier this month established an arbitration panel to settle a row over the disposal of the shares. Their initial sale to Soriano through SMC Hong Kong unit Neptunia Corp was blocked by the Presidential Commission on Good Government. The commission sequestered the stock on suspicion that the real owner of the block was Eduardo Cojuanco, the former chairman of San Miguel and the UCPB and a close associate of deposed former president Ferdinand Marcos.",
+        {
+            "entities": [
+                [
+                    104,
+                    119,
+                    "ACQUIRED"
+                ],
+                [
+                    97,
+                    103,
+                    "ACQBUS"
+                ],
+                [
+                    310,
+                    323,
+                    "DLRAMT"
+                ],
+                [
+                    4,
+                    39,
+                    "PURCHASER"
+                ],
+                [
+                    49,
+                    64,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "FCS Laboratories said its investment banker, Butcher and Singer Inc, received a preliminary merger proposal from another company in the healthcare field. FCS said that if various aspects of the proposal are better defined, its board may consider it. FCS said merger negotiations with this other company have been continuing since late August.",
+        {
+            "entities": [
+                [
+                    0,
+                    16,
+                    "ACQUIRED"
+                ],
+                [
+                    136,
+                    146,
+                    "ACQBUS"
+                ],
+                [
+                    80,
+                    107,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Allegheny International Inc said it sold three of its industrial units which served the railroad industry to Chemetron Railway Products Inc, a senior management group of Allegheny. Terms of the transaction were not disclosed. Included in the sale were Chemetron Railway Products, True Temper Railway Appliances Inc and Allegheny Axle Co, the company said. The three units include 12 plants throughout the U.S., the company said.",
+        {
+            "entities": [
+                [
+                    109,
+                    135,
+                    "ACQUIRED"
+                ],
+                [
+                    280,
+                    314,
+                    "ACQUIRED"
+                ],
+                [
+                    319,
+                    336,
+                    "ACQUIRED"
+                ],
+                [
+                    211,
+                    224,
+                    "DLRAMT"
+                ],
+                [
+                    109,
+                    139,
+                    "PURCHASER"
+                ],
+                [
+                    0,
+                    27,
+                    "SELLER"
+                ],
+                [
+                    36,
                     40,
                     "STATUS"
                 ]
@@ -182,23 +553,504 @@
         }
     ],
     [
-        "Santos Ltd said it would buy Total Exploration Australia Pty Ltd from Total Holdings (Australia) Pty Ltd, a wholly-owned subsidiary of Total-Cie Francaise des Petroles . Total Exploration had interests ranging from 18.75 to 25 pct in four blocks in permit ATP259P in south-west Queensland, Santos said in a statement. The Santos group stakes will rise to between 52.5 and 70 pct of the four ATP259P blocks as a result of the purchase. The price was not disclosed. Santos said a number of oil and gas fields have been discovered in the Total Exploration areas and that it regards them as having very good prospects for further discoveries. Total's reserves amount to 75 billion cubic feet of gas and 5.5 mln barrels of oil and condensate, it said. It said it will promote a vigorous exploration program in the areas for the rest of 1987 and in the future. The acquisition is the latest in a series by Santos as part of a program to expand from its origins in the South Australian Cooper Basin. REUTER",
+        "Perkin-Elmer Corp said it acquired Atomika Technische Physik, based in Munich, West Germany, a high technology concern specializing in surface science instruments. Terms of the acquisition were not disclosed. It said Atomika will became a part of its Physical Electronics Division, based in Eden Prairie, Minn., The division is part of its Materials Surface Technology Group. Reuter",
+        {
+            "entities": [
+                [
+                    35,
+                    60,
+                    "ACQUIRED"
+                ],
+                [
+                    135,
+                    162,
+                    "ACQBUS"
+                ],
+                [
+                    71,
+                    91,
+                    "ACQLOC"
+                ],
+                [
+                    194,
+                    207,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    17,
+                    "PURCHASER"
+                ],
+                [
+                    26,
+                    34,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Trico Industries Inc said it set March 31 as the date for a special shareholders meeting for a vote on the proposed acquisition of the company by Paccar Inc . In January the two companies announced an agreement covering a proposed acquisition by Paccar of Trico's approximately 8.2 mln shares outstanding for eight dlrs per share in cash.",
+        {
+            "entities": [
+                [
+                    0,
+                    20,
+                    "ACQUIRED"
+                ],
+                [
+                    146,
+                    156,
+                    "PURCHASER"
+                ],
+                [
+                    107,
+                    115,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Baltek Corp said it has acquired a shrimp packing plant in Ecuador for undisclosed terms. The company said the acquisition will result in a tripling of its Ecuadorian shrimp sales to about three mln pounds annually by 1988.",
+        {
+            "entities": [
+                [
+                    33,
+                    55,
+                    "ACQUIRED"
+                ],
+                [
+                    59,
+                    66,
+                    "ACQLOC"
+                ],
+                [
+                    71,
+                    82,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    11,
+                    "PURCHASER"
+                ],
+                [
+                    24,
+                    32,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Cyclops Corp said its board has been restructured under the terms of the company's merger agreement with Dixons Group plc following the British company's acquisition of 54 pct of Cyclops' stock. The company said its board is now composed of three Cyclops executives -- Chairman W.H. Knoell, President James F. Will and Senior Vice President WIlliam D. Dickey -- and three Dixons executives -- Vice-Chairman and Financial Director Egon von Greyerz, Corporate Finance Director Gerald M.N. Corbett, and Secretary Jeoffrey Budd.",
+        {
+            "entities": [
+                [
+                    0,
+                    12,
+                    "ACQUIRED"
+                ],
+                [
+                    105,
+                    121,
+                    "PURCHASER"
+                ]
+            ]
+        }
+    ],
+    [
+        "An investor group including New York-based Mutual Shares Corp and Mutual Qualified Income Fund Inc told the Securities and Exchange Commission it raised its stake in Gelco Corp common stock to 575,859 shares or 8.2 pct of the total outstanding. The group said its most recent purchases included 241,000 shares bought between January 21 and March 10. The group said it purchased the shares for investment purposes.",
+        {
+            "entities": [
+                [
+                    166,
+                    176,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    98,
+                    "PURCHASER"
+                ]
+            ]
+        }
+    ],
+    [
+        "One of West Germany's major feedstuff and grain traders, Kurt A. Becher GmbH and Co KG, said ConAgra Inc of the U.S. Was taking it over, effective June 1. Becher said ConAgra, which already owns 50 pct of the trade house, would take over the remaining 50 pct from the Becher family. Further details were not immediately available. ConAgra, based in Omaha, Nebraska, is a foodstuff company and has access to world markets through its agricultural trade subsidiary, ConAgra International.",
+        {
+            "entities": [
+                [
+                    57,
+                    86,
+                    "ACQUIRED"
+                ],
+                [
+                    28,
+                    47,
+                    "ACQBUS"
+                ],
+                [
+                    7,
+                    19,
+                    "ACQLOC"
+                ],
+                [
+                    93,
+                    104,
+                    "PURCHASER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Stone Container Corp said it and Southwest Forest Industries Inc completed all waiting period requirements under the Hart-Scott-Rodino Anti-Trust Improvements Act of 1976. Stone said it will proceed with its previously proposed acquisition of Southwest. Reuter",
+        {
+            "entities": [
+                [
+                    33,
+                    64,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    20,
+                    "PURCHASER"
+                ],
+                [
+                    65,
+                    106,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Warburg, Pincus Capital Co L.P., an investment partnership, said it told representatives of Symbion Inc it would not increase the 3.50-dlr-per-share cash price it has offered for the company. In a filing with the Securities and Exchange Commission, Warburg Pincus said one of its top executives, Rodman Moorhead, who is also a Symbion director, met April 1 with Symbion's financial advisor, L.F. Rothschild, Unterberg, Towbin Inc. In a discussion of the offer, Warburg Pincus said Moorhead told the meeting there are no plans to raise the 3.50 dlr bid. Moorhead told the Rothschild officials that Warburg Pincus considers the offered price to be a fair one, Warburg Pincus said. Last Month Warburg Pincus launched a tender offer to buy up to 2.5 mln Symbion common shares. Reuter",
+        {
+            "entities": [
+                [
+                    92,
+                    103,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    31,
+                    "PURCHASER"
+                ],
+                [
+                    107,
+                    125,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Broker's Choice Capital Inc said it signed a letter of intent to buy Rubbertech Inc. If approved by shareholders, Broker's Choice will issue about 71 mln shares of authorized, but unissued shares of restricted common stock to Rubbertech Inc. Reuter",
+        {
+            "entities": [
+                [
+                    69,
+                    83,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    27,
+                    "PURCHASER"
+                ],
+                [
+                    45,
+                    61,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Instinet Corp said its board has scheduled a special shareholders' meeting for May 21 to vote on its proposed merger into Reuters Holdings PLC . It said shareholders of record as of April 10 will be eligible to vote at the meeting. Instinet said the meeting date is subject to adjustment, based on the length of time needed for the U.S. Securities and Exchange Commission to complete its review of the filing of merger proxy materials, which Instinet expects to make before the end of March. Instinet said the filing of the preliminary merger proxy materials is tied to the finalization of audited financial statements of Instinet and Reuters for 1986. Under a merger agreement entered into in November, Reuters tendered for up to 5.10 mln Instinet common shares, or about 45 pct of those not already owned by Reuters. As a result of the tender, Reuters now owns about 49 pct of Instinet shares. In the merger, holders of remaining Instinet shares will receive 8.50 dlrs of Reuters American Depositary Shares for each Instinet share. The ADS's will be valued at the average of their closing prices in the 10 trading days before the effective date of the merger. Instinet said it expects the merger to become effective as soon as possible after shareholder approval at the special meeting.",
+        {
+            "entities": [
+                [
+                    0,
+                    13,
+                    "ACQUIRED"
+                ],
+                [
+                    122,
+                    142,
+                    "PURCHASER"
+                ],
+                [
+                    101,
+                    109,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Montreal-based Noverco Inc told the Securities and Exchange Commission it reduced its stake in Sceptre Resources Ltd to 1,232,200 shares or 4.8 pct of the total outstanding. Noverco said it sold off 400,500 shares \"to reduce the investment of Noverco in Sceptre.\" \"Additional common shares of Sceptre may be sold or purchased by Noverco, depending upon market conditions,\" Noverco said.",
+        {
+            "entities": [
+                [
+                    95,
+                    116,
+                    "ACQUIRED"
+                ],
+                [
+                    15,
+                    26,
+                    "SELLER"
+                ]
+            ]
+        }
+    ],
+    [
+        "A 3.22 billion dlr offer for Dome Petroleum Ltd by TransCanada Pipelines Ltd may short-circuit Dome's restructuring plan and open the door for more takeover bids, oil analysts said. Dome is trying to get approval for a plan to refinance debt of more than 4.5 billion dlrs by July 1, 1987, when an interim debt plan that allowed the Canadian oil and gas firm to defer substantial payments to creditors will expire. Analysts said TransCanada's bid signals Dome's debtholders that an alternative exists to Dome's debt plan. Dome announced its plan to 56 major creditors as well as public noteholders in March after several months of delicate negotiations. TransCanada's proposal \"amounts to a quasi debt restructuring,\" oil analyst Doug Gowland of Brown Baldwin Nisker Ltd said from Toronto. Calgary-based Dome's restructuring plan would allow creditors to convert debt to common shares under a formula yet to be negotiated. Payments on remaining debt would be linked to cash flow generated by assets pledged against the debt. \"The weakness of the whole debt-refinancing proposal is that even with approval of creditors, there is no assurance that Dome will in fact be able to repay all of its debt obligations,\" said Wilf Gobert, an oil analyst for Peters and Co Ltd in Calgary. TransCanada's announcement came as a surprise since Dome was waiting for responses from creditors on its proposed refinancing packages, Gobert said. The TransCanada proposal could open the bidding for Dome since other potential buyers were probably waiting for lenders to agree to a restructuring, he added. \"I would think that the debtholders would want to entertain any and all offers (for Dome),\" Gobert said. Dome spokesman David Annesley said in New York that TransCanada's announcement could be seen as an attempt to fix the bidding price for Dome and an effort to preclude other possible buyers from making an offer. \"By drawing attention to us in our discussions, it means that others may be a little reluctant to come forward,\" he said. Dome does not consider TransCanada's proposal a formal offer because the pipeline utility's announcement breached a confidential agreement between the two companies, he said. Dome responded to the statement by suspending discussions with TransCanada in order to pursue talks with other unidentified parties. However, Dome said its management and financial advisers would evaluate all proposals, including TransCanada's. Gowland said TransCanada's offer is probably a fair price for the company's 36.1 mln acres of oil and gas land holdings. However, he said not enough financial details are known about Dome's debt restructuring to compare the value of TransCanada's proposed offer.",
         {
             "entities": [
                 [
                     29,
-                    64,
+                    47,
+                    "ACQUIRED"
+                ],
+                [
+                    341,
+                    352,
+                    "ACQBUS"
+                ],
+                [
+                    789,
+                    796,
+                    "ACQLOC"
+                ],
+                [
+                    2,
+                    18,
+                    "DLRAMT"
+                ],
+                [
+                    51,
+                    76,
+                    "PURCHASER"
+                ],
+                [
+                    19,
+                    24,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Bally Manufacturing Corp said it completed the acquisition of the Golden Nugget Casino Hotel in Atlantic City, New Jersey from Golden Nugget Inc. Bally also acquired from Golden Nugget various parcels of real estate in Atlantic City, it noted. The transaction included 140 mln dlrs in cash and stock and the assumption of a 299 mln dlrs mortgage. Reuter",
+        {
+            "entities": [
+                [
+                    66,
+                    92,
+                    "ACQUIRED"
+                ],
+                [
+                    96,
+                    121,
+                    "ACQLOC"
+                ],
+                [
+                    0,
+                    24,
+                    "PURCHASER"
+                ],
+                [
+                    127,
+                    144,
+                    "SELLER"
+                ],
+                [
+                    33,
+                    42,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Upland Minerals and Chemicals Corp said it agreed to acquire Consolidated Brazilian Mines International Inc, a public company with one mln acres of diamond and gold properties in Brazil. Terms were not disclosed. Consolidated owns 42 mining concessions in three regions of eastern and northern Brazil -- Gammara, Santo Antonio and Diamazon, the company said. Upland also said the previously announced acquisition of Aslaminas Aslambeck Mining Corp, a Minas Gerais, Brazil, mining concern, will produce revenues of 9.6 mln dlrs a year for the next 25 years. New York-based Upland is traded over-the-counter. Reuter",
+        {
+            "entities": [
+                [
+                    61,
+                    107,
+                    "ACQUIRED"
+                ],
+                [
+                    148,
+                    164,
+                    "ACQBUS"
+                ],
+                [
+                    74,
+                    80,
+                    "ACQLOC"
+                ],
+                [
+                    198,
+                    211,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    34,
+                    "PURCHASER"
+                ],
+                [
+                    43,
+                    60,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Peabody Holding Co Inc said it has completed its acquisition of substantially all Eastern Gas and Fuel Associate's coal properties for 15.01 pct of Peabody Holding's stock. Peabody said the purchase includes seven underground mines and seven coal preparation plants currently operated by Eastern, as well as coal properties being mined by several contractors in West Virginia. The acquisition also involves about 800 mln tons of coal reserves, mostly in West Va., and includes Eastern's coal reserves and inactive Powderhorn operations near Palisade, Colo, Peabody said. Peabody added that it expects to announce within the next week how it will staff and operate the properties and offices it has acquired from Eastern. Reuter",
+        {
+            "entities": [
+                [
+                    115,
+                    130,
+                    "ACQUIRED"
+                ],
+                [
+                    226,
+                    231,
+                    "ACQBUS"
+                ],
+                [
+                    242,
+                    258,
+                    "ACQBUS"
+                ],
+                [
+                    454,
+                    462,
+                    "ACQLOC"
+                ],
+                [
+                    0,
+                    22,
+                    "PURCHASER"
+                ],
+                [
+                    82,
+                    112,
+                    "SELLER"
+                ],
+                [
+                    35,
+                    44,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "General Partners said it was prepared to raise its bid for GenCorp Inc to 110 dlrs cash per share from 100 dlrs per share. In a letter from General Partners to A. William Reynolds, chairman and chief executive officer of GenCorp, the company stated that if GenCorp could prove the company was worth more, General Partners would be willing to consider an even higher price. General Partners also left open the possibility of an alternative to an all-cash offer. General Partners told GenCorp if it believed shareholders would be better served by a smaller cash price with a security representing a continuing long-term interest in GenCorp's prospects, it would be willing to discuss an alternative. Specifically, General Partners said it was prepared to discuss an acquisition giving shareholders a continuing interest in Aerojet General, a valued business of GenCorp. Reuter",
+        {
+            "entities": [
+                [
+                    59,
+                    70,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    16,
+                    "PURCHASER"
+                ],
+                [
+                    29,
+                    54,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Amoco Corp is apparently the successful bidder for debt-laden Dome Petroleum Ltd, according to a published report. The Toronto Globe and Mail, quoting sources close to the negotiations, today said Dome broke off talks last night with TransCanada PipeLines Ltd, which last week announced a 4.3 billion Canadian dlr offer for all of Dome's assets. No financial details about the Amoco offer were available and a Dome spokesman would neither confirm nor deny that Amoco had emerged the winner, the newspaper said. However, the Dome spokesman indicated that the sale of Dome could be finalized and announced this weekend, the Globe and Mail said. Representatives of Amoco were not immediately available for comment. Last Sunday, when TransCanada announced its offer, Dome said it was also in talks with two other companies, but refused to identify them. Since then, market speculation has centered on Amoco and Exxon Corp's 70 pct-owned Imperial Oil Ltd subsidiary in Canada. British Petroleum PLC and Royal Dutch/Shell Group have also been mentioned as possible suitors for Dome. In the past two days, Dome management has been pressured by the federal government to select the offer from TransCanada, the only Canadian company in the bidding. Prime Minister Brian Mulroney's government appears to want to avoid a Dome sale to a foreign company since the government gave Dome hundreds of millions of dollars in tax breaks to encourage oil and gas exploration in the Arctic, analysts and officials have said. A purchase by TransCanada would be least likely to run afoul of Canadian antitrust laws, however, TransCanada is asking for tax concessions from a federal government that is trying to hold its deficit below 30 billion Canadian dlrs, analysts have said. A takeover by Amoco or Imperial would also give a foreign oil company a dominant position in Canada's oil industry. Imperial Oil is already Canada's largest energy company, with 1986 revenues of 7.1 billion Canadian dlrs. Chicago-based Amoco had 1986 revenues of 20.23 billion U.S. dlrs. Its Amoco Canada Petroleum subsidiary is 100 pct owned by Amoco Corp.",
+        {
+            "entities": [
+                [
+                    62,
+                    80,
                     "ACQUIRED"
                 ],
                 [
                     0,
                     10,
                     "PURCHASER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Price Co said it agreed to buy at least 81 pct of the stock of TSS-Seedman's INc for about 50 mln dlrs. The terms envision a purchase of the entire company, it said. The transaction is expected to close at the end of April.",
+        {
+            "entities": [
+                [
+                    63,
+                    80,
+                    "ACQUIRED"
                 ],
                 [
-                    70,
-                    104,
+                    85,
+                    102,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    8,
+                    "PURCHASER"
+                ],
+                [
+                    17,
+                    30,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "American Express Co said it and its Shearson Lehman Brothers Inc subsidiary have been holding talks on the possible equity investment in Shearson Lehman by Nippon Life Insurance Co of Japan. The company said, \"The discussions have led to a general understanding by which Nippon Life would purchase a 13 pct equity investment in Shearson Lehman for approximately 530 mln dlrs and American Express, Shearson Lehman and Nippon Life would explore mutually advantageous, nonexclusive business and investment opportunities.\" The company said a definitive agreement on the matter is subject to a number of conditions, including approval of the American Express board and the Japanese Ministry of Finance. The company said its board is scheduled to meet March 27 for its regular monthly sessions. American Express said it is continuing to evaluate various courses of action of strategic importance to Shearson Lehman in addition to the possible investment by Nippon Life. It said the options range from expanding Shearson's capacity to meet international competition, to broadening further its access to capital. The company also said, \"All the courses of action under study reflect the continuing integral role of Shearson Lehman in American Express' worldwide financial services strategy.\"",
+        {
+            "entities": [
+                [
+                    36,
+                    64,
+                    "ACQUIRED"
+                ],
+                [
+                    362,
+                    374,
+                    "DLRAMT"
+                ],
+                [
+                    156,
+                    180,
+                    "PURCHASER"
+                ],
+                [
+                    0,
+                    19,
                     "SELLER"
+                ],
+                [
+                    86,
+                    99,
+                    "STATUS"
                 ]
             ]
         }
@@ -251,270 +1103,550 @@
         }
     ],
     [
-        "Malrite Guaranteed Broadcast Partners L.P. said it bought WTRK Inc from Cox Enterprises Inc for 13.8 mln dlrs in cash. It said WTRK owns and operates WTRK-FM, a Philadelphia radio station. Transfer of the license for the sation has been approved by the Federal Communications Commission. Malrite Guaranteed said it is a limited partnerhip formed to acquire and operate radio and tv stations. It said Malrite Communications Group Inc is the general partner. Reuter",
-        {
-            "entities": [
-                [
-                    58,
-                    66,
-                    "ACQUIRED"
-                ],
-                [
-                    174,
-                    187,
-                    "ACQBUS"
-                ],
-                [
-                    161,
-                    173,
-                    "ACQLOC"
-                ],
-                [
-                    96,
-                    109,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    42,
-                    "PURCHASER"
-                ],
-                [
-                    72,
-                    91,
-                    "SELLER"
-                ]
-            ]
-        }
-    ],
-    [
-        "Protein Databases Inc said Millipore Corp through its venture capital subsidiary, Millicorp, acquired an equity position in the company. Protein said it and Millipore intend to establish an \"interactive relationship.\" No other details were disclosed about the amount of Millipore's investment in Protein.",
-        {
-            "entities": [
-                [
-                    0,
-                    21,
-                    "ACQUIRED"
-                ],
-                [
-                    27,
-                    41,
-                    "PURCHASER"
-                ],
-                [
-                    93,
-                    101,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "TLX Partners, a group led by Asher Edelman, does not see any problems with its 65 dlr per share bid for Telex Corp, a Shearson Lehman official advising the group said. Several other takeover proposals have crumbled following declines in financial markets, leading to speculation that Edelman might also drop his offer. Telex fell 11 to 34-1/4. Earlier today, Carl Icahn dropped his bid to take Trans World Airlines Inc private and Dart Group Corp said it abandoned plans to acquire Dayton Hudson Corp . Both cited market conditions. \"Nothing fundamental has changed with the company. The stock price has changed, but the company hasn't changed so there's no reason for us to change,\" said Daniel Good, head of Shearson Lehman merchant banking. \"Things are proceeding as planned, and we fully expect that at the time we have to pay for the shares the financing will be in place,\" Good said. Shearson has agreed to provide bridge financing of up to 600 mln dlrs for the Edelman group.",
-        {
-            "entities": [
-                [
-                    104,
-                    114,
-                    "ACQUIRED"
-                ],
-                [
-                    0,
-                    12,
-                    "PURCHASER"
-                ]
-            ]
-        }
-    ],
-    [
-        "Skandia International Holding AB, the overseas offshoot of Swedish insurance group Forsakrings AB Skandia said it was buying a 29.9 pct share in the London-quoted property and financial services company Nevi Baltic Plc. No financial details were given. Nevi Baltic, with a 1986 turnover of 20 mln stg and total assets of 70 mln stg, is controlled by Norwegian finance company Nevi AS which will retain a 30.1 pct stake in the British unit, Skandia said in a statement. The deal is subject to formal approval from the Swedish central bank, the statement added. REUTER",
-        {
-            "entities": [
-                [
-                    203,
-                    218,
-                    "ACQUIRED"
-                ],
-                [
-                    163,
-                    194,
-                    "ACQBUS"
-                ],
-                [
-                    149,
-                    155,
-                    "ACQLOC"
-                ],
-                [
-                    0,
-                    32,
-                    "PURCHASER"
-                ]
-            ]
-        }
-    ],
-    [
-        "AMCA International Ltd said it finalized agreement to sell certain assets and inventories of its Dominion Bridge steel service center operations to Federal Industries Ltd's Russelsteel Inc unit. Terms were undisclosed. It said the sale involved assets and operations of the general line of steel service centers in Toronto and Edmonton, Alberta and steel from inventories of closed AMCA branches. The company said the sale was part of a previously announced restructuring program to allow it to focus on certain core businesses and generate cash to cut debt. Reuter",
-        {
-            "entities": [
-                [
-                    67,
-                    144,
-                    "ACQUIRED"
-                ],
-                [
-                    290,
-                    311,
-                    "ACQBUS"
-                ],
-                [
-                    315,
-                    344,
-                    "ACQLOC"
-                ],
-                [
-                    206,
-                    217,
-                    "DLRAMT"
-                ],
-                [
-                    148,
-                    170,
-                    "PURCHASER"
-                ],
-                [
-                    0,
-                    22,
-                    "SELLER"
-                ],
-                [
-                    31,
-                    50,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Dart Group Corp said it told Supermarkets General Corp it was flexible on the price it would pay to acquire the company. Dart has said it would offer 41.75 dlrs cash for each SGL share if the SGL board recommended the offer to shareholders. SGL has termed the 1.62 billion dlr offer unsolicited. In a letter to SGL dated March 20, Dart also said it was denied confidential information on SGL that would be given to other potential bidders. SGL officials could not be reached for comment. Dart said it was advised that a selling brochure for the sale of SGL had been distributed to about 20 potential buyers, but not itself. These purchasers would also be given access to SGL's books and records and the opportunity to talk with key employees. \"We suspect that one or more of the 20 are leveraged buyout firms,\" said a source close to Dart. Analysts have said SGL management may be considering a leveraged buyout. Dart said it remains interested in acquiring SGL on a friendly basis and reiterated its willingness to negotiate all the terms of its offer. Dart said SGL representatives said the company has not received any other offer. It said it requested the confidential information to better understand SGL, but was denied this because it refused to sign an agreement prohibiting it from making a bid for SGL without SGL's approval. The agreement would also have limited its ability to buy SGL shares, Dart said. It considered those conditions unreasonable in the interest of trying to negotiate a friendly transaction, it said. Dart has just under five pct of SGL shares. Dart said it requested the information before its meeting with SGL representatives, but held the meetings in the hope representatives would reach an agreement. It said it indicated it was flexible on price, but was told there were certain issues important to SGL management and while they were not conditions to the deal, Dart was expected to take them into account in putting together its package. It said the issues include an immediate payment of 5.7 mln dlrs to SGL chairman Leonard Lieberman, executive vice president James Dougherty and financial officer Murray Levine. Dart said this payment was intended for the three officers' severance agreements, although there was an implication that Lieberman and Dougherty would be leaving the company of their own volition. Dart said under their present agreements, none of these officers have any right to such accelerated payments. Also, Dart said Lieberman, Dougherty and Levine are to be paid 2.6 mln dlrs to pay their taxes. It also said top management's incentive shares were to be accelerated and paid for at a cost of six mln dlrs although there are restrictions on the shares unless waived by the company's compensation committee. Dart said it was to fund up to five mln dlrs for top management's supplemental retirement plan. Dart said another issue was to agree to future severance obligations and future salary guarantees for top management, estimated at more than 15 mln dlrs in excess of obligations under the company's present policy. Dart said despite such management payments, it agreed to discuss all aspects of its offer and in fact did try to negotiate a transaction at the March 18 meeting with SGL. Supermarkets General owns the Path Mark supermarket chain and Rickels home centres. Dart also released a copy of a lawsuit that was being filed by an SGL shareholder, seeking to stop SGL from taking such actions as paying greenmail or enacting a poison pill defence. The suit also sought to have directors carry out their fiduciary duty. Greenmail is the payment at a premium for shares held by an unwanted suitor and a poison pill is typically the issue of securities to shareholders which make a takeover more expensive.",
-        {
-            "entities": [
-                [
-                    29,
-                    54,
-                    "ACQUIRED"
-                ],
-                [
-                    29,
-                    40,
-                    "ACQBUS"
-                ],
-                [
-                    260,
-                    276,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    15,
-                    "PURCHASER"
-                ]
-            ]
-        }
-    ],
-    [
-        "Universal Communication Systems Inc said it has tentatively agreed to sell substantially all its assets for about 79 mln dlrs in cash and notes plus limited profit participation. The company said the terms of the sale have been approved by its board and by Prime Motor Inns Inc , owner of about 84 pct of Universal's outstanding stock. It described the purchaser as a subsidiary of a company in the communications field which is one of the 100 largest U.S. corporations. The company said the transaction involves the payment of 20 mln dlrs in cash, a non-interest bearing payment of 11.3 mln dlrs in four equal instalments over four years and two promissory notes guaranteed by an affiliate of the purchaser. It said a 31.5 mln dlr 14 pct note is payable in four equal instalments over four years. It said a 16.3 mln dlr 8.5 pct note due Dec 31, 1992, includes participation in the 1992 profits of the acquiring company. Universdal said the profit element can be terminated with payments by the purchaser of either five mln dlrs in 1988, six mln dlrs in 1989, seven mln dlrs in 1990 or eight mln dlrs in 1991.",
-        {
-            "entities": [
-                [
-                    0,
-                    35,
-                    "ACQUIRED"
-                ],
-                [
-                    114,
-                    125,
-                    "DLRAMT"
-                ],
-                [
-                    48,
-                    66,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Safety-Kleen Corp said it completed the acquisition of an 80 pct interest in BresLube Enterprises, for about 12 mln dlrs in stock and cash. BresLube, based in Toronto, collects used lubricating oils from auto garages, car dealers and other businesses, and re-refines it for resale. Its annual revenues are about 18 mln dlrs. Reuter",
-        {
-            "entities": [
-                [
-                    77,
-                    97,
-                    "ACQUIRED"
-                ],
-                [
-                    168,
-                    198,
-                    "ACQBUS"
-                ],
-                [
-                    159,
-                    166,
-                    "ACQLOC"
-                ],
-                [
-                    109,
-                    120,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    17,
-                    "PURCHASER"
-                ],
-                [
-                    26,
-                    35,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Montreal-based Noverco Inc told the Securities and Exchange Commission it reduced its stake in Sceptre Resources Ltd to 1,232,200 shares or 4.8 pct of the total outstanding. Noverco said it sold off 400,500 shares \"to reduce the investment of Noverco in Sceptre.\" \"Additional common shares of Sceptre may be sold or purchased by Noverco, depending upon market conditions,\" Noverco said.",
-        {
-            "entities": [
-                [
-                    95,
-                    116,
-                    "ACQUIRED"
-                ],
-                [
-                    15,
-                    26,
-                    "SELLER"
-                ]
-            ]
-        }
-    ],
-    [
-        "Leader Development Corp said shareholders at the annual meeting approved the acquisition of privately-held Clinton American Corp and two related partnerships for 3,450,000 common shares, with the transaction to be accounted for as a pooling of interests. The company said Clinton president F. Daniel Ryan will become president of Leader.",
+        "Lotus Development Corp said it has signed a letter of intent to acquire substantially all of the assets of Computer Access Corp for undisclosed terms. Computer Asscess makes BlueFish full-text search and retrieval software for International Business Machines Corp and compatible personal computers. The company said the acquisition is subject to approval by both boards. Reuter",
         {
             "entities": [
                 [
                     107,
-                    128,
+                    127,
+                    "ACQUIRED"
+                ],
+                [
+                    183,
+                    222,
+                    "ACQBUS"
+                ],
+                [
+                    132,
+                    143,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    22,
+                    "PURCHASER"
+                ],
+                [
+                    44,
+                    60,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Borg-Warner Corp said its directors approved the sale, for about 240 mln dlrs, of its industrial products division to a New York-based private investment firm, Clayton and Dubilier Inc, and senior management of the group. Yesterday, the company said it agreed to sell the division, which has annual sales of about 300 mln dlrs and is based in Long Beach, California.",
+        {
+            "entities": [
+                [
+                    86,
+                    114,
+                    "ACQUIRED"
+                ],
+                [
+                    343,
+                    365,
+                    "ACQLOC"
+                ],
+                [
+                    59,
+                    77,
+                    "DLRAMT"
+                ],
+                [
+                    160,
+                    184,
+                    "PURCHASER"
+                ],
+                [
+                    0,
+                    16,
+                    "SELLER"
+                ],
+                [
+                    36,
+                    44,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "County Ltd, which is acting in concert with Tesco Plc in its 151.4 mln stg for supermarket chain operator Hillards Plc, has purchased 300,000 Hillards ordinary shares at 316p per share, a statement said. These purchases, together with those made by County on 10 March, represent about 4.8 pct of Hillards issued ordinary share capital, it said. Tesco's offer, made on March 10, values each Hillards ordinary share at 305.5p, a 37.6 pct premium over the previous day's closing price. A cash alternative of 290.55p will be made available.",
+        {
+            "entities": [
+                [
+                    106,
+                    118,
+                    "ACQUIRED"
+                ],
+                [
+                    79,
+                    96,
+                    "ACQBUS"
+                ],
+                [
+                    0,
+                    10,
+                    "PURCHASER"
+                ],
+                [
+                    44,
+                    53,
+                    "PURCHASER"
+                ],
+                [
+                    124,
+                    133,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Unicoa Corp said it agreed to a merger with its wholly-owned subsidiary, United Insurance Co of America. Under the agreement, each outstanding share of Unicoa common stock will be converted into one share of United common stock. The agreement is subject to shareholder and regulatory approval. Teledyne Inc owns about 98.4 pct of Unicoa's outstanding shares. A shareholder meeting is expected to be held in August.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "ACQUIRED"
+                ],
+                [
+                    73,
+                    103,
+                    "PURCHASER"
+                ],
+                [
+                    20,
+                    26,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Casino owner and real estate developer Donald Trump has offered to acquire all Class B common shares of Resorts International Inc, a spokesman for Trump said. The estate of late Resorts chairman James M. Crosby owns 340,783 of the 752,297 Class B shares. Resorts also has about 6,432,000 Class A common shares outstanding. Each Class B share has 100 times the voting power of a Class A share, giving the Class B stock about 93 pct of Resorts' voting power. More",
+        {
+            "entities": [
+                [
+                    104,
+                    129,
+                    "ACQUIRED"
+                ],
+                [
+                    39,
+                    51,
+                    "PURCHASER"
+                ],
+                [
+                    56,
+                    74,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hayes-Albion Corp said its shareholders approved a plan to merge with and become a wholly onwed subsidiary of privately held Harvard Industries Inc. St. Louis-based Harvard Industries, a manufacturer and distributor of automobile supplies, held 80 pct of Hayes following completion of a 13 dlrs a share cash tender offer in December. Under the merger agreement, remaining shareholders of Hayes, a Jackson, Mich.-based maker of auto supplies, will receive 13 dlrs cash for their shares. Trading in Hayes common will cease at the close of business today, the company said.",
+        {
+            "entities": [
+                [
+                    0,
+                    17,
+                    "ACQUIRED"
+                ],
+                [
+                    427,
+                    440,
+                    "ACQBUS"
+                ],
+                [
+                    397,
+                    411,
+                    "ACQLOC"
+                ],
+                [
+                    125,
+                    147,
+                    "PURCHASER"
+                ],
+                [
+                    40,
+                    48,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "BellSouth Corp said it completed its previously-announced agreement to acquire Dataserv Inc for an exchange of shares. BellSouth said under the Nov 25, 1986, agreement, it exchanged one of its common shares for every 13.3 Dataserv common shares. The exchange reflects the Feb 23 three-for-two BellSouth stock split, the company said.",
+        {
+            "entities": [
+                [
+                    79,
+                    91,
                     "ACQUIRED"
                 ],
                 [
                     0,
-                    23,
+                    14,
                     "PURCHASER"
                 ],
                 [
+                    23,
+                    32,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Dixons Group Plc has sold 8.3 mln shares in Woolworth Holdings Plc through Salomon Brothers U.K. Equity Ltd, a statement from Salomon said. The shares were placed with about 45 to 50 institutions in Europe and the Far East. Dixons retains one mln Woolworth shares, a Dixons spokesman added. Industry sources said Dixons acquired the Woolworth shares in connection with its unsuccessful bid for the company last year. Dixons paid an average price of 695p per share which compares with 819p today. Woolworth closed on Froday at 833p. A Dixons spokesman said the decision to retain one mln shares reflected Woolworth's buoyant prospects.",
+        {
+            "entities": [
+                [
+                    44,
+                    66,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    16,
+                    "SELLER"
+                ],
+                [
+                    21,
+                    25,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Jeffrey Neuman, of Santa Monica, Calif., told the Securities and Exchange Commission he sold his entire RB Industries Inc stake of 341,210 shares, or 10.0 pct, of the total outstanding. Neuman, who transferred the stock nearly two years ago to the Tudor Trust, of which he is trustee, said the trust sold the entire stake in a private deal on June 9 at 11.00 dlrs a share.",
+        {
+            "entities": [
+                [
+                    104,
+                    121,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    14,
+                    "SELLER"
+                ],
+                [
+                    88,
+                    92,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Neoax Inc said it bought Rexnord Inc's Fairfield Manufacturing Co for 70.5 mln dlrs cash. The unit makes custom gears for industrial use and had sales of 84 mln dlrs in its Oct. 31, 1986 fiscal year.",
+        {
+            "entities": [
+                [
+                    39,
+                    65,
+                    "ACQUIRED"
+                ],
+                [
+                    105,
+                    136,
+                    "ACQBUS"
+                ],
+                [
+                    70,
+                    83,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    9,
+                    "PURCHASER"
+                ],
+                [
+                    25,
+                    36,
+                    "SELLER"
+                ]
+            ]
+        }
+    ],
+    [
+        "First City Industries Inc said it has reached a definitive agreement to sell its Nutone and Yale security subsidiaries to Valor PLC for 400 mln dlrs and warrants to purchase two mln Valor ordinary shares. In addition, the company said it will recieve a special dividend of 60 mln dlrs from Nutone and Yale and it has agreed to buy 35 mln dlrs of Valor convertible preference shares. First City said it is seeking to increase shareholder values by improving and realizing the values inherent in its operating subsidiaries. The company said the transaction is subject to approval by shareholders of Valor and is expected to be completed within 40 days. It said Valor has arranged financing through an issue of ordinary and convertible preference shares underwritten by Hoare Govette Ltd and Barclays de Zoete Wedd Ltd. Nutone makes built-in electric products for the housing market and Yale makes door locks and electronic security products. Valor makes home products. Reuter",
+        {
+            "entities": [
+                [
+                    81,
+                    87,
+                    "ACQUIRED"
+                ],
+                [
+                    92,
+                    96,
+                    "ACQUIRED"
+                ],
+                [
+                    830,
+                    879,
+                    "ACQBUS"
+                ],
+                [
+                    895,
+                    938,
+                    "ACQBUS"
+                ],
+                [
+                    136,
+                    148,
+                    "DLRAMT"
+                ],
+                [
+                    122,
+                    131,
+                    "PURCHASER"
+                ],
+                [
+                    0,
+                    25,
+                    "SELLER"
+                ],
+                [
+                    48,
+                    68,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Commonwealth Mortgage Co said it purchased Westfiar Funding Corp of Armonk, N.Y., for an undisclosed amount of cash. Commonwealth said Westfair originated 60 mln dlrs of residential mortgage loans during 1986. Reuter",
+        {
+            "entities": [
+                [
+                    43,
                     64,
+                    "ACQUIRED"
+                ],
+                [
+                    68,
+                    80,
+                    "ACQLOC"
+                ],
+                [
+                    89,
+                    100,
+                    "DLRAMT"
+                ],
+                [
+                    0,
+                    24,
+                    "PURCHASER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Development Corp of America said its merger with Lennar Corp was completed and its stock no longer existed. Development Corp of America, whose board approved the acquisition last November for 90 mln dlrs, said the merger was effective today and its stock now represents the right to receive 15 dlrs a share. The American Stock Exchange said it would provide further details later.",
+        {
+            "entities": [
+                [
+                    0,
+                    27,
+                    "ACQUIRED"
+                ],
+                [
+                    192,
+                    203,
+                    "DLRAMT"
+                ],
+                [
+                    49,
+                    60,
+                    "PURCHASER"
+                ],
+                [
+                    65,
+                    74,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Anheuser-Busch Companies Inc has joined several other foreign bidders for sequestered shares of the Philippines' largest food and beverage maker San Miguel Corp , the head of a government panel which controls the shares told Reuters. Ramon Diaz, Secretary of the Presidential Commission on Good Government (PCGG), said Anheuser-Busch had told the government it was interested in buying 14 mln \"B\" shares of San Miguel. He did not disclose the offered price. Diaz said Australian brewer Alan Bond's Bond Corp Holdings Ltd had offered 150 pesos per share for the \"B\" shares. Diaz said New York investment bank Allen and Co Inc had earlier said it was interested in buying all 38.1 mln sequestered shares. He told Reuters last month Elders IXL Ltd , the Melbourne-based brewing company, had also bid for the \"B\" shares. The Hong Kong Economic Journal last month quoted a spokesman of Australian stock broker Jacksons Ltd as saying that Barwon Farmlands Ltd, an Australian firm owned 30 pct by Ariadne Australia Ltd, was planning a Filipino branch in order to buy the entire block of 38.1 mln shares. Anheuser-Busch last year made a 150 mln dlr bid to buy San Miguel Brewery Ltd, a Hong Kong listed company which is 69.65 pct owned by Neptunia Corp Ltd, a San Miguel Corp subsidiary. The talks broke down last June after the two sides said they could not agree on the terms of the sale. REUTER",
+        {
+            "entities": [
+                [
+                    145,
+                    160,
+                    "ACQUIRED"
+                ],
+                [
+                    121,
+                    144,
+                    "ACQBUS"
+                ],
+                [
+                    100,
+                    111,
+                    "ACQLOC"
+                ],
+                [
+                    0,
+                    28,
+                    "PURCHASER"
+                ],
+                [
+                    33,
+                    69,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Helm Resources Inc said that, pursuant to the exercise of an overallotment option by underwriters in Bamberger Polymers INc's initial public offering, it has sold another 35,000 Bamberger shares and reduced its ownership in Bamberger to 51 pct from 55 pct. To date, Helm has sold 435,000 Bamberger's for 3.5 mln dlrs. Bamberger has sold a total of 600,000 shares and received net proceeds of about 4.8 mln dlrs since the February 1987 offering.",
+        {
+            "entities": [
+                [
+                    101,
+                    123,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    18,
+                    "SELLER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Robert Fildes, president and chief executive of Cetus Corp , told Reuters that Squibb Corp is not interested in buying Cetus. Earlier the companies said Squibb would buy from Cetus a five pct equity postion in Cetus for about 40 mln dlrs. \"This is not an attempt by Squibb to become a major majority holder in Cetus,\" Fildes told Reuters in an interview. \"Squibb has not approached us with any indication that they want to acquire us and we wouldn't be interested in that kind of arrangement,\" said Fildes. Squibb could not be reached to comment on the late comments by Fildes. Squibb is Cetus' first pharmaceutical partner and the only one to own an equity position in Cetus. Eastman Kodak Co and W.R. Grace both have joint ventures with Cetus, but neither owns an equity position in the company, said Fildes. Cetus has a venture with Kodak to develp diagnostic products and with Grace to develop agricultural products. Earlier, Squibb and Cetus announced in a joint statement an agreement in principle to form a joint venture to develop new biotechnology products in several fields. As part of the deal Squibb will license several of Cetus' anticancer agents, including interleukin-2, in development. Squibb will sell the drugs only in Japan and other markets but not in North American and Western Europe. \"We wouldn't have done this deal had it not been understood that Cetus wants to build its own fully integrated business in North America and Europe,\" said Fildes. He said Squibb was the good partner because Squibb has a major joint venture in Japan and has sales capabilities of its own in that market. Fildes said Cetus has shunned licensing arrangements with pharmaceutical companies because it wanted to build its own business. Many large corporations have invested in small biotech firms. But Squibb's investment in Cetus is the first it has made in biotechnology. Fildes said that was attractive to Cetus because it wanted a partner that didn't have a relationship with a large number of other biotechnology companies.\" Fildes said his strategy was to have partners in non drug areas like diagnostics and agriculture, but to \"keep the biggest developments in anticancer drugs to ourselves.\" Fildes said the partnership with Squibb would be used to broaden the company's reach in such big money making areas as the cardiovascular, anti-infective and the anti-inflammatory markets. Squibb is also investming 75 mln dlrs in Cetus' research over the next five years. \"Squibb is putting up over 75 mln dlrs in research and development to make it happen, while the equity position part of the package is simply to demonstrate the seriousness of this partnership,\" said Fildes.",
+        {
+            "entities": [
+                [
+                    48,
+                    58,
+                    "ACQUIRED"
+                ],
+                [
+                    79,
+                    90,
+                    "PURCHASER"
+                ],
+                [
+                    94,
+                    118,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Canadian Worldwide Energy Ltd said it acquired Triton Energy Corp's wholly owned Canadian subsidiary, Triton Petroleum Ltd, for the issue of 3.75 mln common shares of Canadian Worldwide, subject to regulatory approvals. The company said the transaction will increase Triton Energy's holding in Canadian Worldwide to 13.25 mln shrs or a 60 pct fully diluted interest from 9.5 mln shares. Triton Petroleum's assets consist of proven oil reserves of 1.3 mln barrels, exploratory acreage, and unspecified working capital and a significant tax loss carryforward. Canadian Worldwide said it is optimistic the Triton Petroleum Ltd acquisition will strengthen its financial and production base and permit acceleration of its conventional oil exploration program.",
+        {
+            "entities": [
+                [
+                    102,
+                    122,
+                    "ACQUIRED"
+                ],
+                [
+                    0,
+                    29,
+                    "PURCHASER"
+                ],
+                [
+                    47,
+                    65,
+                    "SELLER"
+                ],
+                [
+                    38,
+                    46,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Bank of New York Corp said it reaffirmed the terms of its offer for Irving Bank Corp despite the drop in the Bank of New York's share price to 30-1/8, a Bank of New York spokesman said. \"The offer still stands, we have not changed our offer,\" a Bank of New York spokesman said. Irving would not comment on how the drop in the market affects its position on the bid or whether it would buy back any of its own shares. Earlier this month, Irving rejected the bid as inadequate and said it wanted to retain its independence. In late September, Bank of New York offered 80 dlrs per share in cash for 47.4 pct of Irving. For the remaining 52.6 pct, it offered an exchange of 1.9 shares of its shares for one Irving share. At that time, the stock purchase portion was worth close to 80 dlrs per share, but now that portion is worth 53 dlrs per share for a net price of 68 dlrs, one analyst said. According to the prospectus offer, shareholders may tender for all cash or all shares on a first come, first serve basis. Analysts were mixed about how the stock price drop would affect the acquisition. \"If it gets to the Irving shareholders, they would approve it, but Irving hopes the offer won't go to the shareholders,\" said Mark Alpert, banking analyst with Bear Stearns Cos Inc. \"And the market is saying the deal won't go through,\" Alpert said. \"The transaction looks highly unlikely to be completed at present. If Irving wouldn't go with the offer at 80 dlrs a share, then they won't go at a lower price,\" another analyst said. The analyst also doubted that Bank of New York could afford to retain its original offer. However, industry sources were more uncertain about prospects for the deal. \"With Irving's price so low, Bank of New York's offer will look good to Irving shareholders,\" said Michael Flores, a consultant at Bank Earnings International, a consulting firm. The drop of Irving's share to 44 dlrs per share, which is about a 26 dlr drop from the beginning of last week, increases the chance that Bank of New York will succeed, Flores said. Analysts said that the drop in bank stock prices is likely to depress the level of mergers and acquisition in the banking industry. \"Bank takeovers are less likely because banks can't use their own stock to make acquisitions because their share price is too depressed,\" Alpert said. Since only banks can buy another bank, the only other possible acquirors would be a foreign bank, Alpert said. \"In the market drop the stock of acquirors got clobbered more than the acquirees,\" another analyst said.",
+        {
+            "entities": [
+                [
                     72,
+                    88,
+                    "ACQUIRED"
+                ],
+                [
+                    4,
+                    25,
+                    "PURCHASER"
+                ],
+                [
+                    34,
+                    54,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "CBC Bancorp Inc said it will be acquired by the Memphis-based Union Planters Corp in a merger agreement. Details were not disclosed. CBC, which is the holding company which owns Cookeville's Citizens Bank, said it has signed an agreement which would merge CBC with Union, which has 2.2 billion dlrs in assets. According to CBC, Union reported shareholders equity of nearly 190 mln dlrs for the period ending March 31. CBC said the merger will not affect Citizens Banks' name, management, board of directors or employees.",
+        {
+            "entities": [
+                [
+                    0,
+                    15,
+                    "ACQUIRED"
+                ],
+                [
+                    118,
+                    131,
+                    "DLRAMT"
+                ],
+                [
+                    62,
+                    81,
+                    "PURCHASER"
+                ],
+                [
+                    24,
+                    40,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "The sale of the government's 25.55 pct stake in VEBA AG is still expected this month, banking sources closely linked with the transaction said. A spokesman for the Finance Ministry said no exact date had yet been set for the privatisation, which the government has tabled for the second half of March. However, he added a scandal at Volkswagen AG , VW, over currency losses \"has nothing to do\" with the timing of the VEBA sale. Finance Minister Gerhard Stoltenberg has said the sale of the Federal government's stake in VW, originally scheduled for later this year, may be delayed because of the currency affair. A banker involved in the VEBA placement said \"Nothing has changed in the planning. I still presume that it will take place in the second half of March.\" This banker said there would be no reason to postpone the issue of the 10 mln VEBA shares for a few days. He added that the consortium which is arranging the deal had completed its preparatory work, although the price had not been decided. The VEBA share has been weaker ahead of the placement but West German stocks have been generally bearish and news of the VW scandal last week put further pressure on the market.",
+        {
+            "entities": [
+                [
+                    48,
+                    55,
+                    "ACQUIRED"
+                ],
+                [
+                    1064,
+                    1075,
+                    "ACQLOC"
+                ],
+                [
+                    164,
+                    180,
+                    "SELLER"
+                ],
+                [
+                    59,
+                    73,
                     "STATUS"
                 ]
             ]
@@ -553,893 +1685,111 @@
         }
     ],
     [
-        "CSR Ltd said its sale of Delhi Petroleum Pty Ltd will not affect the other oil and gas interests it manages or operates. CSR sold Delhi, which holds an average 25 pct in the Santos Ltd -led Cooper-Eromanga Basin onshore gas and liquids joint ventures, to an Exxon Corp unit for 985 mln dlrs on April 1. In a statement to clarify the position, CSR said it will retain its Roma Gas unit, the associated Roma-Brisbane gas pipeline and the Bula oilfield on Seram, Indonesia, plus exploration interests in Queensland and Hainan Island, China. REUTER",
+        "A Coca Cola Co spokesman said rumors the company is interested in acquiring Wendy's International are not true. \"Those rumors are not correct,\" said Carlton Curtis, an assistant vice president at Coke. \"We have stated many times that Coca Cola Co has no interest in an acquisition in the food service industry and thereby becoming a competitor to our food service customers.\" Wendy's stock has been flying high on the rumors for two days. Today, Wendy's hit a high of 13-3/8 before dropping back to 12-3/8, up 5/8 in heavy trading.",
         {
             "entities": [
                 [
-                    25,
-                    48,
+                    76,
+                    97,
                     "ACQUIRED"
                 ],
                 [
-                    75,
-                    86,
+                    2,
+                    14,
+                    "PURCHASER"
+                ],
+                [
+                    102,
+                    110,
+                    "STATUS"
+                ],
+                [
+                    251,
+                    280,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "H.J. Heinz chairman Tony O'Reilly would be interested in buying Guinness PLC 's brewery division if it were for sale, a spokesman said. The spokesman, reacting to Irish and British press reports, said \"He continues to be interested were the group to offer the brewery side of Guinness for sale. But he has not put together a consortium, nor has he been buying shares.\" He was quoted by the Irish magazine Business and Finance as saying he would be interested if it came on the market and that he had the support of two international banks if he decided such a purchase might be worthwhile. In the magazine article, he suggested that if brewing profits were calculated to be in the region of 80 mln punts, the asking price would not be higher than 800 mln punts. \"A multiple of ten times earnings would be the top whack for the brewing division in the current Guinness situation,\" he said. \"This would mean an expensive exercise, right on the edge, but not impossible,\" he added. The deal would mean buying the Dublin, London, Nigerian and Malaysian breweries because \"It could only be sold as an integral unit if it was going to be sold at all,\" O'Reilly said. Reuter",
+        {
+            "entities": [
+                [
+                    64,
+                    76,
+                    "ACQUIRED"
+                ],
+                [
+                    80,
+                    87,
+                    "ACQBUS"
+                ],
+                [
+                    636,
+                    643,
+                    "ACQBUS"
+                ],
+                [
+                    1049,
+                    1058,
+                    "ACQBUS"
+                ],
+                [
+                    1010,
+                    1048,
+                    "ACQLOC"
+                ],
+                [
+                    0,
+                    10,
+                    "PURCHASER"
+                ],
+                [
+                    43,
+                    63,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Utilicorp United Inc said its UtilCo Group subsidiary completed the purchase of a 38 pct interest in Westwood Energy Properties Limited Partnership for about 10 mln dlrs. The company said the partership is building and will operate a 30-megawatt electric generation facility in Schuykill County, Penn., scheduled to begin commercial operation in July. It said the 38 pct interest was sold by Westwood Funding Corp, a wholly-owned subsidiary of Combustion Engineering Inc . Westwood Funding retains an interest in the partership and serves as a general partner, it said.",
+        {
+            "entities": [
+                [
+                    101,
+                    147,
+                    "ACQUIRED"
+                ],
+                [
+                    246,
+                    265,
                     "ACQBUS"
                 ],
                 [
                     278,
-                    290,
-                    "DLRAMT"
-                ],
-                [
-                    258,
-                    268,
-                    "PURCHASER"
-                ],
-                [
-                    0,
-                    7,
-                    "SELLER"
-                ],
-                [
-                    125,
-                    129,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Innovex Inc said it has completed the purchase of substantially of the interest in Lucht Engineering Inc that it did not already own. Prior to this move Innovex owned 79 pct of Lucht, the company said. Innovex said it bought the shares by exchanging 293,101 shares of unregistered Innovex common stock. Innovex president, Thomas Haley, said the exchange is non-dilutive and will cause a slight increase in Innovex's fully diluted earnings per share during the last half of fiscal 1987. Lucht will continue to function as a unit of Innovex, Innovex said.",
-        {
-            "entities": [
-                [
-                    83,
-                    104,
-                    "ACQUIRED"
-                ],
-                [
-                    0,
-                    11,
-                    "PURCHASER"
-                ],
-                [
-                    24,
-                    33,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "A 3.22 billion dlr offer for Dome Petroleum Ltd by TransCanada Pipelines Ltd may short-circuit Dome's restructuring plan and open the door for more takeover bids, oil analysts said. Dome is trying to get approval for a plan to refinance debt of more than 4.5 billion dlrs by July 1, 1987, when an interim debt plan that allowed the Canadian oil and gas firm to defer substantial payments to creditors will expire. Analysts said TransCanada's bid signals Dome's debtholders that an alternative exists to Dome's debt plan. Dome announced its plan to 56 major creditors as well as public noteholders in March after several months of delicate negotiations. TransCanada's proposal \"amounts to a quasi debt restructuring,\" oil analyst Doug Gowland of Brown Baldwin Nisker Ltd said from Toronto. Calgary-based Dome's restructuring plan would allow creditors to convert debt to common shares under a formula yet to be negotiated. Payments on remaining debt would be linked to cash flow generated by assets pledged against the debt. \"The weakness of the whole debt-refinancing proposal is that even with approval of creditors, there is no assurance that Dome will in fact be able to repay all of its debt obligations,\" said Wilf Gobert, an oil analyst for Peters and Co Ltd in Calgary. TransCanada's announcement came as a surprise since Dome was waiting for responses from creditors on its proposed refinancing packages, Gobert said. The TransCanada proposal could open the bidding for Dome since other potential buyers were probably waiting for lenders to agree to a restructuring, he added. \"I would think that the debtholders would want to entertain any and all offers (for Dome),\" Gobert said. Dome spokesman David Annesley said in New York that TransCanada's announcement could be seen as an attempt to fix the bidding price for Dome and an effort to preclude other possible buyers from making an offer. \"By drawing attention to us in our discussions, it means that others may be a little reluctant to come forward,\" he said. Dome does not consider TransCanada's proposal a formal offer because the pipeline utility's announcement breached a confidential agreement between the two companies, he said. Dome responded to the statement by suspending discussions with TransCanada in order to pursue talks with other unidentified parties. However, Dome said its management and financial advisers would evaluate all proposals, including TransCanada's. Gowland said TransCanada's offer is probably a fair price for the company's 36.1 mln acres of oil and gas land holdings. However, he said not enough financial details are known about Dome's debt restructuring to compare the value of TransCanada's proposed offer.",
-        {
-            "entities": [
-                [
-                    29,
-                    47,
-                    "ACQUIRED"
-                ],
-                [
-                    341,
-                    352,
-                    "ACQBUS"
-                ],
-                [
-                    789,
-                    796,
+                    301,
                     "ACQLOC"
-                ],
-                [
-                    2,
-                    18,
-                    "DLRAMT"
-                ],
-                [
-                    51,
-                    76,
-                    "PURCHASER"
-                ],
-                [
-                    19,
-                    24,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Dome Petroleum Ltd shares moved higher in the U.S. and Canada after TransCanada PipeLines Ltd made a 4.3 billion Canadian dlr bid for Dome and Dome said it is in talks with two other unidentified companies. Market speculation is that the other two potential bidders are not Canadian companies and DuPont's Conoco and Atlantic Richfield Co are mentioned as possibilities, Wilf Gobert of Peters and Co Ltd said. Dome rose 1/4 to 1-1/8 on the American Stock Exchange. TransCanada PipeLines was down 1/4 at 15-3/4 on the New York Stock Exchange. Dome was the most active stock on the Toronto exchange at 1.50 dlrs per share, up 37 cts. Gobert characterized the market action in Dome as \"awfully optimistic\" but said investors are hoping for a competing offer to the shareholders. TransCanada PipeLines' offer is to Dome management, not to shareholders. However, it proposes issuing new equity in a subsidiary that would operate Dome assets. Current Dome shareholders would own 20 pct of the new subsidiary.",
-        {
-            "entities": [
-                [
-                    0,
-                    18,
-                    "ACQUIRED"
-                ],
-                [
-                    101,
-                    125,
-                    "DLRAMT"
-                ],
-                [
-                    68,
-                    93,
-                    "PURCHASER"
-                ]
-            ]
-        }
-    ],
-    [
-        "Centel Corp said it completed the sale of its water properties serving 8,000 customers in four southwestern Kansas communities to Central Kansas Utility Co of Columbia, Mo. Terms were not disclosed. Reuter",
-        {
-            "entities": [
-                [
-                    46,
-                    62,
-                    "ACQUIRED"
-                ],
-                [
-                    108,
-                    114,
-                    "ACQLOC"
-                ],
-                [
-                    184,
-                    197,
-                    "DLRAMT"
-                ],
-                [
-                    130,
-                    155,
-                    "PURCHASER"
-                ],
-                [
-                    0,
-                    11,
-                    "SELLER"
-                ],
-                [
-                    20,
-                    29,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Pay 'N Pak Stores Inc said it received a revision to one of the two previously disclosed proposals to buy the company. Pay 'N Pak said that the proposal from a leveraged buyout firm had been amended to increase the dividend rate on the cumulative preferred stock to be received by PNP shareholders from 13.5 pct to 17.5 pct. As previoiusly announced, the proposal calls for a transaction in which PNP shareholders would receive a combination of 17.50 dlrs in cash and 2.50 dlrs in liquidation value of cumulative preferred stock for each common share. Under the other proposal received from Paul Bilzerian, PNP shareholders would receive on a blended basis 16.67 dlrs in cash and 3.33 dlrs in liquidation value of cumulative redeemable preferred stock for each common share, the company said. Under the Bilzerian proposal, the dividend rate on the preferred stock would be set so that in the joint opinion of the financial advisor to Bilzerian and the financial advisor to Pay 'N Pak, the preferred stock would trade at its liquidation value on a fully distributed basis, the company said. Reuter",
-        {
-            "entities": [
-                [
-                    0,
-                    21,
-                    "ACQUIRED"
                 ],
                 [
                     158,
-                    181,
-                    "PURCHASER"
-                ],
-                [
-                    41,
-                    49,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Dynalectron Corp said it purchased certain assets of Standard Aero Inc including leasehold rights to its aircraft modification and maintenance facility in Phoenix, Ariz. Terms were not released. The facility consists of 285,000 square feet of hangar and shop space. Dynalectron will operate the plan as Dynair Tech Inc and is offering continued employment to about 460 former standard Aero employees. Reuter",
-        {
-            "entities": [
-                [
-                    81,
-                    151,
-                    "ACQUIRED"
-                ],
-                [
-                    155,
-                    168,
-                    "ACQLOC"
-                ],
-                [
-                    181,
-                    193,
+                    169,
                     "DLRAMT"
                 ],
                 [
-                    0,
-                    16,
+                    30,
+                    42,
                     "PURCHASER"
                 ],
                 [
-                    53,
-                    70,
-                    "SELLER"
-                ]
-            ]
-        }
-    ],
-    [
-        "New Generation Products Inc said it has acquired a 20 pct ownership in Personal Protection Technolgies Inc. New Generation said Personal Protection is developing a group of personal care products, which are effective in killing a variety of viruses and bacteria on contact, for U.S. and export markets.",
-        {
-            "entities": [
-                [
-                    71,
-                    106,
-                    "ACQUIRED"
-                ],
-                [
-                    173,
-                    195,
-                    "ACQBUS"
-                ],
-                [
-                    0,
-                    27,
-                    "PURCHASER"
-                ],
-                [
-                    40,
-                    48,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Instinet Corp said its board has scheduled a special shareholders' meeting for May 21 to vote on its proposed merger into Reuters Holdings PLC . It said shareholders of record as of April 10 will be eligible to vote at the meeting. Instinet said the meeting date is subject to adjustment, based on the length of time needed for the U.S. Securities and Exchange Commission to complete its review of the filing of merger proxy materials, which Instinet expects to make before the end of March. Instinet said the filing of the preliminary merger proxy materials is tied to the finalization of audited financial statements of Instinet and Reuters for 1986. Under a merger agreement entered into in November, Reuters tendered for up to 5.10 mln Instinet common shares, or about 45 pct of those not already owned by Reuters. As a result of the tender, Reuters now owns about 49 pct of Instinet shares. In the merger, holders of remaining Instinet shares will receive 8.50 dlrs of Reuters American Depositary Shares for each Instinet share. The ADS's will be valued at the average of their closing prices in the 10 trading days before the effective date of the merger. Instinet said it expects the merger to become effective as soon as possible after shareholder approval at the special meeting.",
-        {
-            "entities": [
-                [
-                    0,
-                    13,
-                    "ACQUIRED"
-                ],
-                [
-                    122,
-                    142,
-                    "PURCHASER"
-                ],
-                [
-                    101,
-                    109,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Dynamics Corp of America said it has reached an agreement with CTS Corp resolving all differences between the two companies. It said as a result of the settlement, CTS's special board committee has stopped soliciting orders to purchase some or all of CTS. Dynamics, which now owns 27.5 pct of CTS' outstanding stock, said it agreed to limit its shareholdings to not more than 35 pct of the outstanding shares for a year following the company's 1987 annual meeting. Dynamics said the CTS board will recommend CTS shareholders vote at the 1987 annual meeting in favor of the company paying Dynamics 2,178,000 dlrs as a reimbursement for its CTS releated costs and granting Dynamics an option to buy enough CTS common at 29.625 dlrs a share to give it ownership of 35 pct of the outstanding stock. Dynamics said the price of stock under the option, exercisable for one year, is based on the average closing price for the stock for the five days ending March two. Dynamics said CTS Chairman George F. Sommer will assume the additional title of President. Former President Robert D. Hostetler is resigning as a director, as is Chief Financial Officer Gary B. Erekson, Ted Ross and Donald J. Kacek. Dynamics said the CTS board will be reduced to seven members for eight with the remaining four members of the current board and three representatives of Dynamics as new directors. Reuter",
-        {
-            "entities": [
-                [
-                    63,
-                    71,
-                    "ACQUIRED"
-                ],
-                [
-                    0,
-                    24,
-                    "PURCHASER"
-                ],
-                [
-                    37,
-                    57,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Genova Inc said it signed a definitive agreement for the previously announced merger with Genova Products Inc. Under the agreement, Genova Products will pay 5-3/8 dlrs a share for the 29 pct of Genova's outstanding common shares it does not already own. The company said it plans to complete the transaction, which requires shareholder approval, by the end of March.",
-        {
-            "entities": [
-                [
-                    0,
-                    10,
-                    "ACQUIRED"
-                ],
-                [
-                    90,
-                    109,
-                    "PURCHASER"
-                ],
-                [
-                    28,
-                    48,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "UtiliCorp United Inc said it has closed the previously announced acquisition of West Virginia Power from Dominion Resources Inc for about 21 mln dlrs. Reuter",
-        {
-            "entities": [
-                [
-                    80,
-                    99,
-                    "ACQUIRED"
-                ],
-                [
-                    138,
-                    149,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    20,
-                    "PURCHASER"
-                ],
-                [
-                    105,
-                    127,
+                    392,
+                    413,
                     "SELLER"
                 ],
-                [
-                    33,
-                    39,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Chesapeake Corp said it has retained Salomon Inc to help it sell Plainwell Paper Co Inc, a maker of premium coated and uncoated printing papers and technical specialty papers with a capacity of 85,000 short tons a year. The company said it has decided to sell Plainwell in ordfer to focus on the production of kraft and tissue products, containers and treated wood products. Reuter",
-        {
-            "entities": [
-                [
-                    65,
-                    87,
-                    "ACQUIRED"
-                ],
-                [
-                    100,
-                    174,
-                    "ACQBUS"
-                ],
-                [
-                    0,
-                    15,
-                    "SELLER"
-                ]
-            ]
-        }
-    ],
-    [
-        "Contel Corp said it has agreed in principle to acquire Walker County Telephone Co of LaFayette, Ga., for an undisclosed amount of common stock. Walker has 7,600 customers in northeast Georgia. The company said the agreement is subject to approval by regulatory agencies, both boards and Walker shareholders.",
-        {
-            "entities": [
-                [
-                    55,
-                    81,
-                    "ACQUIRED"
-                ],
-                [
-                    85,
-                    99,
-                    "ACQLOC"
-                ],
-                [
-                    174,
-                    191,
-                    "ACQLOC"
-                ],
-                [
-                    108,
-                    119,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    11,
-                    "PURCHASER"
-                ],
-                [
-                    24,
-                    43,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Altex Industries Inc said it has agreed in principle to buy 82 pct of two privately-held affiliated computer retail companies for an undisclosed amount. Altex said the Denver-based companies had revenues of over seven mln dlrs last year. They are Integrated Management Data Systems Inc, which sells accounting software systems to the oil and gas industry, and Integrated Management Systems Micro Distribution Division Inc, which distributes micro-computer products. Altex said it expects to close the transaction, which is subject to financing, in July. Reuter",
-        {
-            "entities": [
-                [
-                    247,
-                    285,
-                    "ACQUIRED"
-                ],
-                [
-                    360,
-                    421,
-                    "ACQUIRED"
-                ],
-                [
-                    100,
-                    115,
-                    "ACQBUS"
-                ],
-                [
-                    299,
-                    326,
-                    "ACQBUS"
-                ],
-                [
-                    441,
-                    464,
-                    "ACQBUS"
-                ],
-                [
-                    168,
-                    174,
-                    "ACQLOC"
-                ],
-                [
-                    133,
-                    144,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    20,
-                    "PURCHASER"
-                ],
-                [
-                    33,
-                    52,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Johnson Products Co Inc said it completed the sale of Debbie's School of Beauty Culture Inc and the assets of Ultra Precise Beauty Boutique Inc to management. It said the sale price of 2,533,000 dlrs consisted of 700,000 dlrs cash, a secured promissory note for 1,506,000 dlrs and the forgiveness of a debt of 327,000 dlrs owed by Johnson Products to Debbie's School. Reuter",
-        {
-            "entities": [
                 [
                     54,
-                    91,
-                    "ACQUIRED"
-                ],
-                [
-                    110,
-                    143,
-                    "ACQUIRED"
-                ],
-                [
-                    185,
-                    199,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    23,
-                    "SELLER"
-                ],
-                [
-                    32,
-                    41,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Soo Line Corp said it agreed to sell its Lake States Transportation Division to the newly formed Wisconsin Central Ltd. The division conducts rail operations over about 2,000 miles of railroad in Minnesota, Wisconsin, Michigan and Illinois. Soo Line said in January it was seeking bids for the property. Terms were withheld, but Soo has estimated that the transaction will result in a one-time after-tax loss of 8.0 to 15.0 mln dlrs. Reuter",
-        {
-            "entities": [
-                [
-                    41,
-                    76,
-                    "ACQUIRED"
-                ],
-                [
-                    142,
-                    157,
-                    "ACQBUS"
-                ],
-                [
-                    196,
-                    239,
-                    "ACQLOC"
-                ],
-                [
-                    97,
-                    118,
-                    "PURCHASER"
-                ],
-                [
-                    0,
-                    13,
-                    "SELLER"
-                ],
-                [
-                    22,
-                    36,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Hepworth Ceramic Holdings Plc said it had agreed to sell its Western Plastics Corp unit to Globe Machine Manufacturing Co for 16.25 mln dlrs cash. Western, which makes polystyrene foam and container products, has net assets of 19.3 mln dlrs and reported a 1986 pre-tax profit of 0.9 mln. The proceeds of the sale would be used to reduce borrowings and develop activities in the U.K. Hepworth shares eased 0.5p on the announcement to 227.5p.",
-        {
-            "entities": [
-                [
-                    61,
-                    82,
-                    "ACQUIRED"
-                ],
-                [
-                    168,
-                    207,
-                    "ACQBUS"
-                ],
-                [
-                    126,
-                    140,
-                    "DLRAMT"
-                ],
-                [
-                    91,
-                    121,
-                    "PURCHASER"
-                ],
-                [
-                    0,
-                    29,
-                    "SELLER"
-                ]
-            ]
-        }
-    ],
-    [
-        "Diversified building materials group Monier Ltd said talks are taking place which may lead to Britain's Redland Plc making an offer for the Monier shares it does not already hold, chairman Bill Locke said. Redland already holds about 49 pct of Monier's 156.28 mln issued shares, he said in a brief notice to the Australian Stock Exchange. Locke said shareholders would be advised as soon as the discussions progressed and recommended that they keep their shares. Monier shares were trading at a 1987 high of 3.10 dlrs today, up from the previous peak of 2.80 at yesterday's close, and well above the 1987 low of 2.18 dlrs. Monier is the largest concrete roof tile manufacturer in Australia, the U.S. And New Zealand and the world's largest marketer of fly ash, according to its annual report for 1985/86 ended June 30. It recently reported first-half 1986/87 net fell to 15.02 mln dlrs from 17.09 mln a year earlier due to the Australian housing downturn, although foreign earnings rose. REUTER",
-        {
-            "entities": [
-                [
-                    37,
-                    47,
-                    "ACQUIRED"
-                ],
-                [
-                    0,
-                    30,
-                    "ACQBUS"
-                ],
-                [
-                    654,
-                    663,
-                    "ACQBUS"
-                ],
-                [
-                    680,
-                    715,
-                    "ACQLOC"
-                ],
-                [
-                    104,
-                    115,
-                    "PURCHASER"
-                ],
-                [
-                    53,
-                    75,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "golden Poultry Co Inc said it has signed a letter of intent to purchase privately-held food distributor Don Lowe Foods Inc of Pompano Beach, Fla., for undisclosed terms, subject to approval by both boards. It said Tampa operations of Lowe are not involved in the sale.",
-        {
-            "entities": [
-                [
-                    104,
-                    122,
-                    "ACQUIRED"
-                ],
-                [
-                    87,
-                    103,
-                    "ACQBUS"
-                ],
-                [
-                    126,
-                    145,
-                    "ACQLOC"
-                ],
-                [
-                    151,
-                    162,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    21,
-                    "PURCHASER"
-                ],
-                [
-                    43,
-                    59,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Peat Marwick and KMG Main Hurdman said their merger will be completed tomorrow. The new firm, to be known as KPMG Peat Marwick, will rank among the largest public account and consulting firms in the U.S. based on combined 1986 revenues of 1.35 billion dlrs, 1,825 partners and a total staff of 16,500 in 136 offices. KPMG was created as part of the merger announced last September of Peat Marwick International Klynveld Main Goerdeler to form Klynveld Peat Marwick Goerdeler.",
-        {
-            "entities": [
-                [
-                    17,
-                    33,
-                    "ACQUIRED"
-                ],
-                [
-                    156,
-                    185,
-                    "ACQBUS"
-                ],
-                [
-                    199,
-                    203,
-                    "ACQLOC"
-                ],
-                [
-                    0,
-                    12,
-                    "PURCHASER"
-                ],
-                [
-                    60,
-                    69,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Kindness N.V., a Bahamas-based firm owned by U.K. investor and Bahamas resident John Templeton, said it has acquired 137,900 shares of Hausereman Inc, or 5.9 pct of the total outstanding common stock. In a filing with the Securities and Exchange Commission, Templeton said he bought the shares for investment purposes only and has no intention of seeking control of the company. Reuter",
-        {
-            "entities": [
-                [
-                    135,
-                    149,
-                    "ACQUIRED"
-                ],
-                [
-                    17,
-                    35,
-                    "PURCHASER"
-                ]
-            ]
-        }
-    ],
-    [
-        "Robert Halmi Inc said it and Hal Roach Studios Inc signed a definitive agreement to merge in a stock swap value at 115 mln dlrs, based on October 16 closing prices. The company said the agreement calls for the holders of common stock in Hal Roach to exchange their shares on a one-for-one basis for shares in the combined company. It said holders of Robert Halmi common will exchange their shares on a two-and-one-half-for-one basis for shares in the combined company. The company said the swap will be tax-free. The company also said Qintex Ltd, a 35 pct owner of Hal Roach common stock, has agreed to use the company as the exclusive vehicle for its U.S. media and entertainment investments, the company said. The company said Qintex's U.S. subsidiary also agreed to supply a minimum 70 mln dlrs line of credit to the new company, which shall be used, with Qintex approval, for financing new HRI products. The company said that under the definitive agreement, Qintex's U.S. division will have the right to purchase up to 51 pct of the new company in the open market, in private transactions or by tender offer, but will not be purchasing warrants to bring its ownership to 51 pct of the new company. If Qintex's U.S. subsidiary has not achieved this ownership within one year after the completion of the merger, the subsidiary will have the right two years thereafter to request that HRI commence a rights offering to HRI stockholders, the company said. Regarding the potential rights offering, Qintex's U.S. subsidiary will act as standby purchaser, the company said. The transaction is subject to the approval of both company's shareholders, the receipt of certain tax approvals, and the continued employement of Robert Halmi Sr and Robert Halmi Jr, the company said. Robert Halmi Sr, who is currently chairman and chief executive officer of Robert Halmi Inc, will be chairman of the new company and David Evans, current president and chief operating officer of Hal Roach, will become chief executive, the company said.",
-        {
-            "entities": [
-                [
-                    29,
-                    50,
-                    "ACQUIRED"
-                ],
-                [
-                    115,
-                    127,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    16,
-                    "PURCHASER"
-                ],
-                [
-                    60,
-                    80,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Newmont Mining Corp said it completed the previously announced reduction of its share in Peabody Holding Co Inc to 49.97 pct from 61.47 pct. Newmont realized 116.8 mln dlrs in the transaction. For 1986, Newmont reported net income of 74.2 mln dlrs. Peabody, the largest coal producer in the U.S., had net income of 100.8 mln dlrs on sales of 1.4 billion dlrs in 1986. Newmont doubled its ownership in Peabody in January by purchasing 30.74 pct interest held by the Williams Cos for 320 mln dlrs. The reduction resulted from completion of an earlier announced agreement by Peabody to sell a 15.01 pct interest in the company to Eastern Gas and Fuel Associates in exchange for all the coal properties owned by Eastern. Reuter",
-        {
-            "entities": [
-                [
-                    89,
-                    111,
-                    "ACQUIRED"
-                ],
-                [
-                    270,
-                    274,
-                    "ACQBUS"
-                ],
-                [
-                    158,
-                    172,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    19,
-                    "SELLER"
-                ],
-                [
-                    28,
-                    37,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Arthur Appleton, a Chicago investor, told the Securities and Exchange Commission he has acquired 39,000 shares of Sage Drilling Co Inc, or 5.1 pct of the total outstanding common stock. Appleton said he bought the stock for 116,554 dlrs for investment purposes. Depending on several circumstances, Appleton said he may buy more Sage common shares, or sell some or all of his current stake. Reuter",
-        {
-            "entities": [
-                [
-                    114,
-                    134,
-                    "ACQUIRED"
-                ],
-                [
-                    224,
-                    236,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    15,
-                    "PURCHASER"
-                ],
-                [
-                    88,
-                    96,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Convenient Food Mart Inc said it has tentatively agreed to buy all the outstanding stock of Plaid Pantries Inc and two associated businesses in Oregon and Washington for undisclosed terms. Plaid Pantries owns and operates 161 convenience stores in the Portland and Seattle areas. The other business are two companies involved in the wholesale distribution of groceries and health and beauty aids, it said. Closing is expected by May 15. Reuter",
-        {
-            "entities": [
-                [
-                    92,
-                    110,
-                    "ACQUIRED"
-                ],
-                [
-                    226,
-                    244,
-                    "ACQBUS"
-                ],
-                [
-                    144,
-                    165,
-                    "ACQLOC"
-                ],
-                [
-                    252,
-                    272,
-                    "ACQLOC"
-                ],
-                [
-                    0,
-                    24,
-                    "PURCHASER"
-                ],
-                [
-                    37,
-                    55,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Independent Newspapers Ltd (INL) said it bought two more community newspapers in Houston, Texas, through a subsidiary there, for an undisclosed sum. INL said in a statement Houston Community Newspapers Inc bought the South West Advocate and the South Bend Advocate, with combined circulation of 74,000 copies, and associated assets, from The Advocate Communications Corp Inc. INL publishes Wellington's morning and evening newspapers as well as New Zealand provincial dailies and newspapers in Rhode Island. Just under 40 pct of INL is owned by News Ltd, an Australian subsidiary of News Corp Ltd . Production and administration of the two publications would be transferred to the company's existing centre in Houston. INL said the acquisition took effect on March 1. INL chairman Alan Burnet said the purchase would enable the subsidiary to offer advertisers a combined distribution of nine community newspapers to 340,000 homes in the greater Houston area. Trading conditions in the area are particularly difficult because the city's economy depends to a large extent on the fortunes of the petroleum industry, but the situation should improve in the medium to long term and the investment will prove to be sound, he said.",
-        {
-            "entities": [
-                [
-                    217,
-                    236,
-                    "ACQUIRED"
-                ],
-                [
-                    245,
-                    264,
-                    "ACQUIRED"
-                ],
-                [
-                    57,
-                    77,
-                    "ACQBUS"
-                ],
-                [
-                    81,
-                    95,
-                    "ACQLOC"
-                ],
-                [
-                    132,
-                    147,
-                    "DLRAMT"
-                ],
-                [
-                    0,
-                    26,
-                    "PURCHASER"
-                ],
-                [
-                    28,
-                    31,
-                    "PURCHASER"
-                ],
-                [
-                    173,
-                    205,
-                    "PURCHASER"
-                ],
-                [
-                    338,
-                    374,
-                    "SELLER"
-                ],
-                [
-                    41,
-                    47,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "Qintex America Ltd said it is again extending its offer of 13 dlrs a share for 3.3 mln Princeville Development Corp shares until today from yesterday. As reported yesterday, Qintex said, about seven mln Princeville shares had been tendered in response to the offer. Qintex said it is extending the offer to allow Princeville to comply with federal law restricting the ownership of U.S. airlines by non-U.S. citizens and to finalize the terms and conditions of the letter of credit or bank guarantee required under the previously announced acquisition agreement.",
-        {
-            "entities": [
-                [
-                    87,
-                    115,
-                    "ACQUIRED"
-                ],
-                [
-                    0,
-                    18,
-                    "PURCHASER"
-                ],
-                [
-                    36,
-                    55,
-                    "STATUS"
-                ]
-            ]
-        }
-    ],
-    [
-        "General Acquisition Co said it was disappointed by Gencorp's response to its tender offer and questioned how the company might give better value to shareholders. Gencorp earlier urged shareholders to reject a 100 dlr per share tender offer from the partnership, which includes Wagner and Brown and AFG Industries Inc. The company said it was studying financially superior alternatives. The partnership called the response inflammatory and unproductive, particularly since it had attempted to discuss the offer with Gencorp. The partnership said Gencorp failed to say how it would provide a \"superior value yet they continue their attempt to prevent a satisfactory offer by failing to redeem their poison pill.\" Poison pills are shareholder rights plan that make takeovers more expensive. Gencorp said in its statement earlier that the date its rights will trade separately from the common stock was extended to April six from April three. It said the extension was subject to further extensions by the board and is conditioned on no person aquiring beneficial ownership of 20 pct or more of Gencorp prior to April six. General Acquisition said it is confident its offer can be completed in a timely manner using its financial arrangements. The partnership in its statement again urged management to work with it to facilitate a transaction.",
-        {
-            "entities": [
-                [
-                    51,
-                    58,
-                    "ACQUIRED"
-                ],
-                [
-                    0,
-                    22,
-                    "PURCHASER"
-                ],
-                [
-                    200,
-                    206,
+                    63,
                     "STATUS"
                 ]
             ]

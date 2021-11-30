@@ -3,188 +3,452 @@
 
      GOLD ANSWER KEY 
 
-TEXT:           10348
-ACQUIRED:       ---
-ACQBUS:         "chemicals"
+TEXT:           8947
+ACQUIRED:       "Conrac Corp"
+ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Henkel KGaA"
-SELLER:         "Oelmuehle Hamburg AG"
+PURCHASER:      ---
+SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           10348
-ACQUIRED:       "Noblee und Thoerl GmbH"
-ACQBUS:         "OIL AND FATS" / "vegetable oil and fats"
-ACQLOC:         "HAMBURG" / "Hamburg"
+TEXT:           8947
+ACQUIRED:       "Conrac Corp"
+ACQBUS:         ---
+ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Oelmuehle Hamburg AG"
-SELLER:         "Henkel KGaA"
-STATUS:         "selling"
+PURCHASER:      "Mark IV Industries Inc"
+SELLER:         ---
+STATUS:         ---
 
-     SCORES for 10348
+     SCORES for 8947
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           1.00 (1/1)	   0.50 (1/2)         0.67
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           11722
+ACQUIRED:       "Lucht Engineering Inc"
+ACQBUS:         ---
+ACQLOC:         "Innovex, Innovex"
+DLRAMT:         ---
+PURCHASER:      ---
+SELLER:         "Innovex Inc"
+STATUS:         "completed"
+                "increase in Innovex fully diluted earnings"
+
+     SYSTEM OUTPUT 
+
+TEXT:           11722
+ACQUIRED:       "Lucht Engineering Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Innovex Inc"
+SELLER:         ---
+STATUS:         "completed"
+
+     SCORES for 11722
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
+STATUS          0.50 (1/2)	   1.00 (1/1)         0.67
+--------        --------------     --------------     ----
+TOTAL           0.40 (2/5)	   0.67 (2/3)         0.50
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           12933
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "1.98 mln dlrs"
+PURCHASER:      "Allwaste Inc"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SYSTEM OUTPUT 
+
+TEXT:           12933
+ACQUIRED:       "a company in the industrial service business"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "1.98 mln dlrs"
+PURCHASER:      "Allwaste Inc"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SCORES for 12933
 
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/1)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
 --------        --------------     --------------     ----
-TOTAL           0.00 (0/3)	   0.00 (0/6)         0.00
+TOTAL           1.00 (3/3)	   0.75 (3/4)         0.86
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           6340
-ACQUIRED:       "Miguel Corp"
-ACQBUS:         ---
+TEXT:           16483
+ACQUIRED:       "Celeron Corp"
+ACQBUS:         "oil and gas"
+                "oil and gas"
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Philippines' Social Security System"
-SELLER:         ---
+PURCHASER:      ---
+SELLER:         "Goodyear Tire and Rubber Co"
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           6340
-ACQUIRED:       "San Miguel Corp"
-ACQBUS:         "brewer"
+TEXT:           16483
+ACQUIRED:       "Celeron Corp"
+ACQBUS:         "oil and gas"
 ACQLOC:         ---
-DLRAMT:         "800 mln pesos"
-PURCHASER:      "Philippines' Social Security System"
-SELLER:         ---
-STATUS:         "planning to buy"
+DLRAMT:         "two billion dlrs" / "two billion dlr"
+PURCHASER:      ---
+SELLER:         "Goodyear Tire and Rubber Co"
+STATUS:         "expects to sell"
 
-     SCORES for 6340
+     SCORES for 16483
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.50 (1/2)	   1.00 (1/1)         0.67
 ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
-PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/0)         0.00
+SELLER          1.00 (1/1)	   1.00 (1/1)         1.00
 STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.50 (1/2)	   0.20 (1/5)         0.29
+TOTAL           0.75 (3/4)	   0.60 (3/5)         0.67
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           7433
-ACQUIRED:       "FCS Laboratories"
-                "continuing late August"
+TEXT:           11514
+ACQUIRED:       "Hunt Research Corp"
 ACQBUS:         ---
-ACQLOC:         ---
+ACQLOC:         "ICAS"
 DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         ---
-STATUS:         "preliminary merger proposal"
+PURCHASER:      "Quest Biotechnology Inc"
+SELLER:         "Alza Corp Alza"
+STATUS:         "executed agreement"
 
      SYSTEM OUTPUT 
 
-TEXT:           7433
-ACQUIRED:       "FCS Laboratories"
-ACQBUS:         "healthcare"
+TEXT:           11514
+ACQUIRED:       ---
+ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         ---
-STATUS:         "preliminary merger proposal"
+PURCHASER:      "Alza Corp"
+SELLER:         "Quest Biotechnology Inc"
+STATUS:         "agreement"
 
-     SCORES for 7433
+     SCORES for 11514
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.50 (1/2)	   1.00 (1/1)         0.67
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQUIRED        0.00 (0/1)	   0.00 (0/0)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/0)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/1)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.67 (2/3)	   0.67 (2/3)         0.67
+TOTAL           0.00 (0/5)	   0.00 (0/3)         0.00
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           18963
+TEXT:           7090
+ACQUIRED:       "Maxcom Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Metro Funding Corp"
+SELLER:         ---
+STATUS:         "approved"
+                "approved"
+
+     SYSTEM OUTPUT 
+
+TEXT:           7090
+ACQUIRED:       "Metro Funding Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Maxcom Corp"
+SELLER:         ---
+STATUS:         "approved"
+
+     SCORES for 7090
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.50 (1/2)	   1.00 (1/1)         0.67
+--------        --------------     --------------     ----
+TOTAL           0.25 (1/4)	   0.33 (1/3)         0.29
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           6422
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         "Southern California"
+DLRAMT:         "15 mln dlrs"
+                "500 mln dlrs"
+PURCHASER:      ---
+SELLER:         ---
+STATUS:         "agreement in principle"
+
+     SYSTEM OUTPUT 
+
+TEXT:           6422
+ACQUIRED:       "Progressive Savings and Loan Association"
+ACQBUS:         ---
+ACQLOC:         "Southern California"
+DLRAMT:         ---
+PURCHASER:      "Far West Financial Corp"
+SELLER:         ---
+STATUS:         "agreement in principle"
+
+     SCORES for 6422
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
+DLRAMT          0.00 (0/2)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.50 (2/4)	   0.50 (2/4)         0.50
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           5670
+ACQUIRED:       "City Federal Savings Bank"
+ACQBUS:         "consumer lending"
+ACQLOC:         "Arizona, Colorado"
+DLRAMT:         "undisclosed"
+PURCHASER:      "CityFed Financial Corp"
+SELLER:         ---
+STATUS:         "preliminary agreement"
+                "decided to sell"
+
+     SYSTEM OUTPUT 
+
+TEXT:           5670
+ACQUIRED:       "City Consumer Serices Inc"
+ACQBUS:         "consumer lending"
+ACQLOC:         "Arizona, Colorado, Illinois, Maryland, New Mexico, Oregon and Virginia"
+DLRAMT:         "undisclosed"
+PURCHASER:      "Goldome FSB"
+SELLER:         "City Federal Savings Bank"
+STATUS:         "preliminary agreement"
+
+     SCORES for 5670
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
+ACQBUS          1.00 (1/1)	   1.00 (1/1)         1.00
+ACQLOC          0.00 (0/1)	   0.00 (0/1)         0.00
+DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.50 (1/2)	   1.00 (1/1)         0.67
+--------        --------------     --------------     ----
+TOTAL           0.43 (3/7)	   0.43 (3/7)         0.43
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           16037
 ACQUIRED:       ---
 ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
 PURCHASER:      ---
-SELLER:         "Allegheny International Inc"
-                "Allegheny Axle Co"
+SELLER:         "Cadillac Fairview Corp Ltd"
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           18963
-ACQUIRED:       "Chemetron Railway Products"
-                "True Temper Railway Appliances Inc"
-                "Allegheny Axle Co"
+TEXT:           16037
+ACQUIRED:       "Cadillac Fairview Corp Ltd"
 ACQBUS:         ---
 ACQLOC:         ---
-DLRAMT:         "not disclosed"
-PURCHASER:      "Chemetron Railway Products Inc"
-SELLER:         "Allegheny International Inc"
-STATUS:         "sold"
+DLRAMT:         ---
+PURCHASER:      ---
+SELLER:         ---
+STATUS:         "received proposals"
 
-     SCORES for 18963
+     SCORES for 16037
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/3)         0.00
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
 ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.50 (1/2)	   1.00 (1/1)         0.67
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/0)         0.00
+SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.50 (1/2)	   0.14 (1/7)         0.22
+TOTAL           0.00 (0/1)	   0.00 (0/2)         0.00
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           2126
-ACQUIRED:       "Physical Electronics Division"
-                "Materials Surface Technology Group"
-ACQBUS:         ---
+TEXT:           3873
+ACQUIRED:       "American Video Group Inc"
+ACQBUS:         "video rental"
 ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Perkin-Elmer Corp"
+DLRAMT:         "1.5 mln dlrs"
+PURCHASER:      "Paralax Video Enterprises Inc"
 SELLER:         ---
-STATUS:         "acquired"
+STATUS:         "agreeed to acquire"
 
      SYSTEM OUTPUT 
 
-TEXT:           2126
-ACQUIRED:       "Atomika Technische Physik"
-ACQBUS:         "surface science instruments"
-ACQLOC:         "Munich, West Germany"
-DLRAMT:         "not disclosed"
-PURCHASER:      "Perkin-Elmer Corp"
+TEXT:           3873
+ACQUIRED:       "American Video Group Inc"
+ACQBUS:         "video rental concessions"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Paralax Video Enterprises Inc"
 SELLER:         ---
-STATUS:         "acquired"
+STATUS:         "agreeed to acquire"
 
-     SCORES for 2126
+     SCORES for 3873
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/2)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/1)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
 PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.60 (3/5)	   0.75 (3/4)         0.67
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           4315
+ACQUIRED:       "Corpus Christi"
+                "Union Pacific Champlin Petroleum Co"
+                "Southland Corp Citgo Petroleum Corp"
+                "half Champlin Corpus Christi plant"
+ACQBUS:         "oil industry"
+                "oil production giving"
+ACQLOC:         ---
+DLRAMT:         "290 mln dlrs"
+PURCHASER:      "Union Pacific Corp"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           4315
+ACQUIRED:       "Corpus Christi, Texas refinery"
+ACQBUS:         "oil"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Petroleos De Venezuela"
+SELLER:         "Union Pacific Corp"
+STATUS:         "will sign a pact"
+
+     SCORES for 4315
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/4)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/2)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/8)	   0.00 (0/5)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           8909
+ACQUIRED:       "RJR Nabisco Inc"
+ACQBUS:         ---
+ACQLOC:         "Swiss"
+DLRAMT:         "undisclosed"
+PURCHASER:      ---
+SELLER:         ---
+STATUS:         "letter of intent"
+
+     SYSTEM OUTPUT 
+
+TEXT:           8909
+ACQUIRED:       "Club, Melrose, Dickson"
+                "Chase and Sanborn"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "undisclosed"
+PURCHASER:      "Nestle Enterprises Ltd"
+SELLER:         "Nabisco Brands Ltd"
+STATUS:         "letter of intent"
+
+     SCORES for 8909
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/1)	   0.00 (0/2)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
 STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
 --------        --------------     --------------     ----
 TOTAL           0.50 (2/4)	   0.33 (2/6)         0.40
@@ -193,38 +457,236 @@ TOTAL           0.50 (2/4)	   0.33 (2/6)         0.40
 
      GOLD ANSWER KEY 
 
-TEXT:           3961
+TEXT:           12852
+ACQUIRED:       "Measurement Systems Division"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "undisclosed"
+                "10 mln dlrs"
+PURCHASER:      "Canrad Inc"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           12852
+ACQUIRED:       "Measurement Systems Division"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "undisclosed"
+PURCHASER:      "Canrad Inc"
+SELLER:         "Page-Wilson Corp"
+STATUS:         ---
+
+     SCORES for 12852
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.50 (1/2)	   1.00 (1/1)         0.67
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.75 (3/4)	   0.75 (3/4)         0.75
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           16419
+ACQUIRED:       "Break-Free division"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      ---
+SELLER:         ---
+STATUS:         "shareholders exchange its shares"
+
+     SYSTEM OUTPUT 
+
+TEXT:           16419
+ACQUIRED:       "San/Bar Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Resdel Industries"
+SELLER:         ---
+STATUS:         ---
+
+     SCORES for 16419
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/2)	   0.00 (0/2)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           12646
+ACQUIRED:       "Vernitron Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "SB Holding Corp"
+SELLER:         ---
+STATUS:         "vote"
+
+     SYSTEM OUTPUT 
+
+TEXT:           12646
+ACQUIRED:       "Vernitron Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "SB Holding Corp"
+SELLER:         ---
+STATUS:         "proposed"
+
+     SCORES for 12646
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.67 (2/3)	   0.67 (2/3)         0.67
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           6819
 ACQUIRED:       ---
 ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Trico Industries Inc"
+PURCHASER:      "GenCorp Inc"
+                "General Partners"
 SELLER:         ---
-STATUS:         "proposed"
+STATUS:         "started a tender offer"
 
      SYSTEM OUTPUT 
 
-TEXT:           3961
-ACQUIRED:       "Trico Industries Inc"
+TEXT:           6819
+ACQUIRED:       "GenCorp Inc"
 ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Paccar Inc"
+PURCHASER:      "General Partners"
 SELLER:         ---
-STATUS:         "proposed"
+STATUS:         "will study"
 
-     SCORES for 3961
+     SCORES for 6819
 
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
 ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+PURCHASER       0.50 (1/2)	   1.00 (1/1)         0.67
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.33 (1/3)	   0.33 (1/3)         0.33
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           3023
+ACQUIRED:       "Caesars World Inc"
+ACQBUS:         ---
+ACQLOC:         "Atlantic City, N.J."
+DLRAMT:         "12.6 mln dlrs"
+                "190.4 mln dlrs"
+                "163.8 mln dlrs"
+                "41.0 mln dlrs"
+                "694.4 mln dlrs"
+                "100 mln dlrs"
+                "400 mln dlrs"
+                "475 mln dlrs"
+PURCHASER:      "MTS Acquisition Corp"
+                "Martin T. Sosnoff"
+SELLER:         ---
+STATUS:         "started a tender offer"
+                "negotiate acquisition agreement"
+
+     SYSTEM OUTPUT 
+
+TEXT:           3023
+ACQUIRED:       "Caesars World Inc"
+ACQBUS:         "casino hotels"
+                "honeymoon resorts"
+ACQLOC:         "Nevada"
+                "Pennsylvania's Pocono Mountains"
+DLRAMT:         ---
+PURCHASER:      "MTS Acquisition Corp"
+SELLER:         ---
+STATUS:         "started a tender offer"
+
+     SCORES for 3023
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/2)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/2)         0.00
+DLRAMT          0.00 (0/8)	   0.00 (0/0)         0.00
+PURCHASER       0.50 (1/2)	   1.00 (1/1)         0.67
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.50 (1/2)	   1.00 (1/1)         0.67
+--------        --------------     --------------     ----
+TOTAL           0.21 (3/14)	   0.43 (3/7)         0.29
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           9920
+ACQUIRED:       "Walker County Telephone Co"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      ---
+SELLER:         "Contel Corp"
+STATUS:         "agreed in principle"
+
+     SYSTEM OUTPUT 
+
+TEXT:           9920
+ACQUIRED:       "Walker County Telephone Co"
+ACQBUS:         ---
+ACQLOC:         "LaFayette, Ga." / "northeast Georgia"
+DLRAMT:         "undisclosed"
+PURCHASER:      "Contel Corp"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SCORES for 9920
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
 STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
 --------        --------------     --------------     ----
-TOTAL           0.50 (1/2)	   0.33 (1/3)         0.40
+TOTAL           0.67 (2/3)	   0.40 (2/5)         0.50
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -233,7 +695,7 @@ TOTAL           0.50 (1/2)	   0.33 (1/3)         0.40
 TEXT:           21134
 ACQUIRED:       ---
 ACQBUS:         ---
-ACQLOC:         ---
+ACQLOC:         "Ecuador"
 DLRAMT:         "undisclosed"
 PURCHASER:      "Baltek Corp"
 SELLER:         ---
@@ -255,124 +717,203 @@ STATUS:         "acquired"
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
 DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
 PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
 --------        --------------     --------------     ----
-TOTAL           1.00 (3/3)	   0.60 (3/5)         0.75
+TOTAL           1.00 (4/4)	   0.80 (4/5)         0.89
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           7110
-ACQUIRED:       "Cyclops Corp"
+TEXT:           6361
+ACQUIRED:       "Commercial Affairs Investigation Department"
 ACQBUS:         ---
 ACQLOC:         ---
-DLRAMT:         ---
+DLRAMT:         "82 mln dlrs"
+                "87.3 mln dlrs"
 PURCHASER:      ---
 SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           7110
-ACQUIRED:       "Cyclops Corp"
+TEXT:           6361
+ACQUIRED:       "Goodwood Park Hotel Ltd"
 ACQBUS:         ---
 ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Dixons Group plc"
+DLRAMT:         "82 mln dlrs"
+PURCHASER:      "Singapore government"
 SELLER:         ---
 STATUS:         ---
 
-     SCORES for 7110
+     SCORES for 6361
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
 ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.50 (1/2)	   1.00 (1/1)         0.67
 PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
-TOTAL           1.00 (1/1)	   0.50 (1/2)         0.67
+TOTAL           0.33 (1/3)	   0.33 (1/3)         0.33
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           6103
-ACQUIRED:       "Gelco Corp"
+TEXT:           904
+ACQUIRED:       "American Aggregates Corp"
+                "ARC America Corp"
 ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "An investor group including New York-based Mutual Shares Corp"
-SELLER:         "Mutual Qualified Income Fund Inc"
+ACQLOC:         "Ohio"
+DLRAMT:         "242 mln dlrs"
+PURCHASER:      ---
+SELLER:         ---
+STATUS:         "agreed to buy"
+
+     SYSTEM OUTPUT 
+
+TEXT:           904
+ACQUIRED:       "American Aggregates Corp"
+ACQBUS:         ---
+ACQLOC:         "Ohio"
+DLRAMT:         "242 mln dlrs"
+PURCHASER:      "Consolidated Goldfields Plc"
+SELLER:         ---
+STATUS:         "agreed to buy"
+
+     SCORES for 904
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.50 (1/2)	   1.00 (1/1)         0.67
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
+DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.80 (4/5)	   0.80 (4/5)         0.80
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           3198
+ACQUIRED:       "American Motors Corp"
+ACQBUS:         ---
+ACQLOC:         "Renault"
+DLRAMT:         "757 mln dlr"
+PURCHASER:      ---
+SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           6103
-ACQUIRED:       "Gelco Corp"
+TEXT:           3198
+ACQUIRED:       "American Motors Corp"
 ACQBUS:         ---
 ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "An investor group including New York-based Mutual Shares Corp and Mutual Qualified Income Fund Inc"
+DLRAMT:         "757 mln dlr"
+PURCHASER:      "Chrysler Corp"
 SELLER:         ---
 STATUS:         ---
 
-     SCORES for 6103
+     SCORES for 3198
 
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.33 (1/3)	   0.50 (1/2)         0.40
+TOTAL           0.67 (2/3)	   0.67 (2/3)         0.67
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           17323
-ACQUIRED:       ---
+TEXT:           2714
+ACQUIRED:       "Bench Craft Inc"
+                "Universal Furniture Industries N.V."
 ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "One of West Germany"
+PURCHASER:      "Universal Furniture Ltd"
+SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           17323
-ACQUIRED:       "Kurt A. Becher GmbH and Co KG"
-ACQBUS:         "feedstuff and grain"
-ACQLOC:         "West Germany"
+TEXT:           2714
+ACQUIRED:       "Bench Craft Inc"
+ACQBUS:         ---
+ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "ConAgra Inc"
+PURCHASER:      "Universal Furniture Ltd"
 SELLER:         ---
 STATUS:         ---
 
-     SCORES for 17323
+     SCORES for 2714
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQUIRED        0.50 (1/2)	   1.00 (1/1)         0.67
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.00 (0/1)	   0.00 (0/4)         0.00
+TOTAL           0.67 (2/3)	   1.00 (2/2)         0.80
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           11982
+ACQUIRED:       "First National Bank"
+                "Bankers Fund Life Insurance Co"
+                "Clinton Township"
+ACQBUS:         ---
+ACQLOC:         "Macomb County"
+DLRAMT:         ---
+PURCHASER:      "First National Bank Corp"
+SELLER:         ---
+STATUS:         "reached agreement"
+
+     SYSTEM OUTPUT 
+
+TEXT:           11982
+ACQUIRED:       "a branch in Clinton Township"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "not disclosed"
+PURCHASER:      "FIRST NATIONAL BANK CORP" / "First National Bank Corp"
+SELLER:         ---
+STATUS:         "agreement to buy"
+
+     SCORES for 11982
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/3)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/6)	   0.00 (0/4)         0.00
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -385,7 +926,7 @@ ACQLOC:         ---
 DLRAMT:         ---
 PURCHASER:      "Stone Container Corp"
 SELLER:         ---
-STATUS:         ---
+STATUS:         "proposed"
 
      SYSTEM OUTPUT 
 
@@ -407,75 +948,187 @@ ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
 PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           1.00 (2/2)	   0.67 (2/3)         0.80
+TOTAL           0.67 (2/3)	   0.67 (2/3)         0.67
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           12965
-ACQUIRED:       "Symbion Inc"
+TEXT:           16652
+ACQUIRED:       "Cellular Communications Inc"
 ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Warburg, Pincus Capital Co L.P."
+PURCHASER:      ---
 SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           12965
-ACQUIRED:       "Symbion Inc"
+TEXT:           16652
+ACQUIRED:       "Cincinnati non-wireline cellular system"
 ACQBUS:         ---
-ACQLOC:         ---
+ACQLOC:         "Cincinnati"
 DLRAMT:         ---
-PURCHASER:      "Warburg, Pincus Capital Co L.P."
+PURCHASER:      "Cellular Communications Inc"
 SELLER:         ---
-STATUS:         "would not increase"
+STATUS:         ---
 
-     SCORES for 12965
+     SCORES for 16652
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
-TOTAL           1.00 (2/2)	   0.67 (2/3)         0.80
+TOTAL           0.00 (0/1)	   0.00 (0/3)         0.00
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           2946
-ACQUIRED:       "Rubbertech"
+TEXT:           5615
+ACQUIRED:       ---
 ACQBUS:         ---
-ACQLOC:         ---
+ACQLOC:         "West Babylon, N.Y."
 DLRAMT:         ---
-PURCHASER:      "Broker Choice Capital Inc"
+PURCHASER:      ---
 SELLER:         ---
-STATUS:         "letter of intent"
+STATUS:         "acquired"
 
      SYSTEM OUTPUT 
 
-TEXT:           2946
-ACQUIRED:       "Rubbertech Inc"
+TEXT:           5615
+ACQUIRED:       "2001 Distributors Inc"
+ACQBUS:         "fresh-squeezed juices"
+ACQLOC:         "West Babylon, N.Y."
+DLRAMT:         ---
+PURCHASER:      "International Fine Foods Inc"
+SELLER:         ---
+STATUS:         ---
+
+     SCORES for 5615
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.50 (1/2)	   0.25 (1/4)         0.33
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           11468
+ACQUIRED:       ---
 ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Broker's Choice Capital Inc"
+PURCHASER:      "AMR Corp American Airlines"
 SELLER:         ---
-STATUS:         "letter of intent"
+STATUS:         ---
 
-     SCORES for 2946
+     SYSTEM OUTPUT 
+
+TEXT:           11468
+ACQUIRED:       "AirCal"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "AMR Corp's American Airlines"
+SELLER:         ---
+STATUS:         "plans to complete"
+
+     SCORES for 11468
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/1)	   0.00 (0/3)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           12900
+ACQUIRED:       "CWT Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "135 mln dlrs"
+PURCHASER:      "Gerber Products Co"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           12900
+ACQUIRED:       "CWT Inc"
+ACQBUS:         "trucking"
+ACQLOC:         "Midwest and Southeast"
+DLRAMT:         ---
+PURCHASER:      "management"
+SELLER:         "Gerber Products Co"
+STATUS:         ---
+
+     SCORES for 12900
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.33 (1/3)	   0.20 (1/5)         0.25
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           1153
+ACQUIRED:       "Pizza Inn Inc"
+                "Pizza Inn Acquiring Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Pantera Corp"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SYSTEM OUTPUT 
+
+TEXT:           1153
+ACQUIRED:       "Pizza Inn Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Pantera's Corp"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SCORES for 1153
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.50 (1/2)	   1.00 (1/1)         0.67
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
 ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
@@ -483,42 +1136,194 @@ PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
 --------        --------------     --------------     ----
+TOTAL           0.50 (2/4)	   0.67 (2/3)         0.57
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           18188
+ACQUIRED:       "Thomas Nationwide Computer Corp"
+                "Systems Leasing Corp"
+ACQBUS:         ---
+ACQLOC:         "MacLean, Va."
+DLRAMT:         "25 mln dlrs"
+                "15 mln dlrs"
+PURCHASER:      "PacifiCorp"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           18188
+ACQUIRED:       "Thomas Nationwide Computer Corp"
+ACQBUS:         "new and used International Business Machines Corp equipment"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "PACIFICORP" / "PacifiCorp"
+SELLER:         ---
+STATUS:         ---
+
+     SCORES for 18188
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.50 (1/2)	   1.00 (1/1)         0.67
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/2)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.17 (1/6)	   0.33 (1/3)         0.22
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           5287
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         "Seattle, Washington, InterWest Savings Bank"
+DLRAMT:         "150.6 mln dlrs"
+                "342.9 mln dlrs"
+PURCHASER:      "Federal Home Loan Bank Board (FHLBB"
+SELLER:         ---
+STATUS:         "announced"
+
+     SYSTEM OUTPUT 
+
+TEXT:           5287
+ACQUIRED:       "Home Savings and Loan Association"
+ACQBUS:         ---
+ACQLOC:         "Seattle, Washington"
+DLRAMT:         ---
+PURCHASER:      "InterWest Savings Bank"
+SELLER:         ---
+STATUS:         ---
+
+     SCORES for 5287
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/1)         0.00
+DLRAMT          0.00 (0/2)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/5)	   0.00 (0/3)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           12688
+ACQUIRED:       "Unitek Corp"
+                "Bristol-Myers Co"
+ACQBUS:         ---
+ACQLOC:         "Monrovia, Calif."
+DLRAMT:         ---
+PURCHASER:      ---
+SELLER:         "Minnesota Mining and Mfg Co"
+STATUS:         "completed"
+
+     SYSTEM OUTPUT 
+
+TEXT:           12688
+ACQUIRED:       "Unitek Corp"
+ACQBUS:         "orthodontic products"
+ACQLOC:         "Monrovia, Calif."
+DLRAMT:         ---
+PURCHASER:      "Minnesota Mining and Mfg Co"
+SELLER:         "Bristol-Myers Co"
+STATUS:         "completed"
+
+     SCORES for 12688
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.50 (1/2)	   1.00 (1/1)         0.67
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/1)	   0.00 (0/1)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.60 (3/5)	   0.50 (3/6)         0.55
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           11161
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "timely manner"
+PURCHASER:      "General Acquisition Co"
+SELLER:         ---
+STATUS:         "completed"
+
+     SYSTEM OUTPUT 
+
+TEXT:           11161
+ACQUIRED:       "GENCORP" / "Gencorp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "General Acquisition Co"
+SELLER:         ---
+STATUS:         "reject"
+
+     SCORES for 11161
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
 TOTAL           0.33 (1/3)	   0.33 (1/3)         0.33
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           4277
+TEXT:           17317
 ACQUIRED:       ---
 ACQBUS:         ---
 ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "Instinet Corp"
-STATUS:         "proposed"
+DLRAMT:         "6.5 mln dlrs"
+PURCHASER:      "Huntingdon International Holdings plc"
+SELLER:         ---
+STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           4277
-ACQUIRED:       "Instinet Corp"
+TEXT:           17317
+ACQUIRED:       "Northern Engineering and Testing Inc"
 ACQBUS:         ---
-ACQLOC:         ---
+ACQLOC:         "northwestern United States"
 DLRAMT:         ---
-PURCHASER:      "Reuters Holdings PLC"
+PURCHASER:      "Huntingdon International Holdings plc"
 SELLER:         ---
-STATUS:         "proposed"
+STATUS:         ---
 
-     SCORES for 4277
+     SCORES for 17317
 
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
 TOTAL           0.50 (1/2)	   0.33 (1/3)         0.40
 
@@ -526,74 +1331,192 @@ TOTAL           0.50 (1/2)	   0.33 (1/3)         0.40
 
      GOLD ANSWER KEY 
 
-TEXT:           9027
-ACQUIRED:       "Sceptre Resources Ltd"
+TEXT:           7672
+ACQUIRED:       "WTD Industries Inc"
 ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Montreal-based Noverco Inc"
+PURCHASER:      "Louisiana Pacific Corp"
 SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           9027
-ACQUIRED:       "Sceptre Resources Ltd"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "Noverco Inc"
-STATUS:         ---
+TEXT:           7672
+ACQUIRED:       "Harris Pine Sawmill"
+ACQBUS:         "lumber" / "timber"
+ACQLOC:         "Pendleton, Ore."
+DLRAMT:         "3,475,000 dlrs"
+PURCHASER:      "Louisiana Pacific Corp"
+SELLER:         ---
+STATUS:         "agreed"
 
-     SCORES for 9027
+     SCORES for 7672
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/0)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.50 (1/2)	   0.50 (1/2)         0.50
+TOTAL           0.50 (1/2)	   0.17 (1/6)         0.25
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           16215
-ACQUIRED:       "Dome Petroleum Ltd TransCanada Pipelines Ltd"
-ACQBUS:         "oil and gas"
-ACQLOC:         ---
-DLRAMT:         "3.22 billion dlr"
-                "4.5 billion dlrs"
-PURCHASER:      ---
+TEXT:           467
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         "Miami"
+DLRAMT:         "undisclosed"
+                "4.5 mln dlrs"
+PURCHASER:      "American Nursery Products Inc"
 SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           16215
-ACQUIRED:       "Dome Petroleum Ltd"
-ACQBUS:         "oil and gas"
-ACQLOC:         "Calgary"
-DLRAMT:         "3.22 billion dlr"
-PURCHASER:      "TransCanada Pipelines Ltd"
+TEXT:           467
+ACQUIRED:       "Heinl's Nursery Inc"
+ACQBUS:         ---
+ACQLOC:         "Miami"
+DLRAMT:         "undisclosed"
+PURCHASER:      "American Nursery Products Inc"
 SELLER:         ---
-STATUS:         "offer"
+STATUS:         "purchased"
 
-     SCORES for 16215
+     SCORES for 467
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
-ACQBUS          1.00 (1/1)	   1.00 (1/1)         1.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
 DLRAMT          0.50 (1/2)	   1.00 (1/1)         0.67
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.75 (3/4)	   0.60 (3/5)         0.67
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           5094
+ACQUIRED:       "California Inc"
+                "Valley Cable TV"
+                "cable television systems"
+ACQBUS:         ---
+ACQLOC:         "California"
+                "Toronto"
+DLRAMT:         "100 mln dlrs"
+PURCHASER:      ---
+SELLER:         "Cablevision Industries Corp"
+                "Cablevision Industries"
+STATUS:         "entered agreement"
+
+     SYSTEM OUTPUT 
+
+TEXT:           5094
+ACQUIRED:       "Valley Cable TV"
+ACQBUS:         "cable television systems"
+ACQLOC:         "west San Fernando Valley area of Los Angeles"
+DLRAMT:         "100 MLN DLR" / "100 mln dlrs"
+PURCHASER:      "Cablevision Industries Corp"
+SELLER:         "Hollinger Inc"
+STATUS:         "entered into an agreement"
+
+     SCORES for 5094
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.33 (1/3)	   1.00 (1/1)         0.50
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/2)	   0.00 (0/1)         0.00
+DLRAMT          0.00 (0/1)	   0.00 (0/1)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/2)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.11 (1/9)	   0.14 (1/7)         0.12
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           3295
+ACQUIRED:       "Ultra Precise Beauty Boutique Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Debbie School"
+SELLER:         "Johnson Products Co Inc"
+STATUS:         "completed"
+                "management. It said"
+
+     SYSTEM OUTPUT 
+
+TEXT:           3295
+ACQUIRED:       "Debbie's School of Beauty Culture Inc"
+                "Ultra Precise Beauty Boutique Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "2,533,000 dlrs"
+PURCHASER:      ---
+SELLER:         "Johnson Products Co Inc"
+STATUS:         "completed"
+
+     SCORES for 3295
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   0.50 (1/2)         0.67
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/0)         0.00
+SELLER          1.00 (1/1)	   1.00 (1/1)         1.00
+STATUS          0.50 (1/2)	   1.00 (1/1)         0.67
+--------        --------------     --------------     ----
+TOTAL           0.60 (3/5)	   0.60 (3/5)         0.60
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           2898
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         "Philadelphia"
+DLRAMT:         "13.8 mln dlrs"
+PURCHASER:      "Guaranteed Broadcast Partners L.P."
+                "WTRK Inc Cox Enterprises Inc"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           2898
+ACQUIRED:       "WTRK Inc"
+ACQBUS:         "radio station"
+ACQLOC:         "Philadelphia"
+DLRAMT:         "13.8 mln dlrs"
+PURCHASER:      "Malrite Guaranteed Broadcast Partners L.P."
+SELLER:         "Cox Enterprises Inc"
+STATUS:         ---
+
+     SCORES for 2898
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
+DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       0.00 (0/2)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
 TOTAL           0.50 (2/4)	   0.33 (2/6)         0.40
 
@@ -601,76 +1524,417 @@ TOTAL           0.50 (2/4)	   0.33 (2/6)         0.40
 
      GOLD ANSWER KEY 
 
-TEXT:           447
+TEXT:           2609
 ACQUIRED:       ---
 ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "140 mln dlrs"
-                "299 mln dlrs"
-PURCHASER:      "Bally Manufacturing Corp"
-SELLER:         ---
-STATUS:         "completed"
-
-     SYSTEM OUTPUT 
-
-TEXT:           447
-ACQUIRED:       "Golden Nugget Casino Hotel"
-ACQBUS:         ---
-ACQLOC:         "Atlantic City, New Jersey"
+ACQLOC:         "Southwest. Southwest"
 DLRAMT:         ---
-PURCHASER:      "Bally Manufacturing Corp"
-SELLER:         "Golden Nugget Inc"
-STATUS:         "completed"
-
-     SCORES for 447
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
-DLRAMT          0.00 (0/2)	   0.00 (0/0)         0.00
-PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
-SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
---------        --------------     --------------     ----
-TOTAL           0.50 (2/4)	   0.40 (2/5)         0.44
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           12225
-ACQUIRED:       "Consolidated Brazilian Mines International Inc"
-ACQBUS:         "diamond and gold"
-ACQLOC:         "eastern and northern Brazil"
-DLRAMT:         "9.6 mln dlrs"
-PURCHASER:      "Upland Minerals and Chemicals Corp"
+PURCHASER:      "Southwest Forest Industries"
 SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           12225
-ACQUIRED:       "Consolidated Brazilian Mines International Inc"
-ACQBUS:         "diamond and gold"
-ACQLOC:         "BRAZIL" / "Brazil"
-DLRAMT:         "not disclosed"
-PURCHASER:      "Upland Minerals and Chemicals Corp"
+TEXT:           2609
+ACQUIRED:       "Southwest Forest Industries"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Stone Container Corp"
 SELLER:         ---
-STATUS:         "agreed to acquire"
+STATUS:         ---
 
-     SCORES for 12225
+     SCORES for 2609
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/2)	   0.00 (0/2)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           6616
+ACQUIRED:       "Financial Security Savings and Loan Association"
+ACQBUS:         ---
+ACQLOC:         "Sunrise, Fla."
+                "Clearwater, Fla."
+DLRAMT:         ---
+PURCHASER:      "Fortune Financial Group Inc"
+SELLER:         ---
+STATUS:         "agreed to sell"
+
+     SYSTEM OUTPUT 
+
+TEXT:           6616
+ACQUIRED:       "Sunrise, Fla., branch"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "not disclosed"
+PURCHASER:      "Fortune Financial Group Inc"
+SELLER:         "Financial Security Savings and Loan Association"
+STATUS:         "agreed to sell"
+
+     SCORES for 6616
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/2)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.40 (2/5)	   0.40 (2/5)         0.40
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           8628
+ACQUIRED:       "Shearson Lehman Brothers Inc"
+                "E.F. Hutton Group Inc"
+                "Hutton and Co"
+ACQBUS:         "insurance"
+ACQLOC:         ---
+DLRAMT:         "538 mln dlr"
+                "90.2 billion dlrs"
+                "500 mln dlrs"
+                "7.33 mln yen"
+PURCHASER:      "Nippon Life Insurance Co"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           8628
+ACQUIRED:       "Shearson Lehman Brothers Inc"
+ACQBUS:         "brokerage"
+ACQLOC:         ---
+DLRAMT:         "538 mln dlr"
+PURCHASER:      "Nippon Life Insurance Co"
+SELLER:         ---
+STATUS:         ---
+
+     SCORES for 8628
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.33 (1/3)	   1.00 (1/1)         0.50
+ACQBUS          0.00 (0/1)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.25 (1/4)	   1.00 (1/1)         0.40
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.33 (3/9)	   0.75 (3/4)         0.46
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           8823
+ACQUIRED:       "Cyclops Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "12.8 mln dlrs"
+PURCHASER:      ---
+SELLER:         "Dixons Group PLC"
+                "Video Affiliates Inc"
+STATUS:         "offered to acquire"
+
+     SYSTEM OUTPUT 
+
+TEXT:           8823
+ACQUIRED:       "Cyclops Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Dixons Group PLC"
+SELLER:         ---
+STATUS:         "does not plan to extend the expiration date of its tender offer"
+
+     SCORES for 8823
 
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          1.00 (1/1)	   1.00 (1/1)         1.00
-ACQLOC          0.00 (0/1)	   0.00 (0/1)         0.00
-DLRAMT          0.00 (0/1)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/2)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.20 (1/5)	   0.33 (1/3)         0.25
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           3417
+ACQUIRED:       "Hausereman Inc"
+ACQBUS:         ---
+ACQLOC:         "Bahamas"
+DLRAMT:         ---
+PURCHASER:      "Kindness N.V."
+                "and Bahamas"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           3417
+ACQUIRED:       "Hausereman Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Bahamas-based firm"
+SELLER:         ---
+STATUS:         ---
+
+     SCORES for 3417
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/2)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.25 (1/4)	   0.50 (1/2)         0.33
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           7469
+ACQUIRED:       "King World Productions Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "George Soros"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           7469
+ACQUIRED:       "King World Productions Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "George Soros"
+SELLER:         ---
+STATUS:         ---
+
+     SCORES for 7469
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           1.00 (2/2)	   1.00 (2/2)         1.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           547
+ACQUIRED:       "Rexnord Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Banner Industries Inc"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           547
+ACQUIRED:       "Rexnord Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Banner Industries Inc"
+SELLER:         ---
+STATUS:         "tendered"
+
+     SCORES for 547
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
 PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.60 (3/5)	   0.50 (3/6)         0.55
+TOTAL           1.00 (2/2)	   0.67 (2/3)         0.80
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           6702
+ACQUIRED:       "ISL Life Insurance Co"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "American Travellers Corp"
+SELLER:         ---
+STATUS:         "entered agreement"
+
+     SYSTEM OUTPUT 
+
+TEXT:           6702
+ACQUIRED:       "ISL Life Insurance Co"
+ACQBUS:         ---
+ACQLOC:         "Dallas"
+DLRAMT:         "400,000 dlrs"
+PURCHASER:      "American Travellers Corp"
+SELLER:         ---
+STATUS:         "entered into an agreement"
+
+     SCORES for 6702
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.67 (2/3)	   0.40 (2/5)         0.50
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           2699
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      ---
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           2699
+ACQUIRED:       "The First Women's Bank"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "investor group"
+SELLER:         ---
+STATUS:         "expired"
+
+     SCORES for 2699
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/0)	   0.00 (0/3)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           8704
+ACQUIRED:       "Triangle Microwave Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "14 mln dlrs"
+                "35 mln dlrs"
+PURCHASER:      "KDI Corp"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SYSTEM OUTPUT 
+
+TEXT:           8704
+ACQUIRED:       "Triangle Microwave Inc"
+ACQBUS:         "microwave components"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "KDI Corp"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SCORES for 8704
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/2)	   0.00 (0/0)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.60 (3/5)	   0.75 (3/4)         0.67
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           11362
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         "1.35 billion dlrs"
+PURCHASER:      ---
+SELLER:         "Peat Marwick"
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           11362
+ACQUIRED:       "KMG MAIN HURDMAN" / "KMG Main Hurdman"
+ACQBUS:         "public account and consulting"
+ACQLOC:         "U.S."
+DLRAMT:         ---
+PURCHASER:      "PEAT MARWICK" / "Peat Marwick"
+SELLER:         ---
+STATUS:         "completed"
+
+     SCORES for 11362
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/2)	   0.00 (0/5)         0.00
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -679,7 +1943,7 @@ TOTAL           0.60 (3/5)	   0.50 (3/6)         0.55
 TEXT:           12173
 ACQUIRED:       ---
 ACQBUS:         ---
-ACQLOC:         "Palisade, Colo"
+ACQLOC:         "West Virginia"
 DLRAMT:         ---
 PURCHASER:      "Peabody Holding Co Inc"
 SELLER:         ---
@@ -714,12 +1978,160 @@ TOTAL           0.67 (2/3)	   0.29 (2/7)         0.40
 
      GOLD ANSWER KEY 
 
-TEXT:           12858
-ACQUIRED:       "GenCorp Inc"
-                "continuing long-term interest in GenCorp prospects"
-                "Aerojet General"
+TEXT:           20321
+ACQUIRED:       ---
 ACQBUS:         ---
-ACQLOC:         "security"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Trans World Airlines Inc"
+SELLER:         ---
+STATUS:         "date the terms different"
+
+     SYSTEM OUTPUT 
+
+TEXT:           20321
+ACQUIRED:       "Trans World Airlines Inc"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Carl C. Icahn"
+SELLER:         ---
+STATUS:         "withdrawn his proposal"
+
+     SCORES for 20321
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/2)	   0.00 (0/3)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           16465
+ACQUIRED:       ---
+ACQBUS:         ---
+ACQLOC:         "Systems"
+DLRAMT:         "4.1 mln dlrs"
+PURCHASER:      "Arrays Inc"
+SELLER:         ---
+STATUS:         "completed"
+
+     SYSTEM OUTPUT 
+
+TEXT:           16465
+ACQUIRED:       "Haba Systems Inc"
+ACQBUS:         "microcomputer software"
+ACQLOC:         ---
+DLRAMT:         "4.1 mln dlrs"
+PURCHASER:      "Arrays Inc"
+SELLER:         ---
+STATUS:         "completed"
+
+     SCORES for 16465
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.75 (3/4)	   0.60 (3/5)         0.67
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           19895
+ACQUIRED:       "Ryan-McFarland Corp"
+ACQBUS:         "computer markets"
+ACQLOC:         "Melbourne, Australia"
+DLRAMT:         "undisclosed"
+                "25 mln dlrs"
+PURCHASER:      "Austec International Ltd"
+SELLER:         ---
+STATUS:         "completed"
+
+     SYSTEM OUTPUT 
+
+TEXT:           19895
+ACQUIRED:       "Ryan-McFarland Corp"
+ACQBUS:         "COBOL and FORTRAN language compilers"
+ACQLOC:         "Rolling Hills Estates, Calif"
+DLRAMT:         "undisclosed"
+PURCHASER:      "Austec Inc"
+SELLER:         ---
+STATUS:         "completed"
+
+     SCORES for 19895
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/1)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/1)         0.00
+DLRAMT          0.50 (1/2)	   1.00 (1/1)         0.67
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.43 (3/7)	   0.50 (3/6)         0.46
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           17810
+ACQUIRED:       "Turco and Charmglow operations"
+                "consumer products businesses"
+ACQBUS:         ---
+ACQLOC:         "Turco, Atcor"
+DLRAMT:         ---
+PURCHASER:      "Atcor Inc"
+SELLER:         ---
+STATUS:         "letter of intent"
+
+     SYSTEM OUTPUT 
+
+TEXT:           17810
+ACQUIRED:       "Charmglow"
+ACQBUS:         "consumer products"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Roth-American Inc"
+SELLER:         "Atcor Inc"
+STATUS:         "decided against buying"
+
+     SCORES for 17810
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/2)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/1)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/5)	   0.00 (0/5)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           12858
+ACQUIRED:       "Aerojet General"
+ACQBUS:         "prospects"
+ACQLOC:         ---
 DLRAMT:         ---
 PURCHASER:      "General Partners"
 SELLER:         ---
@@ -739,974 +2151,101 @@ STATUS:         "prepared to raise its bid"
      SCORES for 12858
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.33 (1/3)	   1.00 (1/1)         0.50
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.20 (1/5)	   0.33 (1/3)         0.25
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           16833
-ACQUIRED:       "Imperial Oil Ltd"
-ACQBUS:         "oil"
-ACQLOC:         "Canada"
-                "Canada"
-DLRAMT:         "4.3 billion Canadian dlr"
-PURCHASER:      "Amoco Corp"
-                "TransCanada PipeLines Ltd"
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           16833
-ACQUIRED:       "Dome Petroleum Ltd"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Amoco Corp"
-SELLER:         ---
-STATUS:         ---
-
-     SCORES for 16833
-
-                RECALL             PRECISION          F-SCORE
 ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
 ACQBUS          0.00 (0/1)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/2)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
-PURCHASER       0.50 (1/2)	   1.00 (1/1)         0.67
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
---------        --------------     --------------     ----
-TOTAL           0.14 (1/7)	   0.50 (1/2)         0.22
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           4615
-ACQUIRED:       ---
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "50 mln dlrs"
-PURCHASER:      "Price Co"
-SELLER:         ---
-STATUS:         "agreed to buy"
-
-     SYSTEM OUTPUT 
-
-TEXT:           4615
-ACQUIRED:       "TSS-Seedman's INc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "about 50 mln dlrs"
-PURCHASER:      "Price Co"
-SELLER:         ---
-STATUS:         "agreed to buy"
-
-     SCORES for 4615
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
 ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/1)	   0.00 (0/1)         0.00
-PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.67 (2/3)	   0.50 (2/4)         0.57
+TOTAL           0.00 (0/3)	   0.00 (0/3)         0.00
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           7041
+TEXT:           16872
 ACQUIRED:       ---
 ACQBUS:         ---
 ACQLOC:         ---
-DLRAMT:         "530 mln dlrs"
-PURCHASER:      "American Express Co"
+DLRAMT:         "10.5 mln dlrs"
+PURCHASER:      "Industrial Equity (Pacific) Ltd"
 SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           7041
-ACQUIRED:       "Shearson Lehman Brothers Inc"
+TEXT:           16872
+ACQUIRED:       "CalMat Co"
 ACQBUS:         ---
 ACQLOC:         ---
-DLRAMT:         "530 mln dlrs"
-PURCHASER:      "Nippon Life Insurance Co"
-SELLER:         "American Express Co"
-STATUS:         "holding talks"
+DLRAMT:         "10.5 mln dlrs"
+PURCHASER:      "Industrial Equity (Pacific) Ltd"
+SELLER:         ---
+STATUS:         ---
 
-     SCORES for 7041
+     SCORES for 16872
 
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
 ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
 ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.50 (1/2)	   0.20 (1/5)         0.29
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           5934
-ACQUIRED:       ---
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "37 mln Canadian dlrs"
-PURCHASER:      "Clabir Corp"
-SELLER:         "Canada Ltd"
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           5934
-ACQUIRED:       "Popsicle Industries"
-ACQBUS:         "frozen novelty products"
-ACQLOC:         "Canada"
-DLRAMT:         "37 mln Canadian dlrs" / "28 mln U.S. dlrs"
-PURCHASER:      "Ambrit Inc"
-SELLER:         "Sara Lee Corp of Canada Ltd"
-STATUS:         "agreed"
-
-     SCORES for 5934
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
-DLRAMT          0.00 (0/1)	   0.00 (0/1)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.00 (0/3)	   0.00 (0/7)         0.00
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           1584
-ACQUIRED:       "Computer Access Corp"
-ACQBUS:         "compatible personal computers"
-ACQLOC:         ---
-DLRAMT:         "undisclosed"
-PURCHASER:      "Lotus Development Corp"
-SELLER:         ---
-STATUS:         "letter of intent"
-
-     SYSTEM OUTPUT 
-
-TEXT:           1584
-ACQUIRED:       "COMPUTER ACCESS CORP" / "Computer Access Corp"
-ACQBUS:         "full-text search and retrieval software"
-ACQLOC:         ---
-DLRAMT:         "undisclosed"
-PURCHASER:      "Lotus Development Corp"
-SELLER:         ---
-STATUS:         "letter of intent"
-
-     SCORES for 1584
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/1)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
-PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
---------        --------------     --------------     ----
-TOTAL           0.60 (3/5)	   0.60 (3/5)         0.60
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           5097
-ACQUIRED:       "Borg-Warner Corp"
-                "industrial products division"
-ACQBUS:         ---
-ACQLOC:         "Long Beach, California"
-DLRAMT:         "240 mln dlrs"
-                "300 mln dlrs"
-PURCHASER:      ---
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           5097
-ACQUIRED:       "industrial products division"
-ACQBUS:         ---
-ACQLOC:         "Long Beach, California"
-DLRAMT:         "about 240 mln dlrs"
-PURCHASER:      "Clayton and Dubilier Inc"
-SELLER:         "Borg-Warner Corp"
-STATUS:         "approved"
-
-     SCORES for 5097
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.50 (1/2)	   1.00 (1/1)         0.67
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
-DLRAMT          0.00 (0/2)	   0.00 (0/1)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.40 (2/5)	   0.33 (2/6)         0.36
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           4659
-ACQUIRED:       ---
-ACQBUS:         "supermarket chain operator Hillards Plc"
-ACQLOC:         ---
-DLRAMT:         "151.4 mln stg"
-PURCHASER:      "County Ltd"
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           4659
-ACQUIRED:       "Hillards Plc"
-ACQBUS:         "supermarket chain"
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "County Ltd"
-                "Tesco Plc"
-SELLER:         ---
-STATUS:         "purchased"
-
-     SCORES for 4659
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/1)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
-PURCHASER       1.00 (1/1)	   0.50 (1/2)         0.67
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.33 (1/3)	   0.20 (1/5)         0.25
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           19719
-ACQUIRED:       ---
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Unicoa Corp"
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           19719
-ACQUIRED:       "Unicoa Corp"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "United Insurance Co of America"
-SELLER:         ---
-STATUS:         "agreed"
-
-     SCORES for 19719
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.00 (0/1)	   0.00 (0/3)         0.00
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           3025
-ACQUIRED:       "Resorts International Inc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Casino owner and real estate developer Donald Trump"
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           3025
-ACQUIRED:       "Resorts International Inc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Donald Trump"
-SELLER:         ---
-STATUS:         "offered to acquire"
-
-     SCORES for 3025
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.50 (1/2)	   0.33 (1/3)         0.40
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           8998
-ACQUIRED:       ---
-ACQBUS:         "auto supplies"
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Hayes-Albion Corp"
-SELLER:         ---
-STATUS:         "approved"
-
-     SYSTEM OUTPUT 
-
-TEXT:           8998
-ACQUIRED:       "Hayes-Albion Corp"
-ACQBUS:         "auto supplies"
-ACQLOC:         "Jackson, Mich."
-DLRAMT:         ---
-PURCHASER:      "Harvard Industries Inc"
-SELLER:         ---
-STATUS:         "approved"
-
-     SCORES for 8998
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          1.00 (1/1)	   1.00 (1/1)         1.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
---------        --------------     --------------     ----
-TOTAL           0.67 (2/3)	   0.40 (2/5)         0.50
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           8467
-ACQUIRED:       "Dataserv Inc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "BellSouth Corp"
-SELLER:         ---
-STATUS:         "completed"
-
-     SYSTEM OUTPUT 
-
-TEXT:           8467
-ACQUIRED:       "Dataserv Inc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "BellSouth Corp"
-SELLER:         ---
-STATUS:         "completed"
-
-     SCORES for 8467
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
---------        --------------     --------------     ----
-TOTAL           1.00 (3/3)	   1.00 (3/3)         1.00
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           5299
-ACQUIRED:       "Woolworth Holdings Plc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Dixons Group Plc"
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           5299
-ACQUIRED:       "Woolworth Holdings Plc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "Dixons Group Plc"
-STATUS:         "sold"
-
-     SCORES for 5299
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/0)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.50 (1/2)	   0.33 (1/3)         0.40
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           19343
-ACQUIRED:       ---
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Jeffrey Neuman"
-SELLER:         "RB Industries Inc"
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           19343
-ACQUIRED:       "RB Industries Inc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "Jeffrey Neuman"
-STATUS:         "sold"
-
-     SCORES for 19343
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/0)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.00 (0/2)	   0.00 (0/3)         0.00
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           11113
-ACQUIRED:       "Rexnord Inc Fairfield"
-ACQBUS:         "custom gears for industrial use and sales of"
-ACQLOC:         ---
-DLRAMT:         "70.5 mln dlrs"
-                "84 mln dlrs"
-PURCHASER:      "Manufacturing Co"
-SELLER:         "Neoax Inc"
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           11113
-ACQUIRED:       "Fairfield Manufacturing Co"
-ACQBUS:         "custom gears for industrial use"
-ACQLOC:         ---
-DLRAMT:         "70.5 mln dlrs"
-PURCHASER:      "Neoax Inc"
-SELLER:         "Rexnord Inc"
-STATUS:         ---
-
-     SCORES for 11113
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/1)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.50 (1/2)	   1.00 (1/1)         0.67
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
---------        --------------     --------------     ----
-TOTAL           0.17 (1/6)	   0.20 (1/5)         0.18
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           17488
-ACQUIRED:       "Nutone and Yale security"
-ACQBUS:         "built-in electric"
-                "home products"
-ACQLOC:         ---
-DLRAMT:         "400 mln dlrs"
-                "60 mln dlrs"
-                "35 mln dlrs"
-PURCHASER:      "First City Industries Inc"
-                "Valor PLC"
-                "Barclays de Zoete Wedd"
-SELLER:         ---
-STATUS:         "definitive agreement"
-
-     SYSTEM OUTPUT 
-
-TEXT:           17488
-ACQUIRED:       "Nutone"
-                "Yale"
-ACQBUS:         "built-in electric products for the housing market"
-                "door locks and electronic security products"
-ACQLOC:         ---
-DLRAMT:         "400 mln dlrs"
-PURCHASER:      "Valor PLC" / "Valor"
-SELLER:         "First City Industries Inc"
-STATUS:         "definitive agreement"
-
-     SCORES for 17488
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/2)         0.00
-ACQBUS          0.00 (0/2)	   0.00 (0/2)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.33 (1/3)	   1.00 (1/1)         0.50
-PURCHASER       0.00 (0/3)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
---------        --------------     --------------     ----
-TOTAL           0.20 (2/10)	   0.25 (2/8)         0.22
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           2583
-ACQUIRED:       "Westfiar Funding Corp"
-ACQBUS:         ---
-ACQLOC:         "Armonk, N.Y."
-DLRAMT:         "60 mln dlrs"
-PURCHASER:      "Commonwealth Mortgage Co"
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           2583
-ACQUIRED:       "Westfiar Funding Corp"
-ACQBUS:         ---
-ACQLOC:         "Armonk, N.Y."
-DLRAMT:         "undisclosed"
-PURCHASER:      "Commonwealth Mortgage Co"
-SELLER:         ---
-STATUS:         ---
-
-     SCORES for 2583
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          1.00 (1/1)	   1.00 (1/1)         1.00
-DLRAMT          0.00 (0/1)	   0.00 (0/1)         0.00
 PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.75 (3/4)	   0.75 (3/4)         0.75
+TOTAL           1.00 (2/2)	   0.67 (2/3)         0.80
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           6027
+TEXT:           20834
 ACQUIRED:       ---
 ACQBUS:         ---
 ACQLOC:         ---
-DLRAMT:         "90 mln dlrs"
-PURCHASER:      ---
-SELLER:         ---
-STATUS:         "completed"
-
-     SYSTEM OUTPUT 
-
-TEXT:           6027
-ACQUIRED:       "DEVELOPMENT CORP OF AMERICA" / "Development Corp of America"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "90 mln dlrs"
-PURCHASER:      "Lennar Corp"
-SELLER:         ---
-STATUS:         "completed"
-
-     SCORES for 6027
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
---------        --------------     --------------     ----
-TOTAL           1.00 (2/2)	   0.50 (2/4)         0.67
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           14888
-ACQUIRED:       "Ariadne Australia Ltd"
-                "Neptunia Corp Ltd"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "150 mln dlr"
-PURCHASER:      "Anheuser-Busch Companies Inc"
+DLRAMT:         "1.9 mln dlrs"
+PURCHASER:      "First Commercial Bancorp"
 SELLER:         ---
 STATUS:         ---
 
      SYSTEM OUTPUT 
 
-TEXT:           14888
-ACQUIRED:       "San Miguel Corp"
-ACQBUS:         "food and beverage maker"
-ACQLOC:         "Philippines"
+TEXT:           20834
+ACQUIRED:       "Citizens Bank of Roseville"
+ACQBUS:         ---
+ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "Anheuser-Busch Companies Inc"
+PURCHASER:      "First Commercial Bancorp"
 SELLER:         ---
-STATUS:         "joined several other foreign bidders"
+STATUS:         "will acquire"
 
-     SCORES for 14888
+     SCORES for 20834
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/2)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/1)	   0.00 (0/0)         0.00
 PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.25 (1/4)	   0.20 (1/5)         0.22
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           9557
-ACQUIRED:       "Bamberger Polymers INc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "3.5 mln dlrs"
-                "4.8 mln dlrs"
-PURCHASER:      ---
-SELLER:         "Helm Resources Inc"
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           9557
-ACQUIRED:       "Bamberger Polymers INc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "Helm Resources Inc"
-STATUS:         ---
-
-     SCORES for 9557
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/2)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/0)         0.00
-SELLER          1.00 (1/1)	   1.00 (1/1)         1.00
-STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
---------        --------------     --------------     ----
-TOTAL           0.50 (2/4)	   1.00 (2/2)         0.67
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           19006
-ACQUIRED:       "North America"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "40 mln dlrs"
-                "75 mln dlrs"
-                "75 mln dlrs"
-PURCHASER:      "Robert Fildes"
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           19006
-ACQUIRED:       "Cetus Corp"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Squibb Corp"
-SELLER:         ---
-STATUS:         "not interested in buying"
-
-     SCORES for 19006
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/3)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.00 (0/5)	   0.00 (0/3)         0.00
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           10816
-ACQUIRED:       "Triton Energy Corp"
-ACQBUS:         ---
-ACQLOC:         "Canadian"
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "Canadian Worldwide Energy Ltd"
-                "Canadian"
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           10816
-ACQUIRED:       "Triton Petroleum Ltd"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Canadian Worldwide Energy Ltd"
-SELLER:         "Triton Energy Corp"
-STATUS:         "acquired"
-
-     SCORES for 10816
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/2)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.00 (0/4)	   0.00 (0/4)         0.00
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           20744
-ACQUIRED:       "Irving Bank Corp"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "Bank of New York Corp"
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           20744
-ACQUIRED:       "Irving Bank Corp"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      "Bank of New York Corp"
-SELLER:         ---
-STATUS:         "reaffirmed the terms"
-
-     SCORES for 20744
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
 TOTAL           0.50 (1/2)	   0.33 (1/3)         0.40
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           18921
-ACQUIRED:       "Cookeville Citizens Bank"
-ACQBUS:         ---
-ACQLOC:         "Memphis"
-DLRAMT:         "2.2 billion dlrs"
-                "190 mln dlrs"
-PURCHASER:      ---
-SELLER:         "CBC Bancorp Inc"
-                "Union Planters Corp"
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           18921
-ACQUIRED:       "CBC Bancorp Inc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "not disclosed"
-PURCHASER:      "Union Planters Corp"
-SELLER:         ---
-STATUS:         "will be acquired"
-
-     SCORES for 18921
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/1)	   0.00 (0/0)         0.00
-DLRAMT          0.00 (0/2)	   0.00 (0/1)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/2)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.00 (0/6)	   0.00 (0/4)         0.00
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           6373
-ACQUIRED:       "VEBA AG"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         ---
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           6373
-ACQUIRED:       "VEBA AG"
-ACQBUS:         ---
-ACQLOC:         "West German"
-DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "Finance Ministry"
-STATUS:         "still expected"
-
-     SCORES for 6373
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
-DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/0)         0.00
-SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           1.00 (1/1)	   0.25 (1/4)         0.40
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           15591
-ACQUIRED:       "Spectrum Holding Corp"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "13 mln dlrs"
-                "10 mln dlrs"
-                "seven mln dlrs"
-PURCHASER:      "LVI Group Inc"
-SELLER:         ---
-STATUS:         "agreed in principle"
-                "proposed"
-
-     SYSTEM OUTPUT 
-
-TEXT:           15591
-ACQUIRED:       "Spectrum Holding Corp"
-ACQBUS:         "asbestos abatement"
-ACQLOC:         ---
-DLRAMT:         "13 mln dlrs"
-PURCHASER:      "LVI Group Inc"
-SELLER:         ---
-STATUS:         "agreed in principle"
-
-     SCORES for 15591
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
-DLRAMT          0.33 (1/3)	   1.00 (1/1)         0.50
-PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
-SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
-STATUS          0.50 (1/2)	   1.00 (1/1)         0.67
---------        --------------     --------------     ----
-TOTAL           0.57 (4/7)	   0.80 (4/5)         0.67
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
 TEXT:           8396
-ACQUIRED:       ---
-ACQBUS:         ---
+ACQUIRED:       "Wendy International"
+ACQBUS:         "food service"
+                "food service"
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      ---
+PURCHASER:      "A Coca Cola Co"
 SELLER:         ---
 STATUS:         ---
 
@@ -1724,91 +2263,127 @@ STATUS:         "not true" / "no interest in an acquisition"
      SCORES for 8396
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/2)	   0.00 (0/0)         0.00
 ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/1)         0.00
 SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.00 (0/0)	   0.00 (0/3)         0.00
+TOTAL           0.00 (0/4)	   0.00 (0/3)         0.00
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
      GOLD ANSWER KEY 
 
-TEXT:           982
+TEXT:           6695
+ACQUIRED:       "Micro Plus II Corp"
+ACQBUS:         "communications hardware maker"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Rabbit Software Corp"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SYSTEM OUTPUT 
+
+TEXT:           6695
+ACQUIRED:       "Micro Plus II Corp"
+ACQBUS:         "communications hardware"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Rabbit Software Corp"
+SELLER:         ---
+STATUS:         "agreed in principle"
+
+     SCORES for 6695
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          0.00 (0/1)	   0.00 (0/1)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       1.00 (1/1)	   1.00 (1/1)         1.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.75 (3/4)	   0.75 (3/4)         0.75
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           11744
+ACQUIRED:       "Cyclops Corp. Oppenheimer"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Oppenheimer"
+SELLER:         ---
+STATUS:         "sold"
+
+     SYSTEM OUTPUT 
+
+TEXT:           11744
+ACQUIRED:       "Cyclops Corp"
+ACQBUS:         ---
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      ---
+SELLER:         "OPPENHEIMER" / "Oppenheimer"
+STATUS:         ---
+
+     SCORES for 11744
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/1)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/0)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/1)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.00 (0/3)	   0.00 (0/2)         0.00
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           16583
 ACQUIRED:       ---
 ACQBUS:         ---
 ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      ---
-SELLER:         "H.J. Heinz chairman Tony O'Reilly"
-STATUS:         ---
+PURCHASER:      "First Montauk Securities Corp"
+                "MCC-Presidential"
+SELLER:         ---
+STATUS:         "preliminary merger agreement"
 
      SYSTEM OUTPUT 
 
-TEXT:           982
-ACQUIRED:       "Guinness PLC"
-ACQBUS:         "brewery" / "brewing" / "breweries"
-ACQLOC:         "Dublin, London, Nigerian and Malaysian"
+TEXT:           16583
+ACQUIRED:       "MCC-Presidential Inc"
+ACQBUS:         ---
+ACQLOC:         ---
 DLRAMT:         ---
-PURCHASER:      "H.J. Heinz"
+PURCHASER:      "First Montauk Securities Corp"
 SELLER:         ---
-STATUS:         "interested in buying"
+STATUS:         ---
 
-     SCORES for 982
+     SCORES for 16583
 
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        0.00 (0/0)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
+ACQBUS          0.00 (0/0)	   0.00 (0/0)         0.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
 DLRAMT          0.00 (0/0)	   0.00 (0/0)         0.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       0.50 (1/2)	   1.00 (1/1)         0.67
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/1)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.00 (0/1)	   0.00 (0/5)         0.00
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-     GOLD ANSWER KEY 
-
-TEXT:           19663
-ACQUIRED:       "UtilCo Group"
-                "Westwood Energy Properties Limited"
-                "Combustion Engineering Inc"
-ACQBUS:         ---
-ACQLOC:         ---
-DLRAMT:         "10 mln dlrs"
-PURCHASER:      ---
-SELLER:         "Utilicorp United Inc"
-STATUS:         ---
-
-     SYSTEM OUTPUT 
-
-TEXT:           19663
-ACQUIRED:       "Westwood Energy Properties Limited Partnership"
-ACQBUS:         "electric generation"
-ACQLOC:         "Schuykill County, Penn."
-DLRAMT:         "10 mln dlrs"
-PURCHASER:      "UtilCo Group"
-SELLER:         "Westwood Funding Corp"
-STATUS:         "completed"
-
-     SCORES for 19663
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.00 (0/3)	   0.00 (0/1)         0.00
-ACQBUS          0.00 (0/0)	   0.00 (0/1)         0.00
-ACQLOC          0.00 (0/0)	   0.00 (0/1)         0.00
-DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
-PURCHASER       0.00 (0/0)	   0.00 (0/1)         0.00
-SELLER          0.00 (0/1)	   0.00 (0/1)         0.00
-STATUS          0.00 (0/0)	   0.00 (0/1)         0.00
---------        --------------     --------------     ----
-TOTAL           0.20 (1/5)	   0.14 (1/7)         0.17
+TOTAL           0.33 (1/3)	   0.50 (1/2)         0.40
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -1816,12 +2391,12 @@ TOTAL           0.20 (1/5)	   0.14 (1/7)         0.17
      SCORES for ALL Templates
 
                 RECALL             PRECISION          F-SCORE
-ACQUIRED        0.45 (17/38)	   0.33 (17/51)       0.38
-ACQBUS          0.30 (3/10)	   0.15 (3/20)        0.20
-ACQLOC          0.22 (2/9)	   0.12 (2/16)        0.16
-DLRAMT          0.27 (9/33)	   0.50 (9/18)        0.35
-PURCHASER       0.46 (16/35)	   0.37 (16/43)       0.41
-SELLER          0.12 (2/17)	   0.12 (2/16)        0.12
-STATUS          0.94 (15/16)	   0.38 (15/40)       0.54
+ACQUIRED        0.47 (27/57)	   0.42 (27/64)       0.45
+ACQBUS          0.17 (2/12)	   0.09 (2/22)        0.12
+ACQLOC          0.27 (7/26)	   0.33 (7/21)        0.30
+DLRAMT          0.30 (14/46)	   0.64 (14/22)       0.41
+PURCHASER       0.50 (25/50)	   0.42 (25/59)       0.46
+SELLER          0.17 (2/12)	   0.13 (2/15)        0.15
+STATUS          0.49 (20/41)	   0.47 (20/43)       0.48
 --------        --------------     --------------     ----
-TOTAL           0.41 (64/158)	   0.31 (64/204)      0.35
+TOTAL           0.40 (97/244)	   0.39 (97/246)      0.40

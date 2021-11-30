@@ -11,7 +11,7 @@ trainFileName = "aq_train_03.spacy"
 validFileName = "aq_valid_03.spacy"
 testFileName = "data/test_set_v3.json"
 
-random.seed(100)
+random.seed(75)
 
 def create_training(TRAIN_DATA):
     db = DocBin()
@@ -113,8 +113,8 @@ def main():
     aq_valid.to_disk(validFileName)
 
     utils.save_data(testFileName,TRAIN_DATA[435:])
-    utils.save_data("document_testing_data_v3.txt",docFileList[450:])
-    utils.save_data("answer_testing_data_v3.txt",answerFileList[450:])
+    utils.save_data("document_testing_data_v3.txt",docFileList[435:])
+    utils.save_data("answer_testing_data_v3.txt",answerFileList[435:])
 
 if __name__ == "__main__":
     main()

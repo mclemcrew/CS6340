@@ -47,7 +47,7 @@ def build_training_data():
             WORD_VEC_DATA.append(DOC_TOKEN_DATA)
     utils.save_data(wordVecLocation,WORD_VEC_DATA)
 
-# build_training_data()
+build_training_data()
 
 def training(model_name):
     texts = utils.load_data(wordVecLocation)

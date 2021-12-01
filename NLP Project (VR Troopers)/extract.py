@@ -37,6 +37,39 @@ import spacy # NLP Models
 from spacy import displacy # Visualization Tools
 from  itertools import chain
 
+
+def get_first_verb(spn):
+    root = spn.root
+    head = root.head
+    while head.pos_ != "VERB":
+        prev_head = head
+        head = head.head
+        if head == prev_head:
+            return None
+
+    return head
+
+
+def merge_docs(ml_doc, roberta_doc):
+    acquire_words = ["acquire", "sell", "buy", "get", "take", "purchase"]
+    dlramt_entities = [ent for ent in roberta_doc.ents if ent.label_ == "DLRAMT"]
+    filtered_ents = []
+    for ent in dlramt_entities:
+        first_verb = get_first_verb(ent)
+        if first_verb != None and first_verb.lemma_ in acquire_words:
+            filtered_ents.append(ent)
+    for ro_ent in filtered_ents:
+        is_duplicate = False
+        for ml_ent in [e for e in ml_doc.ents if e.label_ == "DLRAMT"]:
+            if ro_ent.text == ml_ent.text:
+                is_duplicate = True
+                break
+        if not is_duplicate:
+            ml_doc.ents = [e for e in ml_doc.ents] + [ro_ent]
+
+    return ml_doc
+
+
 def main():
     sp = spacy.load("./models/06/model-best")
 
@@ -57,9 +90,7 @@ def main():
     all_stopwords.remove("of") # This is included in some status forms
     all_stopwords.remove("and") # This is included in some status forms
 
-    ruler = sp.add_pipe("entity_ruler")
-    # TODO: Check for dependency on verbs: acquire, sell, buy, get, take
-    # TODO: Remove duplicates
+    ruler = roBERTa.add_pipe("entity_ruler", before="ner")
     patterns = [
         {
             "label": "DLRAMT",
@@ -152,6 +183,13 @@ def main():
         print("************************* SPACY TRANSFORMER MODEL *************************")
         for ent in newDoc.ents:
             print(f'{ent.text:{45}} {ent.label_}')
+
+        print("************************* MERGED *************************")
+        merged = merge_docs(doc, newDoc)
+        for ent in merged.ents:
+            #entityList.append([ent.text, ent.label_])
+            print(f'{ent.text:{45}} {ent.label_}')
+
         # TODO Uncomment when running in prod
         # if("ACQUIRED" in chain(*entityList)):
         #     for entity in entityList:

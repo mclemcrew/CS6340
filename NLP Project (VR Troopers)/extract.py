@@ -8,26 +8,6 @@
 # December 6, 8: Project presentations (during class).
 # December 10: Final project slides and posters due
 
-#~~~~~~~~~
-
-# Random thoughts for the project
-
-#~~~~~~~~~
-# Vet these candidates through a rule-based system
-# Probability matrix to choose most likely answer
-# ACQLOC,  DLRAMT,  SELLER,  and  STATUS  all only have a single correct answer
-# Loop these through first with the highest probability and then use these answer to help inform latter options
-# DLRAMT -> phrase rather than singular amount
-# Recognize numeric values
-# List abbreviations for dollar (these can be given as clues to our system)
-# Have a scoring system based on how many rules they pass
-# From the dependency/POS tree, find generalized rules that can apply and use those to traverse to rebuild the sentence from the nodes
-# Looping System (multiple entities)
-# Rules Paper
-# X is to Y (NOUN ADJ)
-# X and Y 
-# X of Y and Z (NOUN NOUN NOUN)
-
 import sys # Used for I/O
 import ntpath # Used for pathing
 from pathlib import Path # Also used for pathing
@@ -35,7 +15,9 @@ import os
 import re # Used for regex
 import spacy # NLP Models
 from spacy import displacy # Visualization Tools
-from  itertools import chain
+from itertools import chain
+from spacy.matcher import DependencyMatcher
+from spacy import util # Filter Span
 
 
 def get_first_verb(spn):
@@ -72,10 +54,13 @@ def merge_docs(ml_doc, roberta_doc):
 
 def main():
     sp = spacy.load("./models/06/model-best")
-
-    # python -m spacy download en_core_web_trf
-    # pip install spacy[transformers,cuda111]
     roBERTa = spacy.load("./models/transformer")
+
+    roBERTa_merged_entities = spacy.load("./models/transformer")
+    roBERTa_merged_entities.add_pipe("merge_entities")
+    
+    dep_matcher = DependencyMatcher(vocab=roBERTa.vocab)
+    dep_matcher_pronoun = DependencyMatcher(vocab=roBERTa.vocab)
 
     all_stopwords = sp.Defaults.stop_words # Get all stop words
     all_stopwords.add("Reuter") # Add forms for Reuter
@@ -104,17 +89,30 @@ def main():
             "label": "DLRAMT",
             "pattern": "undisclosed",
             "id": "dlramt"
-        },
-        # Not working (??)
-        # {
-        #     "label": "DLRAMT",
-        #     "pattern": [
-        #         {"LOWER": "not"},
-        #         {"LOWER": "disclosed"}],
-        #     "id": "dlramt"
-        # },
+        }
     ]
     ruler.add_patterns(patterns)
+
+    dep_pattern = [{'RIGHT_ID': 'verb', 'RIGHT_ATTRS': {'POS': 'VERB'}},
+               {'LEFT_ID': 'verb', 'REL_OP': '>', 'RIGHT_ID': 'subject', 'RIGHT_ATTRS': {'DEP': 'nsubj'}}
+    ]
+
+    dep_pattern_2 = [{'RIGHT_ID': 'verb', 'RIGHT_ATTRS': {'POS': 'VERB'}},
+                    {'LEFT_ID': 'verb', 'REL_OP': '>', 'RIGHT_ID': 'subject', 'RIGHT_ATTRS': {'DEP': 'nsubj'}},
+                    {'LEFT_ID': 'verb', 'REL_OP': '>', 'RIGHT_ID': 'd_object', 'RIGHT_ATTRS': {'DEP': 'dobj'}}
+                    ]
+
+    dep_pattern_3 = [{'RIGHT_ID': 'verb', 'RIGHT_ATTRS': {'POS': 'VERB'}},
+               {'LEFT_ID': 'verb', 'REL_OP': ';*', 'RIGHT_ID': 'pronoun_before', 'RIGHT_ATTRS': {'POS': 'PROPN'}},
+               {'LEFT_ID': 'verb', 'REL_OP': '.*', 'RIGHT_ID': 'pronoun_after', 'RIGHT_ATTRS': {'POS': 'PROPN'}}
+    ]
+
+    # Add the pattern to the matcher under the name 'nsubj_verb'
+    dep_matcher.add('nsubj_verb', patterns=[dep_pattern])
+    # Add the pattern to the matcher under the name 'nsubj_verb_dobj'
+    dep_matcher.add('nsubj_verb_dobj', patterns=[dep_pattern_2])
+    # Add the pattern to the matcher under the name 'pronoun_verb_pronoun'
+    dep_matcher_pronoun.add('pronoun_verb', patterns=[dep_pattern_3])
 
     # Doclist of files to read in
     docFile = sys.argv[1]
@@ -125,12 +123,6 @@ def main():
     # Directory paths for both docs and answer keys
     developmentDocs = '/data/development-docs'
     developmentKeys = '/data/development-anskeys'
-
-    # Used for opening and reading all the files in the development docs
-    # for filename in os.listdir(os.getcwd() + developmentDocs):
-    #     with open(os.path.join(os.getcwd() + developmentDocs, filename), 'r') as fileText: # open in readonly mode
-    #         developmentDocText = docFilePath = fileText.read().strip().splitlines()
-    #         print(developmentDocText)
 
     # Read in files and separate by line
     with open(docFile) as docList:
@@ -158,101 +150,131 @@ def main():
         # Create a spacy object for the entire text given
         doc = sp(documentText)
 
+        newDoc_merged_entities = roBERTa_merged_entities(documentText)
         newDoc = roBERTa(documentText)
-        # secondDoc = nlp(documentText)
-        # TESTING -> Prints out each sentence
-        # for sentence in doc.sents:
-        #     print(sentence)
 
-            # TESTING -> Used for displaying the dependency graph for each sentence
-            # displacy.serve(doc, style="dep", options = {'distance': 150})
-            # displacy.serve(doc, style="ent")
+        dep_matches = dep_matcher(newDoc_merged_entities)
+        dep_matches_pronoun = dep_matcher_pronoun(newDoc_merged_entities)
 
-            # TESTING -> Other way for visualizing the entities and where they start/end in the sentence
-            # ents = [(e.text, e.start_char, e.end_char, e.label_) for e in doc.ents]
+        dependencyList = []
+        pronounDependencyList = []
 
-        # TESTING -> Loop through each entity spacy determined
+        for match in dep_matches_pronoun:
+            matches = match[1]
+            verb, pronoun_before, pronoun_after = matches[0], matches[1], matches[2]
+            pronounDependencyList.append([newDoc_merged_entities[pronoun_before], newDoc_merged_entities[verb].lemma_, newDoc_merged_entities[pronoun_after]])
+            # print(roBERTa.vocab[pattern_name].text, '\t', newDoc[pronoun_before], '...',  newDoc[verb].lemma_, '...',  newDoc[pronoun_after])
+
+        # Loop over each tuple in the list 'dep_matches'
+        for match in dep_matches:
+            matches = match[1]
+            if len(matches) > 2:
+                verb, subject, dobject = matches[0], matches[1], matches[2]
+                dependencyList.append([newDoc_merged_entities[subject], newDoc_merged_entities[verb], newDoc_merged_entities[dobject]])
+                
+            else:
+                verb, subject = matches[0], matches[1]
+                dependencyList.append([newDoc_merged_entities[subject], newDoc_merged_entities[verb]])
+                # print(roBERTa.vocab[pattern_name].text, '\t', newDoc[subject], '...', newDoc[verb])
 
         print (f"TEXT: {path[1]}")
         entityList = []
-        print("************************* MACHINE LEARNING MODEL *************************")
-        for ent in doc.ents:
+        spacyEntityList = []
+        
+        # print("************************* MACHINE LEARNING MODEL *************************")
+        # for ent in doc.ents:
             # entityList.append([ent.text, ent.label_])
-            print(f'{ent.text:{45}} {ent.label_}')
+            # print(f'{ent.text:{45}} {ent.label_}')
 
-        print("************************* SPACY TRANSFORMER MODEL *************************")
+        # print("************************* SPACY TRANSFORMER MODEL *************************")
         for ent in newDoc.ents:
-            print(f'{ent.text:{45}} {ent.label_}')
-
-        print("************************* MERGED *************************")
+            spacyEntityList.append([ent.text, ent.label_])
+            # if ent.label_ == 'GPE':
+                # spacyEntityListLoc.append(ent.text)
+            # print(f'{ent.text:{45}} {ent.label_}')
+        
+        # print("************************* MERGED *************************")
         merged = merge_docs(doc, newDoc)
         for ent in merged.ents:
-            #entityList.append([ent.text, ent.label_])
-            print(f'{ent.text:{45}} {ent.label_}')
+            entityList.append([ent.text, ent.label_])
+            # print(f'{ent.text:{45}} {ent.label_}')
 
         # TODO Uncomment when running in prod
-        # if("ACQUIRED" in chain(*entityList)):
-        #     for entity in entityList:
-        #         if entity[1] == 'ACQUIRED':
-        #             print (f"ACQUIRED: \"{entity[0]}\"")
+        if("ACQUIRED" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'ACQUIRED':
+                    print (f"ACQUIRED: \"{entity[0]}\"")
         
-        # elif("ACQUIRED" not in chain(*entityList)):
-        #    print (f"ACQUIRED: ---") 
+        elif("ACQUIRED" not in chain(*entityList)):
+           print (f"ACQUIRED: ---") 
         
-        # if("ACQBUS" in chain(*entityList)):
-        #     for entity in entityList:
-        #         if entity[1] == 'ACQBUS':
-        #             print (f"ACQBUS: \"{entity[0]}\"")
+        if("ACQBUS" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'ACQBUS':
+                    print (f"ACQBUS: \"{entity[0]}\"")
         
-        # elif("ACQBUS" not in chain(*entityList)):
-        #    print (f"ACQBUS: ---") 
+        elif("ACQBUS" not in chain(*entityList)):
+           print (f"ACQBUS: ---") 
 
-        # if("ACQLOC" in chain(*entityList)):
-        #     for entity in entityList:
-        #         if entity[1] == 'ACQLOC':
-        #             print (f"ACQLOC: \"{entity[0]}\"")
+        if("ACQLOC" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'ACQLOC':
+                    print (f"ACQLOC: \"{entity[0]}\"")
         
-        # elif("ACQLOC" not in chain(*entityList)):
-        #    print (f"ACQLOC: ---")
+        elif("ACQLOC" not in chain(*entityList)):
+           print (f"ACQLOC: ---")
 
-        # if("DLRAMT" in chain(*entityList)):
-        #     for entity in entityList:
-        #         if entity[1] == 'DLRAMT':
-        #             print (f"DLRAMT: \"{entity[0]}\"")
+        if("DLRAMT" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'DLRAMT':
+                    print (f"DLRAMT: \"{entity[0]}\"")
         
-        # elif("DLRAMT" not in chain(*entityList)):
-        #    print (f"DLRAMT: ---") 
+        elif("DLRAMT" not in chain(*entityList)):
+           print (f"DLRAMT: ---") 
 
-        # if("PURCHASER" in chain(*entityList)):
-        #     for entity in entityList:
-        #         if entity[1] == 'PURCHASER':
-        #             print (f"PURCHASER: \"{entity[0]}\"")
+        if("PURCHASER" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'PURCHASER':
+                    print (f"PURCHASER: \"{entity[0]}\"")
         
-        # elif("PURCHASER" not in chain(*entityList)):
-        #    print (f"PURCHASER: ---") 
+        elif("PURCHASER" not in chain(*entityList)):
+           print (f"PURCHASER: ---") 
 
-        # if("SELLER" in chain(*entityList)):
-        #     for entity in entityList:
-        #         if entity[1] == 'SELLER':
-        #             print (f"SELLER: \"{entity[0]}\"")
+        SELLER_BOOL = True
+
+        if("SELLER" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'SELLER':
+                    SELLER_BOOL = False
+                    print (f"SELLER: \"{entity[0]}\"")
         
-        # elif("SELLER" not in chain(*entityList)):
-        #    print (f"SELLER: ---") 
-
-        # if("STATUS" in chain(*entityList)):
-        #     for entity in entityList:
-        #         if entity[1] == 'STATUS':
-        #             print (f"STATUS: \"{entity[0]}\"")
+        elif("SELLER" not in chain(*entityList)):
+            sellerList = []
+            verbList = ['sell', 'move', 'close', 'trade', 'exchange', 'barter', 'give']
+            for entity in spacyEntityList:
+                usedEntityList = []
+                for pronounList in pronounDependencyList:
+                    strConversion = str(pronounList[0])
+                    strVerb = str(pronounList[1])
+                    if strConversion == entity[0] and entity[1] == 'ORG' and strVerb in verbList and entity[0] not in usedEntityList:
+                        usedEntityList.append(entity[0])
+                        SELLER_BOOL = False
+                        sellerList.append(entity[0])
+            if(len(sellerList)>0):
+                print (f"SELLER: \"{sellerList[0]}\"")
         
-        # elif("STATUS" not in chain(*entityList)):
-        #    print (f"STATUS: ---") 
+        if(SELLER_BOOL):
+            print (f"SELLER: ---")
 
-        # print()
+        if("STATUS" in chain(*entityList)):
+            for entity in entityList:
+                if entity[1] == 'STATUS':
+                    print (f"STATUS: \"{entity[0]}\"")
         
+        elif("STATUS" not in chain(*entityList)):
+           print (f"STATUS: ---") 
 
-        # TESTING -> displays the text, POS, dependency, and head for each token (each word)
-        # for token in doc:
-        #     print(f'{token.text:{15}} {token.pos_:{15}} {token.dep_:{15}} {token.head}')
+        print()
 
 if __name__ == "__main__":
     main()

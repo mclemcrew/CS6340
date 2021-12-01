@@ -3,16 +3,18 @@
 This repo contains code for the information extraction system for the domain of corporate acquisition events.
 
 ## Time Estimate
-This program contains a pre-trained model, thus the time for processing one document is relatively low ~100ms.
+This program contains a pre-trained model, thus the time for processing one document is relatively low ~1s.
 
 ## I-E Script
-Currently this script isn't used to install anything, but you can run it so that you know how to run the program (or just keep reading).
+This script is used to install the spacy-transformers that are needed for the transformer model from roBERTa.
 
 ## Running
 
 Tested on CADE lab machine (#25)
 
 All of the necessary dependencies have already been installed on CADE machines so there's no need to run a virtual environment at this time.  You will receive a warning regarding some "TensorBoard" install but since the model is pre-trained and included in this repo, this is not an issue.
+
+You will need to install the spacy-transformers via the I-E script. Just run the I-E before running the extract script and you should be good.
 
 The doclist provided must be similar in stature to:
 ```
@@ -30,6 +32,13 @@ python3 extract.py <doclist> > <output-file-name>
 
 ***<output-file-name\>*** will be where the output of the answer key will be.  You will also need to compare this against the gold standard for the scorer to work properly.
 
+***BE WARNED*** 
+For each document you process, you will see a warning similar to this:
+```bash
+UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+```
+Do not fear, for this is not affecting the model's performance.  This is a fragment of using the roBERTa tokenizer model and is not needed.
+
 Run the scorer like this:
 ```perl
 perl score-ie.pl <output-file-name> <gold_templates>
@@ -41,6 +50,10 @@ The method employed is a machine learning model using custom word vectors and Sp
 SpaCy's Custom NER and Training Pipe can be found [here](https://spacy.io/usage/training/).
 
 Custom word vectors were created using [Gensim's Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html)
+
+The Entity Ruler for Spacy can be found [here.](https://spacy.io/api/entityruler)
+
+The Dependency Matcher for Spacy can be found [here.](https://spacy.io/api/dependencymatcher)
 
 ## Creating the Model
 1. Generate the custom word vectors using the file: ``` generating_word_vectors.py```.
@@ -90,9 +103,9 @@ If you have no issues running the script or modifying the test data, you should 
 ![Confusion Matrix](pics/confusion-matrix.png)
 
 ## F-Score Analysis
-The training/validating/testing split for the 400 documents is 300/50/50 respectively.  The random split of the training/validating/testing data was seeded with a random number of 50 and will remain that way so the model isn't validating itself on seen data.  The randomization of the data was done to ensure that the model was not able to predict based on ordering effects.
+The training/validating/testing split for the 500 documents is 375/65/65 respectively.  The random split of the training/validating/testing data was seeded with a random number of 75 and will remain that way so the model isn't validating itself on seen data.  The randomization of the data was done to ensure that the model was not able to predict based on ordering effects.
 
-With this in mind, model-04 was the best performing model for the testing data with an f-score of 0.39.
+With this in mind, model-06 was the best performing model for the testing data with an f-score of 0.43.
 
 ![F-Score](pics/f-score.png)
 
@@ -100,11 +113,17 @@ With this in mind, model-04 was the best performing model for the testing data w
 ### Taylor Allred
 - Significant contribution to ideation for rules-based approach (These ideas and rules are commented in the main python file as placeholders for future implementation/improvements on the model)
 - Reviewed code and PRs for merges within the repo
+#### After Midterm Update
+- Created merger method that takes both the ML model and Entity Ruler into account when outputting the final result
+- Create Entity Rules to significantly increase both the recall and precision of the DLRAMT label
 ### Michael Clemens
 - Created Repo and populated ReadMe
 - Coded up the solution (ML approach was taken first for this baseline)
 - Tested multiple ML models, created confusion matrix, validated metrics
 - Created custom word vectors, researched and implemented various custom NER pipelines 
-
+#### After Midterm Update
+- Re-trained ML model using the new data presented during the Midterm.
+- Re-did the custom word vectors now remove fewer stop words that were present in some of the gold standard labels
+- Created Dependency Matcher Validation for the SELLER label
 ## Discussion
-We plan on fusing some other models together to get our best performing model that will have a significantly better overall f-score.  Currently this model has custom word vectors and scores moderately well over the features except for ACQBUS.  We plan on incorporating a Matcher and EntityRuler in combination with this model to supplement it's behavior.
+Currently this model has custom word vectors and scores moderately well over the features except for ACQBUS and SELLER.  Incorporating a Dependency Matcher and EntityRuler in combination with the ML to supplement it's behavior may have proved more fruitful.  Due to time constraints, ACQBUS was not modified at all in our rules based approach.
